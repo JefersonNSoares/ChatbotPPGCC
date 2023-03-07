@@ -1,30 +1,152 @@
 version: "2.0"
 
 stories:
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - story: acesso espaço fisico 
+    steps:
+      - intent: acesso_espaco_fisico
+      - action: utter_verificar_disponibilidade_espaco_fisico
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - story: acesso espaço fisico sala de aula
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: salas de aula
+      - action: utter_acesso_espaço_fisico_sala_de_aula
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - story: acesso espaço fisico equipamentos
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: equipamentos
+      - action: utter_acesso_espaço_fisico_equipamentos
+
+  - story: acesso espaço fisico laboratorios
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: laboratorios
+      - action: utter_acesso_espaço_fisico_laboratorios
+
+  - story: acesso espaço fisico secretaria
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: secretaria
+      - action: utter_acesso_espaço_fisico_secretaria
+
+  - story: acesso espaço fisico auditorio
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: salas de aula auditorio
+      - action: utter_acesso_espaço_fisico_auditorio
+
+  - story: acesso espaço fisico salas de seminarios
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: salas de seminarios
+      - action: utter_acesso_espaço_fisico_sala_de_seminarios
+
+  - story: acesso espaço fisico cozinha
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: cozinha
+      - action: utter_acesso_espaço_fisico_cozinha
+
+  - story: acesso espaço fisico sala dos professores
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: sala dos professores
+      - action: utter_acesso_espaço_fisico_sala_dos_professores
+
+  - story: acesso espaço fisico sala de reuniao
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: sala de reuniao
+      - action: utter_acesso_espaço_fisico_sala_de_reuniao
+
+  - story: acesso espaço fisico banheiro
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: banheiro
+      - action: utter_acesso_espaço_fisico_banheiro
+
+  - story: acesso espaço fisico biblioteca
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: biblioteca
+      - action: utter_acesso_espaço_fisico_biblioteca
+
+  - story: acesso espaço fisico cozinha predio do PPGCC
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: predio do PPGCC
+      - action: utter_acesso_espaço_fisico_prédio_do_PPGCC
+
+  - story: acesso espaço fisico cozinha
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: cozinha
+      - action: utter_acesso_espaço_fisico_cozinha
+
+  - story: acesso espaço fisico refeitorio
+    steps:
+      - intent: acesso_espaco_fisico
+        entities:
+          - espaco_fisico: refeitorio
+      - action: utter_acesso_espaço_fisico_refeitorio
+
+  - story: acesso espaço fisico 
+    steps:
+      - intent: verificar_disponibilidade_espaco_fisico
+      - action: utter_verificar_disponibilidade_espaco_fisico
+  
+  - story: horario de funcionamento espaço fisico 
+    steps:
+      - intent: horario_funcionamento
+      - action: utter_horario_funcionamento
+
+  - story: horario de funcionamento espaço fisico 
+    steps:
+      - intent: horario_funcionamento
+        entities:
+          - espaco_fisico: refeitorio
+      - action: utter_horario_funcionamento_refeitorio
+
+  - story: horario de funcionamento espaço fisico predio PPGCC
+    steps:
+      - intent: horario_funcionamento
+        entities:
+          - espaco_fisico: prédio do PPGCC
+      - action: utter_horario_funcionamento_predio_PPGCC
+
+  - story: horario de funcionamento espaço fisico predio PPGCC
+      steps:
+        - intent: horario_funcionamento
+          entities:
+            - espaco_fisico: biblioteca
+        - action: utter_horario_funcionamento_biblioteca
+
+  - story: horario de funcionamento espaço fisico predio PPGCC
+      steps:
+        - intent: horario_funcionamento
+          entities:
+            - espaco_fisico: auditorio
+        - action: utter_horario_funcionamento_auditorio
+  
+

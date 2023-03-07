@@ -1,92 +1,53 @@
 version: "2.0"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-
-- intent: goodbye
-  examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+  - intent: saudacao
+    examples: |
+      - Olá
+      - Oi
+      - E aí
+      - Boa tarde
+      - Boa noite
+      - Bom dia
+  - intent: salas_de_aula_possuem_projetor
+    examples: |
+      - às salas de aula tem projetor para as aulas
+      - as salas de aula possuem projetor para as aulas.
+  - intent: buscar_sala_de_aula_da_disciplina
+    examples: |
+      - Qual sala de aula vai acontecer aula da disciplina de PPE
+  - intent: acesso_espaco_fisico
+    examples: |
+      - Qualquer pessoa pode ter acesso às [salas de aula] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso aos [laboratorios] (espaco_fisico) 
+      - Qualquer pessoa pode ter acesso aos [equipamentos] (espaco_fisico)
+      - quem pode usar os [equipamentos] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso a [secretaria] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso ao [auditorio] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso ao [sala de seminários] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso a [cozinha] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso a [sala dos professores] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso a [sala de reunião] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso ao [banheiro] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso a [biblioteca] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso [prédio do PPGCC] (espaco_fisico)  
+      - Qualquer pessoa pode ter acesso [refeitório] (espaco_fisico)
+  - intent: verificar_disponibilidade_espaco_fisico
+    examples: |
+      - Como posso verificar se um determinado espaço físico está livre ou ocupado?
+      - Como faço para saber se o auditorio está livre ou ocupado
+      - É possível verificar a disponibilidade
+  - intent: horario_funcionamento
+    examples: |
+      - Qual é o horário de funcionamento [salas de aula] (espaco_fisico)
+      - Qual é o horário de funcionamento [laboratorios] (espaco_fisico)
+      - Qual é o horário de funcionamento [secretaria] (espaco_fisico)
+      - Qual é o horário de funcionamento [auditorio] (espaco_fisico)
+      - Qual é o horário de funcionamento [sala de seminários] (espaco_fisico)
+      - Qual é o horário de funcionamento [cozinha] (espaco_fisico)
+      - Qual é o horário de funcionamento [sala dos professores] (espaco_fisico)
+      - Qual é o horário de funcionamento [sala de reunião] (espaco_fisico)
+      - Qual é o horário de funcionamento [banheiro] (espaco_fisico)
+      - Qual é o horário de funcionamento [biblioteca] (espaco_fisico)
+      - Qual é o horário de funcionamento [prédio do PPGCC] (espaco_fisico)  
+      - Qual é o horário de funcionamento [refeitório] (espaco_fisico)

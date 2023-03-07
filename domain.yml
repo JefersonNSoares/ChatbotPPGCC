@@ -2,33 +2,101 @@ version: "2.0"
 
 intents:
   - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+
+entities:
+  - espaco_fisico
+  
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+    - text: "Hey! How are you?"
+  utter_sala_tem_projetor:
+    - text: "Sim, as salas de aulas são adaptadas com projetor."
+  utter_buscar_sala_de_aula_da_disciplina:
+    - text: "Os mapas das salas de aula são enviados por email, para mais informações sobre onde irá acontecer a disciplina entre em contato com o professor ou com o coordenador."
+  utter_acesso_espaço_fisico_sala_de_aula:
+    - text: "Normalmente, as salas de aula são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria."
+  utter_acesso_espaço_fisico_equipamentos:
+    - text: "Normalmente, os equipamentos são de uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria."
+  utter_acesso_espaço_fisico_laboratorios:
+    - text: "Normalmente, os laboratórios são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria."
+  utter_acesso_espaço_fisico_secretaria:
+    - text: "Normalmente, acesso a secretaria são para uso exclusivo de professores e agentes administrativos. Para mais informações entre em contato com a secretaria."
+  utter_acesso_espaço_fisico_auditorio:
+    - text: "Normalmente, o auditorio são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria."
+  utter_acesso_espaço_fisico_sala_de_seminarios:
+    - text: "Normalmente, a sala de seminários são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria."
+  utter_acesso_espaço_fisico_cozinha:
+    - text: "Normalmente, a cozinha é para uso exclusivo de professores, servidores administrativos e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria."
+  utter_acesso_espaço_fisico_sala_dos_professores:
+    - text: "Normalmente, os laboratórios são reservadas para uso exclusivo dos professores. Para mais informações entre em contato com a secretaria."
+  utter_acesso_espaço_fisico_sala_de_reuniao:
+    - text: "Normalmente, as salas de reunião são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria."
+  utter_acesso_espaço_fisico_banheiro:
+    - text: "Acesso ao banheiro é livre."
+  utter_acesso_espaço_fisico_biblioteca:
+    - text: "A biblioteca é para uso de professores, servidores, visitantes e alunos que estão regularmente  matriculados. Para mais informações entre em contato presencial com setor administrativo da Biblioteca."
+  utter_acesso_espaço_fisico_prédio_do_PPGCC:
+    - text: "Normalmente, os laboratórios são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria do PPGCC."
+  utter_acesso_espaço_fisico_refeitorio:
+    - text: "Acesso ao refeitorio é livre. Para mais informações se encaminha presencialmente ao refeitorio pois as politicas de uso podem alterar sem aviso previo."
+  utter_verificar_disponibilidade_espaco_fisico:
+    - text: "Você pode verificar a disponibilidade do local entrando em contato com a coordenação para obter informações atualizadas sobre a ocupação do espaço"
+  utter_horario_funcionamento_sala_de_aula:
+    - text: "O horário de funcionamento das salas de aula do PPGCC varia de acordo com a programação de cada disciplina. Normalmente, as aulas acontecem nos dias úteis, das 8h às 22h. No entanto, é importante ressaltar que os horários podem sofrer alterações em caso de feriados, recessos ou necessidades específicas do curso. Para mais informações sobre o horário de funcionamento das salas de aula, sugerimos consultar a secretaria do programa."
+  utter_horario_funcionamento_laboratorio:
+    - text: "O horário de funcionamento dos laboratórios pode variar de acordo com cada unidade ou departamento. É importante verificar diretamente com a coordenação responsável para mais informações sobre os horários disponíveis para uso."
+  utter_horario_funcionamento_secretaria:
+    - text: "O horário de funcionamento da secretaria é de segunda a sexta-feira, das 8h às 12h e das 14h às 18h. Porém, em alguns períodos, como férias e recessos, pode haver alterações nos horários de atendimento. É sempre recomendável entrar em contato com a secretaria para confirmar o horário de funcionamento."
+  utter_horario_funcionamento_auditorio:
+    - text: "O horário de funcionamento do auditório pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC."
+  utter_horario_funcionamento_sala_de_seminários:
+    - text: "O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC."
+  utter_horario_funcionamento_cozinha:
+    - text: "O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC."
+  utter_horario_funcionamento_sala_dos_professores:
+    - text: "O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC."
+  utter_horario_funcionamento_sala_de_reuniao:
+    - text: "O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC."
+  utter_horario_funcionamento_banheiro:
+    - text: "O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC."
+  utter_horario_funcionamento_biblioteca:
+    - text: "A biblioteca do PPGCC funciona de segunda a sexta-feira, das 8h às 12h e das 13h às 17h. É importante lembrar que durante o período de férias escolares ou recesso universitário, o horário de funcionamento pode sofrer alterações. É recomendado que você confirme o horário diretamente com a biblioteca ou a secretaria do programa."
+  utter_horario_funcionamento_predio_PPGCC:
+    - text: "O horário de funcionamento do prédio do PPGCC é de segunda a sexta-feira, das 8h às 22h, exceto em feriados e recessos acadêmicos. É importante ressaltar que esse horário pode sofrer alterações de acordo com as necessidades do programa ou da universidade. Recomendamos sempre verificar com antecedência possíveis mudanças nos horários de funcionamento."
+  utter_horario_funcionamento_refeitorio:
+    - text: "O horário de funcionamento do refeitório pode variar dependendo do período letivo e das atividades programadas. É recomendável verificar com a administração do programa ou com a coordenação do refeitório para obter informações precisas sobre os horários de funcionamento."
+  utter_horario_funcionamento:
+    - text: "O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC."
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+  utter_greet:
+    - text:
+                      
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
