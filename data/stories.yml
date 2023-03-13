@@ -1,14 +1,7 @@
 version: "2.0"
 
 stories:
-  - story: happy path
-    steps:
-      - intent: greet
-      - action: utter_greet
-      - intent: mood_great
-      - action: utter_happy
-
-  - story: acesso espaço fisico 
+  - story: acesso espaço fisico
     steps:
       - intent: acesso_espaco_fisico
       - action: utter_verificar_disponibilidade_espaco_fisico
@@ -136,17 +129,17 @@ stories:
       - action: utter_horario_funcionamento_predio_PPGCC
 
   - story: horario de funcionamento espaço fisico predio PPGCC
-      steps:
-        - intent: horario_funcionamento
-          entities:
-            - espaco_fisico: biblioteca
-        - action: utter_horario_funcionamento_biblioteca
+    steps:
+      - intent: horario_funcionamento
+        entities:
+          - espaco_fisico: biblioteca
+      - action: utter_horario_funcionamento_biblioteca
 
   - story: horario de funcionamento espaço fisico predio PPGCC
-      steps:
-        - intent: horario_funcionamento
-          entities:
-            - espaco_fisico: auditorio
-        - action: utter_horario_funcionamento_auditorio
+    steps:
+      - intent: horario_funcionamento
+        entities:
+          - espaco_fisico: auditorio
+      - action: utter_horario_funcionamento_auditorio
   
 
