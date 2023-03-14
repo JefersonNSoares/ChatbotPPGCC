@@ -1,145 +1,334 @@
 version: "2.0"
 
 stories:
-  - story: acesso espaço fisico
-    steps:
-      - intent: acesso_espaco_fisico
-      - action: utter_verificar_disponibilidade_espaco_fisico
+- story: acesso espaço fisico
+  steps:
+    - intent: acesso_espaco_fisico
+    - action: utter_verificar_disponibilidade_espaco_fisico
 
-  - story: acesso espaço fisico sala de aula
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: salas de aula
-      - action: utter_acesso_espaço_fisico_sala_de_aula
+- story: acesso espaço fisico sala de aula
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: salas de aula
+    - action: utter_acesso_espaço_fisico_sala_de_aula
 
-  - story: acesso espaço fisico equipamentos
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: equipamentos
-      - action: utter_acesso_espaço_fisico_equipamentos
+- story: acesso espaço fisico equipamentos
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: equipamentos
+    - action: utter_acesso_espaço_fisico_equipamentos
 
-  - story: acesso espaço fisico laboratorios
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: laboratorios
-      - action: utter_acesso_espaço_fisico_laboratorios
+- story: acesso espaço fisico laboratorios
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: laboratorios
+    - action: utter_acesso_espaço_fisico_laboratorios
 
-  - story: acesso espaço fisico secretaria
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: secretaria
-      - action: utter_acesso_espaço_fisico_secretaria
+- story: acesso espaço fisico secretaria
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: secretaria
+    - action: utter_acesso_espaço_fisico_secretaria
 
-  - story: acesso espaço fisico auditorio
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: salas de aula auditorio
-      - action: utter_acesso_espaço_fisico_auditorio
+- story: acesso espaço fisico auditorio
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: salas de aula auditorio
+    - action: utter_acesso_espaço_fisico_auditorio
 
-  - story: acesso espaço fisico salas de seminarios
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: salas de seminarios
-      - action: utter_acesso_espaço_fisico_sala_de_seminarios
+- story: acesso espaço fisico salas de seminarios
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: salas de seminarios
+    - action: utter_acesso_espaço_fisico_sala_de_seminarios
 
-  - story: acesso espaço fisico cozinha
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: cozinha
-      - action: utter_acesso_espaço_fisico_cozinha
+- story: acesso espaço fisico cozinha
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: cozinha
+    - action: utter_acesso_espaço_fisico_cozinha
 
-  - story: acesso espaço fisico sala dos professores
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: sala dos professores
-      - action: utter_acesso_espaço_fisico_sala_dos_professores
+- story: acesso espaço fisico sala dos professores
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: sala dos professores
+    - action: utter_acesso_espaço_fisico_sala_dos_professores
 
-  - story: acesso espaço fisico sala de reuniao
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: sala de reuniao
-      - action: utter_acesso_espaço_fisico_sala_de_reuniao
+- story: acesso espaço fisico sala de reuniao
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: sala de reuniao
+    - action: utter_acesso_espaço_fisico_sala_de_reuniao
 
-  - story: acesso espaço fisico banheiro
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: banheiro
-      - action: utter_acesso_espaço_fisico_banheiro
+- story: acesso espaço fisico banheiro
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: banheiro
+    - action: utter_acesso_espaço_fisico_banheiro
 
-  - story: acesso espaço fisico biblioteca
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: biblioteca
-      - action: utter_acesso_espaço_fisico_biblioteca
+- story: acesso espaço fisico biblioteca
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: biblioteca
+    - action: utter_acesso_espaço_fisico_biblioteca
 
-  - story: acesso espaço fisico cozinha predio do PPGCC
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: predio do PPGCC
-      - action: utter_acesso_espaço_fisico_prédio_do_PPGCC
+- story: acesso espaço fisico cozinha predio do PPGCC
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: predio do PPGCC
+    - action: utter_acesso_espaço_fisico_prédio_do_PPGCC
 
-  - story: acesso espaço fisico cozinha
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: cozinha
-      - action: utter_acesso_espaço_fisico_cozinha
+- story: acesso espaço fisico cozinha
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: cozinha
+    - action: utter_acesso_espaço_fisico_cozinha
 
-  - story: acesso espaço fisico refeitorio
-    steps:
-      - intent: acesso_espaco_fisico
-        entities:
-          - espaco_fisico: refeitorio
-      - action: utter_acesso_espaço_fisico_refeitorio
+- story: acesso espaço fisico refeitorio
+  steps:
+    - intent: acesso_espaco_fisico
+      entities:
+        - espaco_fisico: refeitorio
+    - action: utter_acesso_espaço_fisico_refeitorio
 
-  - story: acesso espaço fisico 
-    steps:
-      - intent: verificar_disponibilidade_espaco_fisico
-      - action: utter_verificar_disponibilidade_espaco_fisico
-  
-  - story: horario de funcionamento espaço fisico 
-    steps:
-      - intent: horario_funcionamento
-      - action: utter_horario_funcionamento
+- story: acesso espaço fisico
+  steps:
+    - intent: verificar_disponibilidade_espaco_fisico
+    - action: utter_verificar_disponibilidade_espaco_fisico
 
-  - story: horario de funcionamento espaço fisico 
-    steps:
-      - intent: horario_funcionamento
-        entities:
-          - espaco_fisico: refeitorio
-      - action: utter_horario_funcionamento_refeitorio
+- story: horario de funcionamento espaço fisico
+  steps:
+    - intent: horario_funcionamento
+    - action: utter_horario_funcionamento
 
-  - story: horario de funcionamento espaço fisico predio PPGCC
-    steps:
-      - intent: horario_funcionamento
-        entities:
-          - espaco_fisico: prédio do PPGCC
-      - action: utter_horario_funcionamento_predio_PPGCC
+- story: horario de funcionamento espaço fisico
+  steps:
+    - intent: horario_funcionamento
+      entities:
+        - espaco_fisico: refeitorio
+    - action: utter_horario_funcionamento_refeitorio
 
-  - story: horario de funcionamento espaço fisico predio PPGCC
-    steps:
-      - intent: horario_funcionamento
-        entities:
-          - espaco_fisico: biblioteca
-      - action: utter_horario_funcionamento_biblioteca
+- story: horario de funcionamento espaço fisico predio PPGCC
+  steps:
+    - intent: horario_funcionamento
+      entities:
+        - espaco_fisico: prédio do PPGCC
+    - action: utter_horario_funcionamento_predio_PPGCC
 
-  - story: horario de funcionamento espaço fisico predio PPGCC
-    steps:
-      - intent: horario_funcionamento
-        entities:
-          - espaco_fisico: auditorio
-      - action: utter_horario_funcionamento_auditorio
-  
+- story: horario de funcionamento espaço fisico predio PPGCC
+  steps:
+    - intent: horario_funcionamento
+      entities:
+        - espaco_fisico: biblioteca
+    - action: utter_horario_funcionamento_biblioteca
 
+- story: horario de funcionamento espaço fisico predio PPGCC
+  steps:
+    - intent: horario_funcionamento
+      entities:
+        - espaco_fisico: auditorio
+    - action: utter_horario_funcionamento_auditorio
+
+
+- story: informações espaço fisico
+  steps:
+    - intent: informacoes_espaco_fisico
+    - action: utter_informacoes_espaco_fisico
+
+- story: Responder saudação
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+
+- story: Responder sobre ingressar como aluno especial
+  steps:
+  - intent: IngressarComoAlunoEspecial
+  - action: utter_IngressarComoAlunoEspecial
+
+- story: Responder sobre ingressar no PPGCC
+  steps:
+  - intent: IngressarPPGCC
+  - action: utter_IngressarPPGCC
+
+- story: Responder sobre aproveitamento de disciplina
+  steps:
+  - intent: AproveitamentoDisciplina
+  - action: utter_AproveitamentoDisciplina
+
+- story: Responder sobre creditos nas disciplinas
+  steps:
+  - intent: CreditosDisciplina
+  - action: utter_CreditosDisciplina
+
+- story: sobre readmissão PPGCC
+  steps:
+  - intent: ReadmissaoPPGCC
+  - action: utter_ReadmissaoPPGCC
+
+- story: sobre autorização em disciplinas
+  steps:
+  - intent: AutorizacaoDisciplinas
+  - action: utter_AutorizacaoDisciplinas
+
+- story: 7 Story
+  steps:
+  - intent: HorarioDisciplinas
+  - action: utter_HorarioDisciplinas
+
+- story: 8 Story
+  steps:
+  - intent: AprovacaoDisciplinas
+  - action: utter_AprovacaoDisciplinas
+
+- story: 9 Story
+  steps:
+  - intent: QuemCoordenador
+  - action: utter_QuemCoordenador
+
+- story: 10 Story
+  steps:
+  - intent: SobreLinhaDePesquisa
+  - action: utter_SobreLinhaDePesquisa
+
+- story: 11 Story
+  steps:
+  - intent: CalendarioInicioAula
+  - action: utter_CalendarioInicioAula
+
+- story: 12 Story
+  steps:
+  - intent: CalendarioDataMatricula
+  - action: utter_CalendarioDataMatricula
+
+- story: 13 Story
+  steps:
+  - intent: TrancamentoMatricula
+  - action: utter_TrancamentoMatricula
+
+- story: 14 Story
+  steps:
+  - intent: SobreRegimento
+  - action: utter_SobreRegimento
+
+- story: 15 Story
+  steps:
+  - intent: SobreRelatorios
+  - action: utter_SobreRelatorios
+
+- story: 16 Story
+  steps:
+  - intent: SobreObjetivoPPGCC
+  - action: utter_SobreObjetivoPPGCC
+
+- story: 17 Story
+  steps:
+  - intent: EsqueciAlgoPredio
+  - action: utter_EsqueciAlgoPredio
+
+- story: 18 Story
+  steps:
+  - intent:  AutorizacaoPredio
+  - action: utter_AutorizacaoPredio
+
+- story: 19 Story
+  steps:
+  - intent: CriteriosParaInscreverSelecao
+  - action: utter_CriteriosParaInscreverSelecao
+
+- story: 20 Story
+  steps:
+  - intent: EditalSelecao
+  - action: utter_EditalSelecao
+
+- story: 21 Story
+  steps:
+  - intent: CandidatoDeOutroPais
+  - action: utter_CandidatoDeOutroPais
+
+- story: 22 Story
+  steps:
+  - intent: CriteriosParaSerAlunoEspecial
+  - action: utter_CriteriosParaSerAlunoEspecial
+
+- story: 23 Story
+  steps:
+  - intent: SolicitarReadmissao
+  - action: utter_SolicitarReadmissao
+
+- story: 24 Story
+  steps:
+  - intent: ProficienciaEmIngles
+  - action: utter_ProficienciaEmIngles
+
+- story: 25 Story
+  steps:
+  - intent: PapelDoOrientador
+  - action: utter_PapelDoOrientador
+
+- story: 26 Story
+  steps:
+  - intent: CargaHorariaMestradoDoutorado
+  - action: utter_CargaHorariaMestradoDoutorado
+
+- story: 27 Story
+  steps:
+  - intent: DisciplinaDistancia
+  - action: utter_DisciplinaDistancia
+
+- story: 28 Story
+  steps:
+  - intent: AvaliacaoDasDisciplinas
+  - action: utter_AvaliacaoDasDisciplinas
+
+- story: 29 Story
+  steps:
+  - intent: FuncionamentoPredio
+  - action: utter_FuncionamentoPredio
+
+- story: 30 Story
+  steps:
+  - intent: CronogramaPPGCC
+  - action: utter_CronogramaPPGCC
+
+- story: 31 Story
+  steps:
+  - intent: CreditosDisciplinas
+  - action: utter_CreditosDisciplinas
+
+- story: 31 Story
+  steps:
+  - intent: AcessoAosFormularios
+  - action: utter_AcessoAosFormularios
+
+- story: 32 Story
+  steps:
+  - intent: ProrrogarDissertação
+  - action: utter_ProrrogarDissertação
+
+- story: 33 Story
+  steps:
+  - intent: SolicitarDisciplinasAlunoEspecial
+  - action: utter_SolicitarDisciplinasAlunoEspecial
+
+- story: 34 Story
+  steps:
+  - intent: LocalizaocaoPPGCC
+  - action: utter_LocalizaocaoPPGCC
+
+- story: 35 Story
+  steps:
+  - intent: CompreencaoTexto
+  - action: utter_CompreencaoTexto
