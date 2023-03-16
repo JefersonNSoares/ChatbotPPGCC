@@ -1,360 +1,413 @@
 version: "2.0"
 nlu:
-- intent: salas_de_aula_possuem_projetor
-  examples: |
-    - às salas de aula tem projetor para as aulas
-    - as salas de aula possuem projetor para as aulas.
-- intent: buscar_sala_de_aula_da_disciplina
-  examples: |
-    - Qual sala de aula vai acontecer aula da disciplina de PPE
-- intent: acesso_espaco_fisico
-  examples: |
-    - Qualquer pessoa pode ter acesso às [salas de aula] (espaco_fisico)
-    - Qualquer pessoa pode ter acesso aos [laboratorios] (espaco_fisico)
-    - Qualquer pessoa pode ter acesso aos [equipamentos] (espaco_fisico)
-    - quem pode usar os [equipamentos] (espaco_fisico)
-    - Qualquer pessoa pode ter acesso a [secretaria] (espaco_fisico)
-    - Qualquer pessoa pode ter acesso ao [auditorio] (espaco_fisico)
-    - Qualquer pessoa pode ter acesso ao [sala de seminários] (espaco_fisico)
-    - Qualquer pessoa pode ter acesso a [cozinha] (espaco_fisico)
-    - Qualquer pessoa pode ter acesso a [sala dos professores] (espaco_fisico)
-    - Qualquer pessoa pode ter acesso a [sala de reunião] (espaco_fisico)
-    - Qualquer pessoa pode ter acesso ao [banheiro] (espaco_fisico)
-    - Qualquer pessoa pode ter acesso a [biblioteca] (espaco_fisico)
-    - Qualquer pessoa pode ter acesso [prédio do PPGCC] (espaco_fisico)
-    - Qualquer pessoa pode ter acesso [refeitório] (espaco_fisico)
-    - otimo, como reservo o auditorio?
-- intent: verificar_disponibilidade_espaco_fisico
-  examples: |
-    - Como posso verificar se um determinado espaço físico está livre ou ocupado?
-    - Como faço para saber se o auditorio está livre ou ocupado
-    - É possível verificar a disponibilidade da sala de aula
-- intent: horario_funcionamento
-  examples: |
-    - Qual é o horário de funcionamento [salas de aula] (espaco_fisico)
-    - Qual é o horário de funcionamento [laboratorios] (espaco_fisico)
-    - Qual é o horário de funcionamento [secretaria] (espaco_fisico)
-    - Qual é o horário de funcionamento [auditorio] (espaco_fisico)
-    - Qual é o horário de funcionamento [sala de seminários] (espaco_fisico)
-    - Qual é o horário de funcionamento [cozinha] (espaco_fisico)
-    - Qual é o horário de funcionamento [sala dos professores] (espaco_fisico)
-    - Qual é o horário de funcionamento [sala de reunião] (espaco_fisico)
-    - Qual é o horário de funcionamento [banheiro] (espaco_fisico)
-    - Qual é o horário de funcionamento [biblioteca] (espaco_fisico)
-    - Qual é o horário de funcionamento [prédio do PPGCC] (espaco_fisico)
-    - Qual é o horário de funcionamento [refeitório] (espaco_fisico)
-    - Há alguma restrição de acesso ?
-    - Como posso reservar ou agendar o uso deste espaço físico?
-- intent: informacoes_espaco_fisico
-  examples: |
-    - Como posso obter informações adicionais sobre este espaço físico?
-    - Há alguma exigência ou política específica para utilizar este espaço físico?
-    - Qual é a política de cancelamento ou alteração de reservas para este espaço físico?
-- intent: saudacao
-  examples: |
-    - Olá
-    - Oii
-    - Fala aí, cara!
-    - Tudo bem?
-    - Boa noite
-    - Boa tarde
-    - Bom dia
-    - Oláá
-    - Olá, tudo bem?
-    - Ola
-    - oii
-    - oláá
-    - olá, bom dia!
-    - oláá, bom dia!
-    - Olá!
-    - Bom dia!
-    - Boa noite!
-    - oie
-    - bom dia!
-    - oi
-    - Oi
-    - Hello
-    - olá
-    - hello
-    - Oláá, bom dia!
-    - bom dia
-    - tudo bem?
-- intent: ingressar_como_aluno_especial
-  examples: |
-    - como faço para ser aluno especial?
-    - como faço para cursar disciplinas como aluno especial?
-    - posso ser aluno especial?
-    - Eu gostaria de concorrer a uma vaga como aluno especial como eu faço?
-    - quero ser aluno especial
-    - como ser aluno especial?
-    - gostaria de ser aluno especial
-    - Como funciona pra ser aluno especial
-    - gostaria de ser aluno especial, como faço para ser aluno especial?
-    - quais os critérios para eu ser aluno especial?
-    - tem critérios para concorrer como aluno especial?
-- intent: ingressar_PPGCC
-  examples: |
-    - Quais as etapas para ingressar no mestrado?
-    - Com faço para ingressar no  mestrado?
-    - quando abre o edital para ingresso?
-    - Como é o processo seletivo para ingresso nos cursos de Mestrado e Doutorado?
-    - Precisa ter publicação em uma revista para entrar no mestrado?
-    - Quais procedimentos para a inscrição?
-    - critérios para ingressar no mestrado do PPGCC?
-    - o que tenho que fazer para entrar no mestrado
-    - processo seletivo para entrar no mestrado em computação
-    - como faço para entrar no mestrado em computação?
-    - o que preciso para começar no mestrado
-- intent: aproveitamento_disciplina
-  examples: |
-    - É possível aproveitar disciplinas já cursadas em outros programas de pós-graduação para o curso de mestrado e de doutorado?
-    - caso eu já tenha cursado a mesma disciplina anteriormente, posso aproveitar no curso de doutorado?
-    - Posso aproveitar disciplinas cursadas da graduação?
-    - Posso aproveitar disciplinas cursadas em outros programas de mestrado?
-    - Há como realizar aproveitamento de disciplina? Se sim, em quais condições?
-    - posso aproveitar disciplinas de outros cursos?
-    - Gostaria de aproveitar as disciplinas que cursei anteriormente, quais os critérios?
-    - tenho disciplinas que podem ser aproveitadas no mestrado quais as condições para aproveitar?
-    - gostaria de aproveitar disciplinas no mestrado/doutorado
-    - Antes de entrar no mestrado diz umas disciplinas, posso aproveitar as disciplinas já cursadas?
-- intent: creditos_disciplina
-  examples: |
-    - Quantas disciplinas são necessárias para se formar no PPGCC
-    - quantas disciplinas precisa eu cursar para concluir o mestrado
-    - quantas disciplinas precisa eu cursar para concluir o doutorado
-    - quantos créditos em disciplinas preciso cursar para concluir a pós graduação
-    - quantos créditos preciso pagar para concluir o mestrado/ doutorado
-    - quantas disciplinas tenho que pagar para concluir a pós graduação
-    - quantidade de disciplinas para concluir a pós graduação
-    - qual mínimo de disciplinas que tenho que cursar para concluir o mestrado/doutorado
-    - qual a quantidade mínima de créditos em disciplinas que devo cursar para concluir o mestrado?
-    - existe quantidade mínima e máxima de disciplinas que devo cursar?
-- intent: horario_disciplinas
-  examples: |
-    - Em qual turno ocorre as aulas do MACC?
-    - qual horario das aulas ?
-    - tem aula de noite no ppggc?
-    - que horario ocorrem as aulas da pos graduação
-    - tem aula em todos os turnos?
-    - quais os horario de são ministrada as aulas?
-    - horario das aulas?
-    - em que horario normalmente são ministradas as aulas?
-    - normalmente em que turno são as aulas?
-    - em qual horario são ministrada as aulas
-    - qual horario de funcionamento das salas de aulas?
-- intent: aprovacao_disciplinas
-  examples: |
-    - Como é o sistema de notas e aprovação do MACC?
-    - como são avaliadas as notas
-    - quais os critérios para notas nas disciplinas
-    - como são avaliadas as notas nas disciplinas
-    - como o professor da disciplina avaliar as notas
-    - qual o sistema de avaliação nas disciplinas
-    - qual menor nota que posso tirar em uma disciplina
-    - quais critérios de aprovação nas disciplinas
-    - critérios de aprovação nas disciplinas
-    - como o professor avaliar o aluno
-    - quais sistema de avaliação para as disciplinas usado pelo programa?
-    - como serão avaliados as notas?
-- intent: readmissao_PPGCC
-  examples: |
-    - Há readmissão após abandono no MACC?
-    - após ter sido jubilado posso retorna ao programa
-    - tive que abandonar o curso por motivos de saúde, posso retornar?
-    - posso solicitar readmissão após abandono?
-    - Fui desligado do curso, como posso tentar minha readmissão?
-    - Como faço para solicitar readmissão no curso por abandono?
-    - aluno foi desligado, posso ser readmitido ao curso?
-    - fui desligado do programa, posso solicitar readmissão
-    - caso eu abandone o curso posso solicitar posteriormente readmissão?
-    - consigo solicitar readmissão do programa?
-- intent: autorizacao_disciplinas
-  examples: |
-    - posso assistir aulas das disciplinas como ouvinte?
-    - Posso levar parentes, amigos, ouvintes, etc... para assistir aulas
-    - Posso assistir às disciplinas como ouvinte?
-    - Estou na graduação, posso cursar disciplinas do mestrado?
-    - consigo assistir aula das disciplinas que não estou matriculado
-    - eu posso ser ouvinte de disciplinas
-    - posso assistir as aulas como ouvinte sem compromisso com a disciplinas
-    - qual criterios posso ser ouvinte de disciplinas
-    - posso solicitar para assistir aulas como ouvinte?
-    - qual os critérios para assistir aulas como ouvinte
-    - sou de outro curso, posso assistir as aulas como ouvinte?
-    - Faço mestrado em outra instituição, posso assistir as disciplinas como ouvinte?
-- intent: quem_coordenador
-  examples: |
-    - Quem é o coordenador do PPGCC?
-    - quem é o coordenador ?
-    - qual nome do coordenador do programa
-    - quem é o coordenador do macc
-    - quem é o atual coordenador
-- intent: sobre_linha_de_pesquisa
-  examples: |
-    - Quais as linhas de pesquisa do ppgcc?
-    - Onde posso encontrar os professores de cada linha de pesquisa?
-    - Quem são os professores que atuam na linha de pesquisa de redes de computadores?
-    - Quem são os professores que atuam na linha de pesquisa de algoritmos ?
-    - Quem são os professores que atuam na linha de pesquisa de engenharia de software?
-    - Existem quantos professores?
-    - quais as áreas de interesse do PPGCC?
-    - Quais as linhas de pesquisa do mestrado
-    - linhas de pesquisa do PPGCC
-    - quantas e quais são as linhas de pesquisa do programa
-    - onde encontro as linhas de pesquisa atuais do PPGCC
-- intent: calendario_inicio_aula
-  examples: |
-    - Quando começa as aulas do doutorado?
-    - Quando começa as aulas do mestrado?
-    - quando começa as aulas?
-    - início das aulas?
-    - existe um calendário academia das aulas?
-    - onde encontro o calendário das aulas?
-    - onde posso verificar o calendário das aulas
-    - quando inicia as aulas
-    - gostaria de saber quando as aulas começam
-- intent: calendario_data_matricula
-  examples: |
-    - Qual a data da matrícula?
-    - como faço para me matricular nas disciplinas?
-    - quando se iniciam as matrículas
-    - por onde consigo ver o calendário das matrículas?
-    - qual periodo de matriculas
-    - quando se inicia o período de matriculas
-- intent: trancamento_matricula
-  examples: |
-    - Como é realizado o processo de trancamento de matrícula no MACC?
-    - Até quando posso trancar uma disciplina no qual estou matriculado?
-    - como faço para trancar minha matrícula
-    - qual o prazo para trancar disciplina?
-    - qual período de trancamento das disciplinas
-    - gostaria de trancar uma disciplina que estou matriculado
-    - quero fazer trancamento de uma disciplina
-    - quero fazer o trancamento da minha matrícula
-- intent: sobre_regimento
-  examples: |
-    - Onde encontro o regimento do PPGCC?
-    - arquivo do regimento do PPGCC?
-    - qual site do regimento
-    - gostaria de encontrar o regimento
-    - onde encontro o regimento do PPGCC
-- intent: sobre_relatorios
-  examples: |
-    - Onde posso encontrar as dissertações defendidas no MACC?
-    - Onde encontro os modelos de relatórios do programa?
-    - Onde posso obter o modelo de relatório do mestrado
-    - Onde consigo o modelo do relatório semestral?
-    - qual o modelo do relatório semestral para bolsistas?
-    - qual site posso encontrar dissertações já defendidas
-    - modelo de relatório para bolsistas
-- intent: sobre_objetivo_PPGCC
-  examples: |
-    - qual objetivo do PPGCC?
-    - Queria saber sobre o programa de computação da UECE
-    - Como é o ppgcc?
-    - qual objetivo do programa de mestrado do ppgcc?
-    - qual principal objetivo do programa de mestrado?
-- intent: esqueci_algo_predio
-  examples: |
-    - Esqueci algo no MACC, quando voltei tava fechado e n sei a senha, o que eu faço?
-    - Esqueci a minha chave da sala do macc, existe algum lugar com cópias ?
-    - esqueci meu computador no prédio, o que devo fazer?
-    - não tenho acesso ao prédio do PPGCC o que faço para ter acesso?
-    - preciso pegar um material que esqueci no prédio do ppgcc
-- intent: autorizacao_predio
-  examples: |
-    - Posso levar animais para o MACC?
-    - Posso entrar com minha bicicleta no MACC?
-    - Posso ter uma cópia da chave do laboratório do MACC?
-    - Posso dormir no MACC?
-    - Posso levar comida para os laboratórios do MACC?
-    - Tive que fazer um trabalho até tarde da noite no MACC, posso dormir lá visto que já é tarde da noite?
-    - Esqueci de entregar a chave do MACC, e sem querer levei para casa, o que eu faço?
-    - Posso utilizar os equipamentos do MACC em outro lugar?
-- intent: edital_selecao
-  examples: |
-    - Quando abre o edital de seleção para doutorado?
-    - Quando abre o edital de seleção para mestrado?
-    - Quando abre o edital de seleção?
-    - Qual a próxima seleção do ppgcc?
-    - Como faço para mim inscrever na seleção do mestrado de Ciências da Computação da UECE?
-- intent: criterios_para_inscrever_selecao
-  examples: |
-    - Quais os critérios para me inscrever no PPGCC?
-    - Para participar do processo seletivo?
-    - Como posso participar?
-    - como faço para participar da seleção de mestrado
-    - o que preciso para participar das seleções de mestrado
-    - o que preciso pra me inscrever na seleção de mestrado
-    - critérios para se inscrever no processo seletivo
-    - o que é necessário para eu me qualificar para poder me candidatar ao mestrado
-    - qual os critérios que me qualificam para concorrer a vaga no programa
-- intent: candidato_de_outro_pais
-  examples: |
-    - Meu diploma é de outro país, posso me inscrever?
-    - fiz minha graduação em outro país, posso concorrer ao processo seletivo
-    - sou de outro país, posso participar do seletivo de mestrado?
-    - para quem é de outro país tem alguma restrição para participar do seletivo?
-    - Quem é de outro país pode participar?
-    - quem tem diploma de outro país pode concorrer às vagas de mestrado
-- intent: criterios_para_ser_aluno_especial
-  examples: |
-    - Quais critérios para eu solicitar ser Aluno Especial ?
-    - o que preciso para solicitar ser aluno especial
-    - qualquer candidato pode ser aluno especial?
-    - em qual momento posso solicitar ser aluno especial
-    - o que me qualificar para concorrer a vagas como aluno especial?
-    - qual os critérios para que eu possa concorrer como aluno especial?
-- intent: solicitar_readmissao
-  examples: |
-    - O que preciso fazer para solicitar readmissão no PPGCC?
-    - como faço para solicitar readmissão
-    - o que preciso para solicitar readmissão
-    - onde solicito a readmissão
-    - com quem devo falar para solicitar readmissão
-- intent: proficiencia_em_ingles
-  examples: |
-    - Preciso de proficiência em inglês para fazer a seleção?
-    - é obrigatório proficiência em inglês para fazer a seleção
-    - não tenho proficiência em inglês, posso me candidatar para vaga no programa?
-    - ainda não fiz a proficiência em inglês isso me desqualifica como candidato?
-    - não tenho proficiência em inglês, posso me inscrever no seletivo?
-- intent: carga_horaria_mestrado_doutorado
-  examples: |
-    - qual a carga horária do mestrado?
-    - qual a carga horária do doutorado?
-- intent: disciplina_distancia
-  examples: |
-    - Posso cursar as disciplinas a distância?
-    - posso fazer o mestrado a distância?
-    - existe a possibilidade de eu cursar o mestrado a distância
-    - as aulas são presenciais ou a distância
-    - tem aulas a distância que eu possa cursar?
-- intent: funcionamento_predio
-  examples: |
-    - Qual o horário que o MACC inicia as atividades e abre o prédio?
-    - quando o prédio do ppgcc está aberto
-    - o prédio tem acesso em quais horários do dia?
-    - o prédio do programa funciona em horário comercial
-    - o prédio fica aberto enquanto as aulas estão rolando
-    - Em que momento o prédio é fechado?
-    - as salas do programa estão disponíveis no fim de semana
-    - O prédio funciona no fim de semana?
-- intent: prorrogar_dissertação
-  examples: |
-    - Posso adiar minha apresentação de mestrado após 2 anos?
-    - Posso adiar minha apresentação de doutorado após os 4 anos?
-    - não defendi minha dissertação após os dois anos, posso prorrogar?
-    - posso prorrogar a defesa da minha dissertação?
-    - como faço para poder prorrogar minha dissertação?
-- intent: contato_secretaria
-  examples: |
-    - Qual o contato da secretaria ?
-    - qual numero da secretaria
-    - qual email da secretaria
-- intent: localizacao_PPGCC
-  examples: |
-    - Onde fica o macc?
-    - qual localização do ppgcc
-    - onde fica localizado o ppgcc
-    - qual localização do ppgcc
+  - intent: salas_de_aula_possuem_projetor
+    examples: |
+      - às salas de aula tem projetor para as aulas
+      - as salas de aula possuem projetor para as aulas.
+  - intent: buscar_sala_de_aula_da_disciplina
+    examples: |
+      - Qual sala de aula vai acontecer aula da disciplina de PPE
+  - intent: acesso_espaco_fisico
+    examples: |
+      - Qualquer pessoa pode ter acesso às [salas de aula] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso aos [laboratorios] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso aos [equipamentos] (espaco_fisico)
+      - quem pode usar os [equipamentos] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso a [secretaria] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso ao [auditorio] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso ao [sala de seminários] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso a [cozinha] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso a [sala dos professores] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso a [sala de reunião] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso ao [banheiro] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso a [biblioteca] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso [prédio do PPGCC] (espaco_fisico)
+      - Qualquer pessoa pode ter acesso [refeitório] (espaco_fisico)
+      - otimo, como reservo o auditorio?
+  - intent: verificar_disponibilidade_espaco_fisico
+    examples: |
+      - Como posso verificar se um determinado espaço físico está livre ou ocupado?
+      - Como faço para saber se o auditorio está livre ou ocupado
+      - É possível verificar a disponibilidade da sala de aula
+  - intent: horario_funcionamento
+    examples: |
+      - Qual é o horário de funcionamento [salas de aula] (espaco_fisico)
+      - Qual é o horário de funcionamento [laboratorios] (espaco_fisico)
+      - Qual é o horário de funcionamento [secretaria] (espaco_fisico)
+      - Qual é o horário de funcionamento [auditorio] (espaco_fisico)
+      - Qual é o horário de funcionamento [sala de seminários] (espaco_fisico)
+      - Qual é o horário de funcionamento [cozinha] (espaco_fisico)
+      - Qual é o horário de funcionamento [sala dos professores] (espaco_fisico)
+      - Qual é o horário de funcionamento [sala de reunião] (espaco_fisico)
+      - Qual é o horário de funcionamento [banheiro] (espaco_fisico)
+      - Qual é o horário de funcionamento [biblioteca] (espaco_fisico)
+      - Qual é o horário de funcionamento [prédio do PPGCC] (espaco_fisico)
+      - Qual é o horário de funcionamento [refeitório] (espaco_fisico)
+      - Há alguma restrição de acesso ?
+      - Como posso reservar ou agendar o uso deste espaço físico?
+      - qual é o horário da secretaria para eu entregar um documento
+  - intent: informacoes_espaco_fisico
+    examples: |
+      - Como posso obter informações adicionais sobre este espaço físico?
+      - Há alguma exigência ou política específica para utilizar este espaço físico?
+      - Qual é a política de cancelamento ou alteração de reservas para este espaço físico?
+  - intent: saudacao
+    examples: |
+      - Olá
+      - Oii
+      - Fala aí, cara!
+      - Tudo bem?
+      - Boa noite
+      - Boa tarde
+      - Bom dia
+      - Oláá
+      - Olá, tudo bem?
+      - Ola
+      - oii
+      - oláá
+      - olá, bom dia!
+      - oláá, bom dia!
+      - Olá!
+      - Bom dia!
+      - Boa noite!
+      - oie
+      - bom dia!
+      - oi
+      - Oi
+      - Hello
+      - olá
+      - hello
+      - Oláá, bom dia!
+      - bom dia
+      - tudo bem?
+  - intent: ingressar_como_aluno_especial
+    examples: |
+      - como faço para ser aluno especial?
+      - como faço para cursar disciplinas como aluno especial?
+      - posso ser aluno especial?
+      - Eu gostaria de concorrer a uma vaga como aluno especial como eu faço?
+      - quero ser aluno especial
+      - como ser aluno especial?
+      - gostaria de ser aluno especial
+      - Como funciona pra ser aluno especial
+      - gostaria de ser aluno especial, como faço para ser aluno especial?
+      - quais os critérios para eu ser aluno especial?
+      - tem critérios para concorrer como aluno especial?
+  - intent: ingressar_PPGCC
+    examples: |
+      - Quais as etapas para ingressar no mestrado?
+      - Com faço para ingressar no  mestrado?
+      - quando abre o edital para ingresso?
+      - Como é o processo seletivo para ingresso nos cursos de Mestrado e Doutorado?
+      - Precisa ter publicação em uma revista para entrar no mestrado?
+      - Quais procedimentos para a inscrição?
+      - critérios para ingressar no mestrado do PPGCC?
+      - o que tenho que fazer para entrar no mestrado
+      - processo seletivo para entrar no mestrado em computação
+      - como faço para entrar no mestrado em computação?
+      - o que preciso para começar no mestrado
+  - intent: aproveitamento_disciplina
+    examples: |
+      - Vou poder trazer disciplinas de outro mestado
+      - Posso trazer disciplina que cursei em outro doutorado
+      - Posso trazer disciplina que cursei em outro mestado
+      - É possível aproveitar disciplinas já cursadas em outros programas de pós-graduação para o curso de mestrado e de doutorado?
+      - caso eu já tenha cursado a mesma disciplina anteriormente, posso aproveitar no curso de doutorado?
+      - Posso aproveitar disciplinas cursadas da graduação?
+      - Posso aproveitar disciplinas cursadas em outros programas de mestrado?
+      - Há como realizar aproveitamento de disciplina? Se sim, em quais condições?
+      - posso aproveitar disciplinas de outros cursos?
+      - Gostaria de aproveitar as disciplinas que cursei anteriormente, quais os critérios?
+      - tenho disciplinas que podem ser aproveitadas no mestrado quais as condições para aproveitar?
+      - gostaria de aproveitar disciplinas no mestrado/doutorado
+      - Antes de entrar no mestrado diz umas disciplinas, posso aproveitar as disciplinas já cursadas?
+  - intent: creditos_disciplina
+    examples: |
+      - Quantas disciplinas são necessárias para se formar no PPGCC
+      - quantas disciplinas precisa eu cursar para concluir o mestrado
+      - quantas disciplinas precisa eu cursar para concluir o doutorado
+      - quantos créditos em disciplinas preciso cursar para concluir a pós graduação
+      - quantos créditos preciso pagar para concluir o mestrado/ doutorado
+      - quantas disciplinas tenho que pagar para concluir a pós graduação
+      - quantidade de disciplinas para concluir a pós graduação
+      - qual mínimo de disciplinas que tenho que cursar para concluir o mestrado/doutorado
+      - qual a quantidade mínima de créditos em disciplinas que devo cursar para concluir o mestrado?
+      - existe quantidade mínima e máxima de disciplinas que devo cursar?
+  - intent: horario_disciplinas
+    examples: |
+      - Em qual turno ocorre as aulas do MACC?
+      - qual horario das aulas ?
+      - tem aula de noite no ppggc?
+      - que horario ocorrem as aulas da pos graduação
+      - tem aula em todos os turnos?
+      - quais os horario de são ministrada as aulas?
+      - horario das aulas?
+      - em que horario normalmente são ministradas as aulas?
+      - normalmente em que turno são as aulas?
+      - em qual horario são ministrada as aulas
+      - qual horario de funcionamento das salas de aulas?
+      - Tem aulas nos 2 turnos
+  - intent: aprovacao_disciplinas
+    examples: |
+      - Como é o sistema de notas e aprovação do MACC?
+      - como são avaliadas as notas
+      - quais os critérios para notas nas disciplinas
+      - como são avaliadas as notas nas disciplinas
+      - como o professor da disciplina avaliar as notas
+      - qual o sistema de avaliação nas disciplinas
+      - qual menor nota que posso tirar em uma disciplina
+      - quais critérios de aprovação nas disciplinas
+      - critérios de aprovação nas disciplinas
+      - como o professor avaliar o aluno
+      - quais sistema de avaliação para as disciplinas usado pelo programa?
+      - como serão avaliados as notas?
+  - intent: readmissao_PPGCC
+    examples: |
+      - Há readmissão após abandono no MACC?
+      - após ter sido jubilado posso retorna ao programa
+      - tive que abandonar o curso por motivos de saúde, posso retornar?
+      - posso solicitar readmissão após abandono?
+      - Fui desligado do curso, como posso tentar minha readmissão?
+      - Como faço para solicitar readmissão no curso por abandono?
+      - aluno foi desligado, posso ser readmitido ao curso?
+      - fui desligado do programa, posso solicitar readmissão
+      - caso eu abandone o curso posso solicitar posteriormente readmissão?
+      - consigo solicitar readmissão do programa?
+  - intent: autorizacao_disciplinas
+    examples: |
+      - posso assistir aulas das disciplinas como ouvinte?
+      - Posso levar parentes, amigos, ouvintes, etc... para assistir aulas
+      - Posso assistir às disciplinas como ouvinte?
+      - Estou na graduação, posso cursar disciplinas do mestrado?
+      - consigo assistir aula das disciplinas que não estou matriculado
+      - eu posso ser ouvinte de disciplinas
+      - posso assistir as aulas como ouvinte sem compromisso com a disciplinas
+      - qual criterios posso ser ouvinte de disciplinas
+      - posso solicitar para assistir aulas como ouvinte?
+      - qual os critérios para assistir aulas como ouvinte
+      - sou de outro curso, posso assistir as aulas como ouvinte?
+      - Faço mestrado em outra instituição, posso assistir as disciplinas como ouvinte?
+  - intent: quem_coordenador
+    examples: |
+      - Quem é o coordenador do PPGCC?
+      - quem é o coordenador ?
+      - qual nome do coordenador do programa
+      - quem é o coordenador do macc
+      - quem é o atual coordenador
+  - intent: sobre_linha_de_pesquisa
+    examples: |
+      - Quais as linhas de pesquisa do ppgcc?
+      - Onde posso encontrar os professores de cada linha de pesquisa?
+      - Quem são os professores que atuam na linha de pesquisa de redes de computadores?
+      - Quem são os professores que atuam na linha de pesquisa de algoritmos ?
+      - Quem são os professores que atuam na linha de pesquisa de engenharia de software?
+      - Existem quantos professores?
+      - quais as áreas de interesse do PPGCC?
+      - Quais as linhas de pesquisa do mestrado
+      - linhas de pesquisa do PPGCC
+      - quantas e quais são as linhas de pesquisa do programa
+      - onde encontro as linhas de pesquisa atuais do PPGCC
+  - intent: calendario_inicio_aula
+    examples: |
+      - Quando começa as aulas do doutorado?
+      - Quando começa as aulas do mestrado?
+      - quando começa as aulas?
+      - início das aulas?
+      - existe um calendário academia das aulas?
+      - onde encontro o calendário das aulas?
+      - onde posso verificar o calendário das aulas
+      - quando inicia as aulas
+      - gostaria de saber quando as aulas começam
+  - intent: calendario_data_matricula
+    examples: |
+      - Qual a data da matrícula?
+      - como faço para me matricular nas disciplinas?
+      - quando se iniciam as matrículas
+      - por onde consigo ver o calendário das matrículas?
+      - qual periodo de matriculas
+      - quando se inicia o período de matriculas
+  - intent: trancamento_matricula
+    examples: |
+      - Como é realizado o processo de trancamento de matrícula no MACC?
+      - Até quando posso trancar uma disciplina no qual estou matriculado?
+      - como faço para trancar minha matrícula
+      - qual o prazo para trancar disciplina?
+      - qual período de trancamento das disciplinas
+      - gostaria de trancar uma disciplina que estou matriculado
+      - quero fazer trancamento de uma disciplina
+      - quero fazer o trancamento da minha matrícula
+  - intent: sobre_regimento
+    examples: |
+      - Onde encontro o regimento do PPGCC?
+      - arquivo do regimento do PPGCC?
+      - qual site do regimento
+      - gostaria de encontrar o regimento
+      - onde encontro o regimento do PPGCC
+      - O regimento na página do PPGCC está atualizado
+  - intent: sobre_relatorios
+    examples: |
+      - Onde posso encontrar as dissertações defendidas no MACC?
+      - Onde encontro os modelos de relatórios do programa?
+      - Onde posso obter o modelo de relatório do mestrado
+      - Onde consigo o modelo do relatório semestral?
+      - qual o modelo do relatório semestral para bolsistas?
+      - qual site posso encontrar dissertações já defendidas
+      - modelo de relatório para bolsistas
+  - intent: sobre_objetivo_PPGCC
+    examples: |
+      - qual objetivo do PPGCC?
+      - Queria saber sobre o programa de computação da UECE
+      - Como é o ppgcc?
+      - qual objetivo do programa de mestrado do ppgcc?
+      - qual principal objetivo do programa de mestrado?
+  - intent: esqueci_algo_predio
+    examples: |
+      - Esqueci algo no MACC, quando voltei tava fechado e n sei a senha, o que eu faço?
+      - Esqueci a minha chave da sala do macc, existe algum lugar com cópias ?
+      - esqueci meu computador no prédio, o que devo fazer?
+      - não tenho acesso ao prédio do PPGCC o que faço para ter acesso?
+      - preciso pegar um material que esqueci no prédio do ppgcc
+  - intent: autorizacao_predio
+    examples: |
+      - Posso levar animais para o MACC?
+      - Posso entrar com minha bicicleta no MACC?
+      - Posso ter uma cópia da chave do laboratório do MACC?
+      - Posso dormir no MACC?
+      - Posso levar comida para os laboratórios do MACC?
+      - Tive que fazer um trabalho até tarde da noite no MACC, posso dormir lá visto que já é tarde da noite?
+      - Esqueci de entregar a chave do MACC, e sem querer levei para casa, o que eu faço?
+      - Posso utilizar os equipamentos do MACC em outro lugar?
+  - intent: edital_selecao
+    examples: |
+      - Vai ter seleção este ano
+      - quando vai sair o edital de seleção
+      - Quando abre o edital de seleção para doutorado?
+      - Quando abre o edital de seleção para mestrado?
+      - Quando abre o edital de seleção?
+      - Qual a próxima seleção do ppgcc?
+      - Como faço para mim inscrever na seleção do mestrado de Ciências da Computação da UECE?
+  - intent: criterios_para_inscrever_selecao
+    examples: |
+      - Quais os critérios para me inscrever no PPGCC?
+      - Para participar do processo seletivo?
+      - Como posso participar?
+      - como faço para participar da seleção de mestrado
+      - o que preciso para participar das seleções de mestrado
+      - o que preciso pra me inscrever na seleção de mestrado
+      - critérios para se inscrever no processo seletivo
+      - o que é necessário para eu me qualificar para poder me candidatar ao mestrado
+      - qual os critérios que me qualificam para concorrer a vaga no programa
+  - intent: candidato_de_outro_pais
+    examples: |
+      - Meu diploma é de outro país, posso me inscrever?
+      - fiz minha graduação em outro país, posso concorrer ao processo seletivo
+      - sou de outro país, posso participar do seletivo de mestrado?
+      - para quem é de outro país tem alguma restrição para participar do seletivo?
+      - Quem é de outro país pode participar?
+      - quem tem diploma de outro país pode concorrer às vagas de mestrado
+  - intent: criterios_para_ser_aluno_especial
+    examples: |
+      - Quais critérios para eu solicitar ser Aluno Especial ?
+      - o que preciso para solicitar ser aluno especial
+      - qualquer candidato pode ser aluno especial?
+      - em qual momento posso solicitar ser aluno especial
+      - o que me qualificar para concorrer a vagas como aluno especial?
+      - qual os critérios para que eu possa concorrer como aluno especial?
+  - intent: solicitar_readmissao
+    examples: |
+      - O que preciso fazer para solicitar readmissão no PPGCC?
+      - como faço para solicitar readmissão
+      - o que preciso para solicitar readmissão
+      - onde solicito a readmissão
+      - com quem devo falar para solicitar readmissão
+  - intent: proficiencia_em_ingles
+    examples: |
+      - Preciso de proficiência em inglês para fazer a seleção?
+      - é obrigatório proficiência em inglês para fazer a seleção
+      - não tenho proficiência em inglês, posso me candidatar para vaga no programa?
+      - ainda não fiz a proficiência em inglês isso me desqualifica como candidato?
+      - não tenho proficiência em inglês, posso me inscrever no seletivo?
+  - intent: carga_horaria_mestrado_doutorado
+    examples: |
+      - qual a carga horária do mestrado?
+      - qual a carga horária do doutorado?
+  - intent: disciplina_distancia
+    examples: |
+      - Posso cursar as disciplinas a distância?
+      - posso fazer o mestrado a distância?
+      - existe a possibilidade de eu cursar o mestrado a distância
+      - as aulas são presenciais ou a distância
+      - tem aulas a distância que eu possa cursar?
+  - intent: funcionamento_predio
+    examples: |
+      - Qual o horário que o MACC inicia as atividades e abre o prédio?
+      - quando o prédio do ppgcc está aberto
+      - o prédio tem acesso em quais horários do dia?
+      - o prédio do programa funciona em horário comercial
+      - o prédio fica aberto enquanto as aulas estão rolando
+      - Em que momento o prédio é fechado?
+      - as salas do programa estão disponíveis no fim de semana
+      - O prédio funciona no fim de semana?
+  - intent: prorrogar_dissertação
+    examples: |
+      - Posso adiar minha apresentação de mestrado após 2 anos?
+      - Posso adiar minha apresentação de doutorado após os 4 anos?
+      - não defendi minha dissertação após os dois anos, posso prorrogar?
+      - posso prorrogar a defesa da minha dissertação?
+      - como faço para poder prorrogar minha dissertação?
+  - intent: contato_secretaria
+    examples: |
+      - Qual o contato da secretaria ?
+      - qual numero da secretaria
+      - qual email da secretaria
+  - intent: localizacao_PPGCC
+    examples: |
+      - Onde fica o macc?
+      - qual localização do ppgcc
+      - onde fica localizado o ppgcc
+      - qual localização do ppgcc
+  - intent: solicitar_declaracao
+    examples: |
+    - Quero pedir uma declaração
+    - Como eu faço para pedir uma declaração
+    - Como eu peço uma declaração
+    - Como eu obtenho uma declaração
+    - Como eu faço para obter uma declaração
+    - Como obtenho um comprovante de matrícula
+    - Onde consigo um histórico escolar
+    - Eu fiz mestrado no macc, como obtenho meu histórico escolar?
+    - Eu já defendi e fui aprovado, pode me dar uma declaração
+    - Onde eu solicito uma declaração dos horários das minhas aulas para levar para o meu trabalho?
+  - intent: viajem_para_evento
+    examples: |
+    - Quero solicitar ajuda de custo para viagem a um evento
+    - Quero solicitar ajuda de custo para viagem a um evento, como faço?
+    - O PPGCC paga inscrição em eventos
+    - E dá passagens para viajar
+    - e tem diarias
+  - intent: entrevista_mestrado_doutorado
+    examples: |
+    - Tenho que estudar alguma coisa para a entrevista
+    - Pode me indicar o que estudar para a entrevista
+  - intent: trancamento_mestrado_doutorado
+    examples: |
+    - Eu posso trancar o mestrado por 1 ano para fazer uma viagem
+    - Eu posso trancar o mestrado por 1 ano para fazer uma viagem e no doutorado
+  - intent: carteira_estudantil
+    examples: |
+    - Entrei na seleção do PPGCC, quero pedir a carteira de estudante
+    - onde eu peço a carteira de estudante
+  - intent: entrar_contato_corpo_docente_coordenacao
+    examples: |
+    - Quero agendar para falar com o coordenador
+    - Quero agendar para falar com o prof everardo
+    - como eu agendo para falar com o coordenador
+    - Quero agendar para falar com o prof everardo
+    - como eu agendo para falar com o prof gustavo
+  - intent: criterios_bolsa
+    examples:
+    - Posso ter bolsa tendo emprego
+    - quais os criterios para concorrer a bolsa de estudos
+  - intent: criterios_proficiencia_ingles
+    examples:
+    - Já tenho certificado Fisk de inglês, ainda preciso fazer prova de proficiência
