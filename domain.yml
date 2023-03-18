@@ -1,285 +1,281 @@
-version: "2.0"
+version: '2.0'
 config:
   store_entities_as_slots: true
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-  - cronograma_PPGCC:
-      use_entities: true
-  - creditos_disciplinas:
-      use_entities: true
-  - prorrogar_dissertação:
-      use_entities: true
-  - contato_secretaria:
-      use_entities: true
-  - acesso_aos_formularios:
-      use_entities: true
-  - solicitar_disciplinas_alunoEspecial:
-      use_entities: true
-  - conclusao_prazo:
-      use_entities: true
-  - localizacao_PPGCC:
-      use_entities: true
-  - compreencao_texto:
-      use_entities: true
-  - ingressar_como_aluno_especial:
-      use_entities: true
-  - engressar_PPGCC:
-      use_entities: true
-  - ingressar_PPGCC:
-      use_entities: true
-  - autorizacao_disciplinas:
-      use_entities: true
-  - aproveitamento_disciplina:
-      use_entities: true
-  - creditos_disciplina:
-      use_entities: true
-  - horario_disciplinas:
-      use_entities: true
-  - aprovacao_disciplinas:
-      use_entities: true
-  - readmissao_PPGCC:
-      use_entities: true
-  - restart:
-      use_entities: true
-  - quem_coordenador:
-      use_entities: true
-  - sobre_linha_de_pesquisa:
-      use_entities: true
-  - calendario_inicio_aula:
-      use_entities: true
-  - calendario_data_matricula:
-      use_entities: true
-  - trancamento_matricula:
-      use_entities: true
-  - sobre_regimento:
-      use_entities: true
-  - sobre_relatorios:
-      use_entities: true
-  - sobre_objetivo_PPGCC:
-      use_entities: true
-  - esqueci_algo_predio:
-      use_entities: true
-  - autorizacao_predio:
-      use_entities: true
-  - edital_selecao:
-      use_entities: true
-  - criterios_para_inscrever_selecao:
-      use_entities: true
-  - candidato_de_outro_pais:
-      use_entities: true
-  - criterios_para_ser_aluno_especial:
-      use_entities: true
-  - solicitar_readmissao:
-      use_entities: true
-  - proficiencia_em_ingles:
-      use_entities: true
-  - Papel_do_orientador:
-      use_entities: true
-  - carga_horaria_mestrado_doutorado:
-      use_entities: true
-  - disciplina_distancia:
-      use_entities: true
-  - avaliacao_das_disciplinas:
-      use_entities: true
-  - funcionamento_predio:
-      use_entities: true
-  - verificar_disponibilidade_espaco_fisico:
-      use_entities: true
-  - horario_funcionamento:
-      use_entities: true
-  - acesso_espaco_fisico:
-      use_entities: true
-  - salas_de_aula_possuem_projetor:
-      use_entities: true
-  - buscar_sala_de_aula_da_disciplina:
-      use_entities: true
-  - saudacao:
-      use_entities: true
-  - informacoes_espaco_fisico:
-      use_entities: true
-  - action_default_fallback:
-      use_entities: true
-  - solicitar_declaracao:
-      use_entities: true
-  - solicitar_declaracao:
-      use_entities: true
-  - entrevista_mestrado_doutorado:
-      use_entities: true
-  - trancamento_mestrado_doutorado:
-      use_entities: true
-  - carteira_estudantil:
-      use_entities: true
-  - entrar_contato_corpo_docente_coordenacao:
-      use_entities: true
-  - criterios_bolsa:
-      use_entities: true
-  - criterios_proficiencia_ingles:
-      use_entities: true
+- cronograma_PPGCC:
+    use_entities: true
+- creditos_disciplinas:
+    use_entities: true
+- prorrogar_dissertação:
+    use_entities: true
+- contato_secretaria:
+    use_entities: true
+- acesso_aos_formularios:
+    use_entities: true
+- solicitar_disciplinas_alunoEspecial:
+    use_entities: true
+- localizacao_PPGCC:
+    use_entities: true
+- compreencao_texto:
+    use_entities: true
+- ingressar_como_aluno_especial:
+    use_entities: true
+- ingressar_PPGCC:
+    use_entities: true
+- autorizacao_disciplinas:
+    use_entities: true
+- aproveitamento_disciplina:
+    use_entities: true
+- creditos_disciplina:
+    use_entities: true
+- horario_disciplinas:
+    use_entities: true
+- aprovacao_disciplinas:
+    use_entities: true
+- readmissao_PPGCC:
+    use_entities: true
+- restart:
+    use_entities: true
+- quem_coordenador:
+    use_entities: true
+- sobre_linha_de_pesquisa:
+    use_entities: true
+- calendario_inicio_aula:
+    use_entities: true
+- calendario_data_matricula:
+    use_entities: true
+- trancamento_matricula:
+    use_entities: true
+- sobre_regimento:
+    use_entities: true
+- sobre_relatorios:
+    use_entities: true
+- sobre_objetivo_PPGCC:
+    use_entities: true
+- esqueci_algo_predio:
+    use_entities: true
+- autorizacao_predio:
+    use_entities: true
+- edital_selecao:
+    use_entities: true
+- criterios_para_inscrever_selecao:
+    use_entities: true
+- candidato_de_outro_pais:
+    use_entities: true
+- criterios_para_ser_aluno_especial:
+    use_entities: true
+- solicitar_readmissao:
+    use_entities: true
+- proficiencia_em_ingles:
+    use_entities: true
+- Papel_do_orientador:
+    use_entities: true
+- carga_horaria_mestrado_doutorado:
+    use_entities: true
+- disciplina_distancia:
+    use_entities: true
+- avaliacao_das_disciplinas:
+    use_entities: true
+- funcionamento_predio:
+    use_entities: true
+- verificar_disponibilidade_espaco_fisico:
+    use_entities: true
+- horario_funcionamento:
+    use_entities: true
+- acesso_espaco_fisico:
+    use_entities: true
+- salas_de_aula_possuem_projetor:
+    use_entities: true
+- buscar_sala_de_aula_da_disciplina:
+    use_entities: true
+- saudacao:
+    use_entities: true
+- informacoes_espaco_fisico:
+    use_entities: true
+- action_default_fallback:
+    use_entities: true
+- solicitar_declaracao:
+    use_entities: true
+- entrevista_mestrado_doutorado:
+    use_entities: true
+- trancamento_mestrado_doutorado:
+    use_entities: true
+- carteira_estudantil:
+    use_entities: true
+- entrar_contato_corpo_docente_coordenacao:
+    use_entities: true
+- criterios_bolsa:
+    use_entities: true
+- criterios_proficiencia_ingles:
+    use_entities: true
+- viajem_para_evento:
+    use_entities: true
 entities:
-  - espaco_fisico
+- espaco_fisico
 slots: {}
 responses:
   utter_sala_tem_projetor:
-    - text: Sim, as salas de aulas são adaptadas com projetor.
+  - text: Sim, as salas de aulas são adaptadas com projetor.
   utter_buscar_sala_de_aula_da_disciplina:
-    - text: Os mapas das salas de aula são enviados por email, para mais informações sobre onde irá acontecer a disciplina entre em contato com o professor ou com o coordenador.
+  - text: Os mapas das salas de aula são enviados por email, para mais informações sobre onde irá acontecer a disciplina entre em contato com o professor ou com o coordenador.
   utter_acesso_espaço_fisico_sala_de_aula:
-    - text: Normalmente, as salas de aula são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
+  - text: Normalmente, as salas de aula são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
   utter_acesso_espaço_fisico_equipamentos:
-    - text: Normalmente, os equipamentos são de uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
+  - text: Normalmente, os equipamentos são de uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
   utter_acesso_espaço_fisico_laboratorios:
-    - text: Normalmente, os laboratórios são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
+  - text: Normalmente, os laboratórios são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
   utter_acesso_espaço_fisico_secretaria:
-    - text: Normalmente, acesso a secretaria são para uso exclusivo de professores e agentes administrativos. Para mais informações entre em contato com a secretaria.
+  - text: Normalmente, acesso a secretaria são para uso exclusivo de professores e agentes administrativos. Para mais informações entre em contato com a secretaria.
   utter_acesso_espaço_fisico_auditorio:
-    - text: Normalmente, o auditorio são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
+  - text: Normalmente, o auditorio são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
   utter_acesso_espaço_fisico_sala_de_seminarios:
-    - text: Normalmente, a sala de seminários são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
+  - text: Normalmente, a sala de seminários são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
   utter_acesso_espaço_fisico_cozinha:
-    - text: Normalmente, a cozinha é para uso exclusivo de professores, servidores administrativos e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
+  - text: Normalmente, a cozinha é para uso exclusivo de professores, servidores administrativos e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
   utter_acesso_espaço_fisico_sala_dos_professores:
-    - text: Normalmente, os laboratórios são reservadas para uso exclusivo dos professores. Para mais informações entre em contato com a secretaria.
+  - text: Normalmente, os laboratórios são reservadas para uso exclusivo dos professores. Para mais informações entre em contato com a secretaria.
   utter_acesso_espaço_fisico_sala_de_reuniao:
-    - text: Normalmente, as salas de reunião são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
+  - text: Normalmente, as salas de reunião são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria.
   utter_acesso_espaço_fisico_banheiro:
-    - text: Acesso ao banheiro é livre.
+  - text: Acesso ao banheiro é livre.
   utter_acesso_espaço_fisico_biblioteca:
-    - text: A biblioteca é para uso de professores, servidores, visitantes e alunos que estão regularmente  matriculados. Para mais informações entre em contato presencial com setor administrativo da Biblioteca.
+  - text: A biblioteca é para uso de professores, servidores, visitantes e alunos que estão regularmente  matriculados. Para mais informações entre em contato presencial com setor administrativo da Biblioteca.
   utter_acesso_espaço_fisico_prédio_do_PPGCC:
-    - text: Normalmente, os laboratórios são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria do PPGCC.
+  - text: Normalmente, os laboratórios são reservadas para uso exclusivo de professores e alunos que estão regularmente  matriculados. Para mais informações entre em contato com a secretaria do PPGCC.
   utter_acesso_espaço_fisico_refeitorio:
-    - text: Acesso ao refeitorio é livre. Para mais informações se encaminha presencialmente ao refeitorio pois as politicas de uso podem alterar sem aviso previo.
+  - text: Acesso ao refeitorio é livre. Para mais informações se encaminha presencialmente ao refeitorio pois as politicas de uso podem alterar sem aviso previo.
   utter_verificar_disponibilidade_espaco_fisico:
-    - text: Você pode verificar a disponibilidade do local entrando em contato com a coordenação para obter informações atualizadas sobre a ocupação do espaço
+  - text: Você pode verificar a disponibilidade do local entrando em contato com a coordenação para obter informações atualizadas sobre a ocupação do espaço
   utter_horario_funcionamento_sala_de_aula:
-    - text: O horário de funcionamento das salas de aula do PPGCC varia de acordo com a programação de cada disciplina. Normalmente, as aulas acontecem nos dias úteis, das 8h às 22h. No entanto, é importante ressaltar que os horários podem sofrer alterações em caso de feriados, recessos ou necessidades específicas do curso. Para mais informações sobre o horário de funcionamento das salas de aula, sugerimos consultar a secretaria do programa.
+  - text: O horário de funcionamento das salas de aula do PPGCC varia de acordo com a programação de cada disciplina. Normalmente, as aulas acontecem nos dias úteis, das 8h às 22h. No entanto, é importante ressaltar que os horários podem sofrer alterações em caso de feriados, recessos ou necessidades específicas do curso. Para mais informações sobre o horário de funcionamento das salas de aula, sugerimos consultar a secretaria do programa.
   utter_horario_funcionamento_laboratorio:
-    - text: O horário de funcionamento dos laboratórios pode variar de acordo com cada unidade ou departamento. É importante verificar diretamente com a coordenação responsável para mais informações sobre os horários disponíveis para uso.
+  - text: O horário de funcionamento dos laboratórios pode variar de acordo com cada unidade ou departamento. É importante verificar diretamente com a coordenação responsável para mais informações sobre os horários disponíveis para uso.
   utter_horario_funcionamento_secretaria:
-    - text: O horário de funcionamento da secretaria é de segunda a sexta-feira, das 8h às 12h e das 14h às 18h. Porém, em alguns períodos, como férias e recessos, pode haver alterações nos horários de atendimento. É sempre recomendável entrar em contato com a secretaria para confirmar o horário de funcionamento.
+  - text: O horário de funcionamento da secretaria é de segunda a sexta-feira, das 8h às 12h e das 14h às 18h. Porém, em alguns períodos, como férias e recessos, pode haver alterações nos horários de atendimento. É sempre recomendável entrar em contato com a secretaria para confirmar o horário de funcionamento.
   utter_horario_funcionamento_auditorio:
-    - text: O horário de funcionamento do auditório pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
+  - text: O horário de funcionamento do auditório pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
   utter_horario_funcionamento_sala_de_seminários:
-    - text: O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
+  - text: O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
   utter_horario_funcionamento_cozinha:
-    - text: O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
+  - text: O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
   utter_horario_funcionamento_sala_dos_professores:
-    - text: O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
+  - text: O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
   utter_horario_funcionamento_sala_de_reuniao:
-    - text: O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
+  - text: O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
   utter_horario_funcionamento_banheiro:
-    - text: O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
+  - text: O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
   utter_horario_funcionamento_biblioteca:
-    - text: A biblioteca do PPGCC funciona de segunda a sexta-feira, das 8h às 12h e das 13h às 17h. É importante lembrar que durante o período de férias escolares ou recesso universitário, o horário de funcionamento pode sofrer alterações. É recomendado que você confirme o horário diretamente com a biblioteca ou a secretaria do programa.
+  - text: A biblioteca do PPGCC funciona de segunda a sexta-feira, das 8h às 12h e das 13h às 17h. É importante lembrar que durante o período de férias escolares ou recesso universitário, o horário de funcionamento pode sofrer alterações. É recomendado que você confirme o horário diretamente com a biblioteca ou a secretaria do programa.
   utter_horario_funcionamento_predio_PPGCC:
-    - text: O horário de funcionamento do prédio do PPGCC é de segunda a sexta-feira, das 8h às 22h, exceto em feriados e recessos acadêmicos. É importante ressaltar que esse horário pode sofrer alterações de acordo com as necessidades do programa ou da universidade. Recomendamos sempre verificar com antecedência possíveis mudanças nos horários de funcionamento.
+  - text: O horário de funcionamento do prédio do PPGCC é de segunda a sexta-feira, das 8h às 22h, exceto em feriados e recessos acadêmicos. É importante ressaltar que esse horário pode sofrer alterações de acordo com as necessidades do programa ou da universidade. Recomendamos sempre verificar com antecedência possíveis mudanças nos horários de funcionamento.
   utter_horario_funcionamento_refeitorio:
-    - text: O horário de funcionamento do refeitório pode variar dependendo do período letivo e das atividades programadas. É recomendável verificar com a administração do programa ou com a coordenação do refeitório para obter informações precisas sobre os horários de funcionamento.
+  - text: O horário de funcionamento do refeitório pode variar dependendo do período letivo e das atividades programadas. É recomendável verificar com a administração do programa ou com a coordenação do refeitório para obter informações precisas sobre os horários de funcionamento.
   utter_horario_funcionamento:
-    - text: O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
+  - text: O horário de funcionamento pode variar de acordo com a agenda de eventos e atividades programadas. Recomendamos verificar a programação atualizada para saber os horários disponíveis para uso. Em caso de dúvidas, você pode entrar em contato com a secretaria do PPGCC.
   utter_informacoes_espaco_fisico:
-    - text: Entre em contato com a coordenação ou a secretaria do curso para obter mais informações sobre a política de agendamento, cancelamento e alteração.
+  - text: Entre em contato com a coordenação ou a secretaria do curso para obter mais informações sobre a política de agendamento, cancelamento e alteração.
   utter_saudacao:
-    - text: Olá, em que posso ajudar?
+  - text: Olá, em que posso ajudar?
   utter_ingressar_como_aluno_especial:
-    - text: "Pode solicitar a condição de Aluno Especial o candidato aprovado no processo seletivo que: a) Optou por ingressar como aluno especial, b) Não pode ingressar no Programa por insuficiência de vagas, c) Alunos de graduação da UECE nos últimos 2 (dois) semestres de curso de graduação em Ciência da Computação e áreas afins, para mais informações consulte o Art. 23° do regimento do programa."
+  - text: 'Pode solicitar a condição de Aluno Especial o candidato aprovado no processo seletivo que: a) Optou por ingressar como aluno especial, b) Não pode ingressar no Programa por insuficiência de vagas, c) Alunos de graduação da UECE nos últimos 2 (dois) semestres de curso de graduação em Ciência da Computação e áreas afins, para mais informações consulte o Art. 23° do regimento do programa.'
   utter_ingressar_PPGCC:
-    - text: O ingresso no programa de mestrado e doutorado do PPGCC é feito por meio de edital, geralmente o edital é publicado no meio e no final do ano. Para informações sobre data de abertura do edital entre em contato com a secretaria do programa.
-    - text: O ingresso de alunos regulares no PPGCC dar-se-á por processo seletivo estabelecidas em Chamada Pública publicada pela UECE.
+  - text: O ingresso no programa de mestrado e doutorado do PPGCC é feito por meio de edital, geralmente o edital é publicado no meio e no final do ano. Para informações sobre data de abertura do edital entre em contato com a secretaria do programa.
+  - text: O ingresso de alunos regulares no PPGCC dar-se-á por processo seletivo estabelecidas em Chamada Pública publicada pela UECE.
   utter_readmissao_PPGCC:
-    - text: Os alunos desligados do programa, independente do motivo, poderão solicitar readmissão ao PPGCC a qualquer momento, sendo aproveitadas as disciplinas e atividades realizadas anteriormente de acordo com o determinado pelo Art. 34 do regimento do PPGCC. Cabe à comissão de pós-graduação do PPGCC decidir sobre a readmissão de alunos desligados do programa.
+  - text: Os alunos desligados do programa, independente do motivo, poderão solicitar readmissão ao PPGCC a qualquer momento, sendo aproveitadas as disciplinas e atividades realizadas anteriormente de acordo com o determinado pelo Art. 34 do regimento do PPGCC. Cabe à comissão de pós-graduação do PPGCC decidir sobre a readmissão de alunos desligados do programa.
   utter_autorizacao_disciplinas:
-    - text: Cada disciplina é ministrada por um professor responsável qualquer ação referente a disciplina deve ser solicitada/comunicada ao professor, para que ele possa autorizar.
+  - text: Cada disciplina é ministrada por um professor responsável qualquer ação referente a disciplina deve ser solicitada/comunicada ao professor, para que ele possa autorizar.
   utter_aproveitamento_disciplina:
-    - text: Mediante parecer do seu orientador e aprovação da Comissão de Pós-graduação, poderão ser aceitos os créditos obtidos em disciplinas cursadas anteriormente no PPGCC ou de outros programas de pós-graduação stricto sensu reconhecidos pela CAPES, observadas as equivalências de carga horária, conteúdo programático e a aprovação na disciplina, para mais informações consulte o Art. 34° do regimento do PPGCC.
+  - text: Mediante parecer do seu orientador e aprovação da Comissão de Pós-graduação, poderão ser aceitos os créditos obtidos em disciplinas cursadas anteriormente no PPGCC ou de outros programas de pós-graduação stricto sensu reconhecidos pela CAPES, observadas as equivalências de carga horária, conteúdo programático e a aprovação na disciplina, para mais informações consulte o Art. 34° do regimento do PPGCC.
   utter_creditos_disciplina:
-    - text: Aluno de mestrado:04 (quatro) créditos em disciplinas do núcleo comum, 20 (vinte) créditos em disciplinas específicas das linhas de pesquisa e 02 (dois) créditos em Estágio à Docência. Aluno de doutorado:08 (quatro) créditos em disciplinas do núcleo comum, 40 (vinte) créditos em disciplinas específicas das linhas de pesquisa e 04 (dois) créditos em Estágio à Docência.
+  - text: Aluno de mestrado:04 (quatro) créditos em disciplinas do núcleo comum, 20 (vinte) créditos em disciplinas específicas das linhas de pesquisa e 02 (dois) créditos em Estágio à Docência. Aluno de doutorado:08 (quatro) créditos em disciplinas do núcleo comum, 40 (vinte) créditos em disciplinas específicas das linhas de pesquisa e 04 (dois) créditos em Estágio à Docência.
   utter_horario_disciplinas:
-    - text: Os horários das aulas do PPGCC são liberados a cada início de semestre e variam de acordo com a disponibilidade de cada professor.
+  - text: Os horários das aulas do PPGCC são liberados a cada início de semestre e variam de acordo com a disponibilidade de cada professor.
   utter_aprovacao_disciplinas:
-    - text: |-
-        A avaliação do aproveitamento escolar, o professor deverá conceder.
-        um conceito numérico de 0,0 (zero) a 10,0 (dez), sendo considerado aprovado o aluno que
-        obtiver conceito igual ou superior a 7,0 (sete).
+  - text: |-
+      A avaliação do aproveitamento escolar, o professor deverá conceder.
+      um conceito numérico de 0,0 (zero) a 10,0 (dez), sendo considerado aprovado o aluno que
+      obtiver conceito igual ou superior a 7,0 (sete).
   utter_quem_coordenador:
-    - text: O coordenador atual do PPGCC é o Prof. Paulo Henrique.
+  - text: O coordenador atual do PPGCC é o Prof. Paulo Henrique.
   utter_sobre_linha_de_pesquisa:
-    - text: "Atualmente o programa conta com 03 áreas de concentração, são elas:Engenharia De Software E Interface Homem-Máquina, Algoritmos, Otimização E Inteligência Computacional e Redes De Comunicação, Sistemas Distribuídos E Segurança. Você pode buscar mais informações sobre temas estudados em cada área e respectivamente os professores de cada linha de pesquisa no site do PPGCC: http://www.uece.br/ppgcc/ensino/linhas-de-pesquisa/"
+  - text: 'Atualmente o programa conta com 03 áreas de concentração, são elas:Engenharia De Software E Interface Homem-Máquina, Algoritmos, Otimização E Inteligência Computacional e Redes De Comunicação, Sistemas Distribuídos E Segurança. Você pode buscar mais informações sobre temas estudados em cada área e respectivamente os professores de cada linha de pesquisa no site do PPGCC: http://www.uece.br/ppgcc/ensino/linhas-de-pesquisa/'
   utter_calendario_data_matricula:
-    - text: A cada semestre é exposto um calendário acadêmico a comunidade, você pode acessar no site do programa nele tem as informações de período de matrícula, início do semestre, prazo de trancamento e término do semestre. http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/. Para mais informações entre em contato com a coordenação."
+  - text: A cada semestre é exposto um calendário acadêmico a comunidade, você pode acessar no site do programa nele tem as informações de período de matrícula, início do semestre, prazo de trancamento e término do semestre. http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/. Para mais informações entre em contato com a coordenação."
   utter_calendario_inicio_aula:
-    - text: A cada semestre é exposto um calendário acadêmico a comunidade, você pode acessar no site do programa nele tem as informações de período de matrícula, início do semestre, prazo de trancamento e término do semestre. http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/. Para mais informações entre em contato com a coordenação."
+  - text: A cada semestre é exposto um calendário acadêmico a comunidade, você pode acessar no site do programa nele tem as informações de período de matrícula, início do semestre, prazo de trancamento e término do semestre. http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/. Para mais informações entre em contato com a coordenação."
   utter_trancamento_matricula:
-    - text: "O aluno poderá trancar a matrícula dentro do prazo estabelecido no calendário acadêmico. Para informações mais detalhadas acesse: http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/"
-    - text: A cada semestre é exposto um calendário acadêmico a comunidade, você pode acessar no site do programa nele tem as informações de período de matrícula, início do semestre, prazo de trancamento e término do semestre. http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/. Para mais informações entre em contato com a coordenação."
+  - text: 'O aluno poderá trancar a matrícula dentro do prazo estabelecido no calendário acadêmico. Para informações mais detalhadas acesse: http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/'
+  - text: A cada semestre é exposto um calendário acadêmico a comunidade, você pode acessar no site do programa nele tem as informações de período de matrícula, início do semestre, prazo de trancamento e término do semestre. http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/. Para mais informações entre em contato com a coordenação."
   utter_sobre_regimento:
-    - text: "No site do PPGCC na opção download você encontra todos os formulários disponibilizados, documentos relacionados ao programa, dissertações, relatórios técnicos entre outros documentos. Segue link: http://www.uece.br/ppgcc/download/downloads/"
+  - text: 'No site do PPGCC na opção download você encontra todos os formulários disponibilizados, documentos relacionados ao programa, dissertações, relatórios técnicos entre outros documentos. Segue link: http://www.uece.br/ppgcc/download/downloads/'
   utter_sobre_relatorios:
-    - text: "No site do PPGCC na opção download você encontra todos os formulários disponibilizados, documentos relacionados ao programa, dissertações, relatórios técnicos entre outros documentos. Segue link: http://www.uece.br/ppgcc/download/downloads/"
+  - text: 'No site do PPGCC na opção download você encontra todos os formulários disponibilizados, documentos relacionados ao programa, dissertações, relatórios técnicos entre outros documentos. Segue link: http://www.uece.br/ppgcc/download/downloads/'
   utter_sobre_objetivo_PPGCC:
-    - text: O PPGCC tem como objetivo principal a formação de pesquisadores e docentes do magistério superior na área de Ciência da Computação.
+  - text: O PPGCC tem como objetivo principal a formação de pesquisadores e docentes do magistério superior na área de Ciência da Computação.
   utter_esqueci_algo_predio:
-    - text: O mais indicado é entrar em contato com um responsável que tenha acesso ao prédio.. O acesso são dados por meio de autorização
+  - text: O mais indicado é entrar em contato com um responsável que tenha acesso ao prédio.. O acesso são dados por meio de autorização
   utter_autorizacao_predio:
-    - text: Deve-se solicitar autorização à coordenação ou o professor responsável. Para mais informações entre em contato com a coordenação do programa.
+  - text: Deve-se solicitar autorização à coordenação ou o professor responsável. Para mais informações entre em contato com a coordenação do programa.
   utter_edital_selecao:
-    - text: A oferta de processo seletivo deverá ser feita, pelo menos, uma vez por ano, podendo ter frequência maior de acordo com a disponibilidade de orientadores e a avaliação de demanda potencial. Para consultar mais sobre o edital acesse o site http://www.uece.br/ppgcc/categoria/processo-seletivo/ ou  entre em contato com a secretaria do programa pelo número (85) 3101-9776.
+  - text: A oferta de processo seletivo deverá ser feita, pelo menos, uma vez por ano, podendo ter frequência maior de acordo com a disponibilidade de orientadores e a avaliação de demanda potencial. Para consultar mais sobre o edital acesse o site http://www.uece.br/ppgcc/categoria/processo-seletivo/ ou  entre em contato com a secretaria do programa pelo número (85) 3101-9776.
   utter_criterios_para_inscrever_selecao:
-    - text: Poderá ser admitido no PPGCC, candidato portador de diploma em Curso de Graduação e/ou Curso de Mestrado, que tenha sido aprovado no processo seletivo respectivo e que satisfaça eventuais exigências específicas do PPGCC, devidamente expressas na Chamada Pública própria de cada processo seletivo
+  - text: Poderá ser admitido no PPGCC, candidato portador de diploma em Curso de Graduação e/ou Curso de Mestrado, que tenha sido aprovado no processo seletivo respectivo e que satisfaça eventuais exigências específicas do PPGCC, devidamente expressas na Chamada Pública própria de cada processo seletivo
   utter_candidato_de_outro_pais:
-    - text: Poderá ser aceito no PPGCC candidato portador de diploma de curso superior fornecido por instituição de outro país, desde que revalidado por órgãos competentes no Brasil.
+  - text: Poderá ser aceito no PPGCC candidato portador de diploma de curso superior fornecido por instituição de outro país, desde que revalidado por órgãos competentes no Brasil.
   utter_criterios_para_ser_aluno_especial:
-    - text: "Pode pleitear a condição de Aluno Especial o candidato aprovado no processo seletivo que: a) Optou por ingressar como aluno especial. b) Não pode ingressar no Programa por insuficiência de vagas. c) Alunos de graduação da UECE nos últimos 2 (dois) semestres de curso de graduação em Ciência da Computação e áreas afins."
+  - text: 'Pode pleitear a condição de Aluno Especial o candidato aprovado no processo seletivo que: a) Optou por ingressar como aluno especial. b) Não pode ingressar no Programa por insuficiência de vagas. c) Alunos de graduação da UECE nos últimos 2 (dois) semestres de curso de graduação em Ciência da Computação e áreas afins.'
   utter_solicitar_readmissao:
-    - text: "Para solicitar a readmissão, o aluno deve apresentar: a) Solicitação de readmissão apresentando o cronograma de atividades previstas até a conclusão do curso. b) Anuência do orientador escolhido. c) Copião do texto da Dissertação ou Tese. § 2. A solicitação será deliberada pela Comissão de Pós-Graduação."
+  - text: 'Para solicitar a readmissão, o aluno deve apresentar: a) Solicitação de readmissão apresentando o cronograma de atividades previstas até a conclusão do curso. b) Anuência do orientador escolhido. c) Copião do texto da Dissertação ou Tese. § 2. A solicitação será deliberada pela Comissão de Pós-Graduação.'
   utter_proficiencia_em_ingles:
-    - text: Os alunos deverão prestar prova dissertativa de proficiência em língua inglesa conforme Regulamento específico do PPGCC, não é obrigatório proficiência em inglês para fazer a seleção.
+  - text: Os alunos deverão prestar prova dissertativa de proficiência em língua inglesa conforme Regulamento específico do PPGCC, não é obrigatório proficiência em inglês para fazer a seleção.
   utter_Papel_do_orientador:
-    - text: "Compete ao Orientador Acadêmico ou Orientador de Dissertação/Tese: a) indicar o plano de disciplinas que o orientando deverá cursar tendo em vista a linha de pesquisa e oferta de disciplinas; b) orientar o pós-graduando na organização de seu plano de estudo e pesquisa e assistí-lo continuadamente em sua formação pós-graduada; c) propor à Comissão de Pós-graduação a composição das Banca Examinadora de sua Dissertação ou Tese."
+  - text: 'Compete ao Orientador Acadêmico ou Orientador de Dissertação/Tese: a) indicar o plano de disciplinas que o orientando deverá cursar tendo em vista a linha de pesquisa e oferta de disciplinas; b) orientar o pós-graduando na organização de seu plano de estudo e pesquisa e assistí-lo continuadamente em sua formação pós-graduada; c) propor à Comissão de Pós-graduação a composição das Banca Examinadora de sua Dissertação ou Tese.'
   utter_carga_horaria_mestrado_doutorado:
-    - text: Para Mestrado, um mínimo 24 (vinte e quatro) créditos em disciplinas e 02 (dois créditos) em Estágio à Docência, com uma duração mínima de 06 (seis) meses e máxima de 24 (vinte e quatro) meses. b) Para Doutorado, um mínimo 48 (quarenta) créditos em disciplinas e 04 (quatro créditos) em Estágio à Docência, com uma duração mínima de 24 (vinte e quatro) meses e máxima de 48 (quarenta e oito) meses.
+  - text: Para Mestrado, um mínimo 24 (vinte e quatro) créditos em disciplinas e 02 (dois créditos) em Estágio à Docência, com uma duração mínima de 06 (seis) meses e máxima de 24 (vinte e quatro) meses. b) Para Doutorado, um mínimo 48 (quarenta) créditos em disciplinas e 04 (quatro créditos) em Estágio à Docência, com uma duração mínima de 24 (vinte e quatro) meses e máxima de 48 (quarenta e oito) meses.
   utter_disciplina_distancia:
-    - text: A frequência nas disciplinas é obrigatória e não poderá ser inferior a 75% (setenta e cinco por cento) da carga horária programada, por disciplina ou atividade.
+  - text: A frequência nas disciplinas é obrigatória e não poderá ser inferior a 75% (setenta e cinco por cento) da carga horária programada, por disciplina ou atividade.
   utter_avaliacao_das_disciplinas:
-    - text: Como resultado da avaliação do aproveitamento escolar, o professor deverá conceder um conceito numérico de 0,0 (zero) a 10,0 (dez), sendo considerado aprovado o aluno que obtiver conceito igual ou superior a 7,0 (sete).
+  - text: Como resultado da avaliação do aproveitamento escolar, o professor deverá conceder um conceito numérico de 0,0 (zero) a 10,0 (dez), sendo considerado aprovado o aluno que obtiver conceito igual ou superior a 7,0 (sete).
   utter_cronograma_PPGCC:
-    - text: 'O cronograma acadêmico para pode ser acessado pelo site: http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/. Para mais informações entre em contato com a coordenação."'
+  - text: 'O cronograma acadêmico para pode ser acessado pelo site: http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/. Para mais informações entre em contato com a coordenação."'
   utter_creditos_disciplinas:
-    - text: Cada valor de créditos da disciplina é exposto quando as mesmas são ofertadas.
+  - text: Cada valor de créditos da disciplina é exposto quando as mesmas são ofertadas.
   utter_prorrogar_dissertação:
-    - text: "Por requisição formal protocolada do aluno e com a anuência do professor orientador, estes prazos máximos de conclusão poderão ser prorrogados, mediante aprovação da Comissão de Pós-graduação: a) Para Mestrado, prorrogação de até 06 (seis) meses, totalizando um máximo de 30 (trinta) meses. b) Para Doutorado, prorrogação de até 12 (doze) meses, totalizando um máximo de 60 (sessenta) meses."
+  - text: 'Por requisição formal protocolada do aluno e com a anuência do professor orientador, estes prazos máximos de conclusão poderão ser prorrogados, mediante aprovação da Comissão de Pós-graduação: a) Para Mestrado, prorrogação de até 06 (seis) meses, totalizando um máximo de 30 (trinta) meses. b) Para Doutorado, prorrogação de até 12 (doze) meses, totalizando um máximo de 60 (sessenta) meses.'
   utter_contato_secretaria:
-    - text: "Horário de funcionamento: Segunda a Sexta-feira de 8:00 – 17:00 Contatos: Fone: (85) 3101-9776 E-mail: macc@uece.br"
+  - text: 'Horário de funcionamento: Segunda a Sexta-feira de 8:00 – 17:00 Contatos: Fone: (85) 3101-9776 E-mail: macc@uece.br'
   utter_acesso_aos_formularios:
-    - text: Todos os formulários estão no site http://www.uece.br/ppgcc/download/downloads/, caso não encontre o formulário procurando entre em contato com a secretaria.
+  - text: Todos os formulários estão no site http://www.uece.br/ppgcc/download/downloads/, caso não encontre o formulário procurando entre em contato com a secretaria.
   utter_solicitar_disciplinas_alunoEspecial:
-    - text: Os alunos especiais deverão solicitar a inscrição em disciplinas através de formulário específico com a anuência da Comissão de Pós-graduação e do professor da disciplina.
+  - text: Os alunos especiais deverão solicitar a inscrição em disciplinas através de formulário específico com a anuência da Comissão de Pós-graduação e do professor da disciplina.
   utter_localizacao_PPGCC:
-    - text: AV. DR. SILAS MUNGUBA, 1700 - CAMPUS DO ITAPERI - FORTALEZA,CE
+  - text: AV. DR. SILAS MUNGUBA, 1700 - CAMPUS DO ITAPERI - FORTALEZA,CE
   utter_compreencao_texto:
-    - text: Certo. Tem mais alguma pergunta?
+  - text: Certo. Tem mais alguma pergunta?
   utter_funcionamento_predio:
-    - text: "Horário de funcionamento: Segunda a Sexta-feira de 8:00 – 17:00 Contatos: Fone: (85) 3101-9776 E-mail: macc@uece.br"
+  - text: 'Horário de funcionamento: Segunda a Sexta-feira de 8:00 – 17:00 Contatos: Fone: (85) 3101-9776 E-mail: macc@uece.br'
   utter_default:
-    - text: Desculpe, não entendi o que você disse. Por favor, digite novamente.
+  - text: Desculpe, não entendi o que você disse. Por favor, digite novamente.
   utter_solicitar_declaracao:
-    - text: As declarações de matrícula, histórico escolar e matrícula semestral estão disponíveis no Sisacad do programa, acessível através do endereço https://sisacadpg.uece.br/. Para obter outros documentos, é necessário entrar em contato com a coordenação ou secretaria do curso.
+  - text: As declarações de matrícula, histórico escolar e matrícula semestral estão disponíveis no Sisacad do programa, acessível através do endereço https://sisacadpg.uece.br/. Para obter outros documentos, é necessário entrar em contato com a coordenação ou secretaria do curso.
   utter_viajem_para_evento:
-    - text: Para solicitar ajuda de custo para uma viagem a um evento do PPGCC, é necessário seguir os procedimentos estabelecidos pelo programa. É preciso solicitar a coordenação um formulário de solicitação e verificar os requisitos para solicitar viajem.
+  - text: Para solicitar ajuda de custo para uma viagem a um evento do PPGCC, é necessário seguir os procedimentos estabelecidos pelo programa. É preciso solicitar a coordenação um formulário de solicitação e verificar os requisitos para solicitar viajem.
   utter_entrevista_mestrado_doutorado:
-    - text: É altamente recomendado que você se prepare para a entrevista de mestrado e doutorado do PPGCC estudando sobre o programa e o campo de pesquisa em que ele está inserido. Além disso, revise os tópicos importantes em sua área de pesquisa, identifique os conceitos-chave e fique atualizado sobre as últimas pesquisas e desenvolvimentos. Certifique-se de estar preparado para explicar sua pesquisa atual e interesses futuros de pesquisa de forma clara e concisa. Durante a entrevista, esteja aberto e pronto para discutir ideias e opiniões com os entrevistadores.
+  - text: É altamente recomendado que você se prepare para a entrevista de mestrado e doutorado do PPGCC estudando sobre o programa e o campo de pesquisa em que ele está inserido. Além disso, revise os tópicos importantes em sua área de pesquisa, identifique os conceitos-chave e fique atualizado sobre as últimas pesquisas e desenvolvimentos. Certifique-se de estar preparado para explicar sua pesquisa atual e interesses futuros de pesquisa de forma clara e concisa. Durante a entrevista, esteja aberto e pronto para discutir ideias e opiniões com os entrevistadores.
   utter_trancamento_mestrado_doutorado:
-    - text: O trancamento do mestrado ou doutorado por um periodo pode ser possível, mas é importante lembrar que essa decisão pode ter implicações acadêmicas. Antes de decidir trancar é importante entrar em contato com a coordenação do programa para verificar se essa opção está disponível e quais são os procedimentos e prazos para o trancamento. Em alguns casos, o trancamento pode ser autorizado apenas em situações específicas, como doença ou motivos pessoais graves.
+  - text: O trancamento do mestrado ou doutorado por um periodo pode ser possível, mas é importante lembrar que essa decisão pode ter implicações acadêmicas. Antes de decidir trancar é importante entrar em contato com a coordenação do programa para verificar se essa opção está disponível e quais são os procedimentos e prazos para o trancamento. Em alguns casos, o trancamento pode ser autorizado apenas em situações específicas, como doença ou motivos pessoais graves.
   utter_carteira_estudantil:
-    - text: Caso você tenha sido aprovado na seleção do PPGCC e esteja matriculado no programa, é possível solicitar a carteira de estudante. Acesse o site https://catalogodeservicos.fortaleza.ce.gov.br/ e solicite sua carteira de estudante.
+  - text: Caso você tenha sido aprovado na seleção do PPGCC e esteja matriculado no programa, é possível solicitar a carteira de estudante. Acesse o site https://catalogodeservicos.fortaleza.ce.gov.br/ e solicite sua carteira de estudante.
   utter_entrar_contato_corpo_docente_coordenacao:
-    - text: Para solicitar uma reunião, é possível utilizar o e-mail de contato disponibilizado na lista do corpo docente, que pode ser obtida através do seguinte link: https://www.uece.br/ppgcc/instituicional/corpo-docente/. Além disso, a coordenação do programa também disponibiliza o seu e-mail de contato, que pode ser encontrado no seguinte link: https://www.uece.br/ppgcc/instituicional/coordenacao/.
+  - text: 'Para solicitar uma reunião, é possível utilizar o e-mail de contato disponibilizado na lista do corpo docente, que pode ser obtida através do seguinte link: https://www.uece.br/ppgcc/instituicional/corpo-docente/. Além disso, a coordenação do programa também disponibiliza o seu e-mail de contato, que pode ser encontrado no seguinte link: https://www.uece.br/ppgcc/instituicional/coordenacao/.'
   utter_criterios_bolsa:
-    - text: A ordem de concessão de bolsas no programa MACC será definida com base na ordem de classificação dos alunos no processo seletivo e seguirá um critério de prioridade. Os alunos do ano corrente e anterior que declararam interesse em concorrer à bolsa e não possuem outra fonte de renda para cursar o MACC em tempo integral têm prioridade sobre os demais. Em seguida, são considerados os alunos que possuem outra fonte de renda para cursar o MACC em tempo integral e, por último, aqueles que possuem outra fonte de renda e cursam o MACC em tempo parcial, desde que apresentem a anuência do orientador.
+  - text: A ordem de concessão de bolsas no programa MACC será definida com base na ordem de classificação dos alunos no processo seletivo e seguirá um critério de prioridade. Os alunos do ano corrente e anterior que declararam interesse em concorrer à bolsa e não possuem outra fonte de renda para cursar o MACC em tempo integral têm prioridade sobre os demais. Em seguida, são considerados os alunos que possuem outra fonte de renda para cursar o MACC em tempo integral e, por último, aqueles que possuem outra fonte de renda e cursam o MACC em tempo parcial, desde que apresentem a anuência do orientador.
   utter_criterios_proficiencia_ingles:
-    - text: Para atender aos requisitos de proficiência em língua estrangeira no âmbito do PPGCC, serão aceitos exames externos reconhecidos, exames aplicados pelo Núcleo de Línguas Estrangeiras (NLE) da UECE e exames aplicados pelo próprio PPGCC. Os exames de proficiência externos aceitos incluem TOEFL iBT e TOEFL ITP aplicado pelo Educational Testing Service (ETS) e IELTS Academic aplicado pelo International English Language Testing System (IELTS).
+  - text: Para atender aos requisitos de proficiência em língua estrangeira no âmbito do PPGCC, serão aceitos exames externos reconhecidos, exames aplicados pelo Núcleo de Línguas Estrangeiras (NLE) da UECE e exames aplicados pelo próprio PPGCC. Os exames de proficiência externos aceitos incluem TOEFL iBT e TOEFL ITP aplicado pelo Educational Testing Service (ETS) e IELTS Academic aplicado pelo International English Language Testing System (IELTS).
 actions: []
 forms: {}
 e2e_actions: []
