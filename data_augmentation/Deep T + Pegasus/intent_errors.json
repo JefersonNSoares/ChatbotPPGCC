@@ -1,0 +1,1034 @@
+[
+  {
+    "text": "A que horas estão abertas as salas de aula?",
+    "intent": "horario_funcionamento",
+    "intent_prediction": {
+      "name": "horario_disciplinas",
+      "confidence": 0.9938753247261047
+    }
+  },
+  {
+    "text": "Como posso utilizar este espaço?",
+    "intent": "horario_funcionamento",
+    "intent_prediction": {
+      "name": "informacoes_espaco_fisico",
+      "confidence": 0.9920801520347595
+    }
+  },
+  {
+    "text": "exemplos: |",
+    "intent": "informacoes_espaco_fisico",
+    "intent_prediction": {
+      "name": "sobre_relatorios",
+      "confidence": 0.3187454044818878
+    }
+  },
+  {
+    "text": "Do que está a falar?",
+    "intent": "saudacao",
+    "intent_prediction": {
+      "name": "solicitar_readmissao",
+      "confidence": 0.5701795220375061
+    }
+  },
+  {
+    "text": "O que é que estás a dizer?",
+    "intent": "saudacao",
+    "intent_prediction": {
+      "name": "horario_disciplinas",
+      "confidence": 0.2621919810771942
+    }
+  },
+  {
+    "text": "Excelente noite!",
+    "intent": "saudacao",
+    "intent_prediction": {
+      "name": "proficiencia_em_ingles",
+      "confidence": 0.5261881947517395
+    }
+  },
+  {
+    "text": "Excelente manhã!",
+    "intent": "saudacao",
+    "intent_prediction": {
+      "name": "proficiencia_em_ingles",
+      "confidence": 0.3988962471485138
+    }
+  },
+  {
+    "text": "Certo, certo?",
+    "intent": "saudacao",
+    "intent_prediction": {
+      "name": "solicitar_readmissao",
+      "confidence": 0.5917827486991882
+    }
+  },
+  {
+    "text": "Como posso tornar-me um estudante com necessidades especiais?",
+    "intent": "ingressar_como_aluno_especial",
+    "intent_prediction": {
+      "name": "criterios_para_ser_aluno_especial",
+      "confidence": 0.8384717702865601
+    }
+  },
+  {
+    "text": "Posso ser um estudante com necessidades especiais?",
+    "intent": "ingressar_como_aluno_especial",
+    "intent_prediction": {
+      "name": "criterios_para_ser_aluno_especial",
+      "confidence": 0.9959264993667603
+    }
+  },
+  {
+    "text": "Quero candidatar-me a um lugar especial de estudante.",
+    "intent": "ingressar_como_aluno_especial",
+    "intent_prediction": {
+      "name": "criterios_para_ser_aluno_especial",
+      "confidence": 0.5418150424957275
+    }
+  },
+  {
+    "text": "Tem um conjunto de critérios a aplicar?",
+    "intent": "ingressar_como_aluno_especial",
+    "intent_prediction": {
+      "name": "criterios_para_inscrever_selecao",
+      "confidence": 0.8772526979446411
+    }
+  },
+  {
+    "text": "Tive um tema num programa de mestrado.",
+    "intent": "aproveitamento_disciplina",
+    "intent_prediction": {
+      "name": "ingressar_PPGCC",
+      "confidence": 0.9016136527061462
+    }
+  },
+  {
+    "text": "Existe uma forma de tirar partido de um tópico?",
+    "intent": "aproveitamento_disciplina",
+    "intent_prediction": {
+      "name": "candidato_de_outro_pais",
+      "confidence": 0.4241747558116913
+    }
+  },
+  {
+    "text": "Os horários de abertura das salas de aula não são conhecidos.",
+    "intent": "horario_disciplinas",
+    "intent_prediction": {
+      "name": "horario_funcionamento",
+      "confidence": 0.5226863026618958
+    }
+  },
+  {
+    "text": "consigo solicitar readmissão do programa?",
+    "intent": "readmissao_PPGCC",
+    "intent_prediction": {
+      "name": "solicitar_readmissao",
+      "confidence": 0.8264027237892151
+    }
+  },
+  {
+    "text": "É possível candidatar-se para que o programa termine?",
+    "intent": "readmissao_PPGCC",
+    "intent_prediction": {
+      "name": "criterios_para_inscrever_selecao",
+      "confidence": 0.8902381062507629
+    }
+  },
+  {
+    "text": "É possível cancelar um curso em que eu seja estudante?",
+    "intent": "trancamento_matricula",
+    "intent_prediction": {
+      "name": "ingressar_como_aluno_especial",
+      "confidence": 0.8230852484703064
+    }
+  },
+  {
+    "text": "Qual é o prazo limite para um curso ser cancelado?",
+    "intent": "trancamento_matricula",
+    "intent_prediction": {
+      "name": "autorizacao_predio",
+      "confidence": 0.9495986104011536
+    }
+  },
+  {
+    "text": "Qual o sítio do batalhão?",
+    "intent": "sobre_regimento",
+    "intent_prediction": {
+      "name": "edital_selecao",
+      "confidence": 0.5190990567207336
+    }
+  },
+  {
+    "text": "Onde posso encontrar as tropas do PPGCC?",
+    "intent": "sobre_regimento",
+    "intent_prediction": {
+      "name": "edital_selecao",
+      "confidence": 0.6073485016822815
+    }
+  },
+  {
+    "text": "Gostaria de saber mais sobre o programa de computador.",
+    "intent": "sobre_objetivo_PPGCC",
+    "intent_prediction": {
+      "name": "informacoes_espaco_fisico",
+      "confidence": 0.504683256149292
+    }
+  },
+  {
+    "text": "O mestrado em Informática está disponível na UECE.",
+    "intent": "edital_selecao",
+    "intent_prediction": {
+      "name": "ingressar_PPGCC",
+      "confidence": 0.5948178768157959
+    }
+  },
+  {
+    "text": "O que é que posso fazer?",
+    "intent": "criterios_para_inscrever_selecao",
+    "intent_prediction": {
+      "name": "sobre_regimento",
+      "confidence": 0.31178122758865356
+    }
+  },
+  {
+    "text": "Como posso candidatar-me à selecção do mestre?",
+    "intent": "criterios_para_inscrever_selecao",
+    "intent_prediction": {
+      "name": "edital_selecao",
+      "confidence": 0.919783353805542
+    }
+  },
+  {
+    "text": "qual os critérios para que eu possa concorrer como aluno especial?",
+    "intent": "criterios_para_ser_aluno_especial",
+    "intent_prediction": {
+      "name": "ingressar_como_aluno_especial",
+      "confidence": 0.9997599720954895
+    }
+  },
+  {
+    "text": "O que preciso de fazer para me tornar um estudante especial?",
+    "intent": "criterios_para_ser_aluno_especial",
+    "intent_prediction": {
+      "name": "ingressar_como_aluno_especial",
+      "confidence": 0.997225821018219
+    }
+  },
+  {
+    "text": "Têm aulas que eu possa frequentar?",
+    "intent": "disciplina_distancia",
+    "intent_prediction": {
+      "name": "calendario_inicio_aula",
+      "confidence": 0.6666585206985474
+    }
+  },
+  {
+    "text": "Qual é a hora de abertura do edifício?",
+    "intent": "funcionamento_predio",
+    "intent_prediction": {
+      "name": "horario_funcionamento",
+      "confidence": 0.9989091157913208
+    }
+  },
+  {
+    "text": "Como posso pedir algo?",
+    "intent": "solicitar_declaracao",
+    "intent_prediction": {
+      "name": "ingressar_PPGCC",
+      "confidence": 0.899383008480072
+    }
+  },
+  {
+    "text": "Como é que posso falar com o professor?",
+    "intent": "entrar_contato_corpo_docente_coordenacao",
+    "intent_prediction": {
+      "name": "sobre_linha_de_pesquisa",
+      "confidence": 0.43852025270462036
+    }
+  },
+  {
+    "text": "A que sala de aula irá a aula assistir?",
+    "intent": "buscar_sala_de_aula_da_disciplina",
+    "intent_prediction": {
+      "name": "autorizacao_disciplinas",
+      "confidence": 0.9890294075012207
+    }
+  },
+  {
+    "text": "A que horas está aberto o edifício do PPGCC?",
+    "intent": "horario_funcionamento",
+    "intent_prediction": {
+      "name": "funcionamento_predio",
+      "confidence": 0.9513016939163208
+    }
+  },
+  {
+    "text": "Como se pode ser um estudante especial?",
+    "intent": "ingressar_como_aluno_especial",
+    "intent_prediction": {
+      "name": "criterios_para_ser_aluno_especial",
+      "confidence": 0.9952795505523682
+    }
+  },
+  {
+    "text": "Que critérios devo utilizar para ser um estudante especial?",
+    "intent": "ingressar_como_aluno_especial",
+    "intent_prediction": {
+      "name": "criterios_para_ser_aluno_especial",
+      "confidence": 0.9983989596366882
+    }
+  },
+  {
+    "text": "É capaz de se candidatar a um aluno especial?",
+    "intent": "ingressar_como_aluno_especial",
+    "intent_prediction": {
+      "name": "criterios_para_ser_aluno_especial",
+      "confidence": 0.9985664486885071
+    }
+  },
+  {
+    "text": "Como é que se regista para algo?",
+    "intent": "ingressar_PPGCC",
+    "intent_prediction": {
+      "name": "trancamento_matricula",
+      "confidence": 0.9903799295425415
+    }
+  },
+  {
+    "text": "Quais são os horários de abertura da sala de aula?",
+    "intent": "horario_disciplinas",
+    "intent_prediction": {
+      "name": "horario_funcionamento",
+      "confidence": 0.9993323683738708
+    }
+  },
+  {
+    "text": "qual menor nota que posso tirar em uma disciplina",
+    "intent": "aprovacao_disciplinas",
+    "intent_prediction": {
+      "name": "horario_disciplinas",
+      "confidence": 0.4079367518424988
+    }
+  },
+  {
+    "text": "É possível frequentar cursos como orador?",
+    "intent": "autorizacao_disciplinas",
+    "intent_prediction": {
+      "name": "calendario_data_matricula",
+      "confidence": 0.5181401371955872
+    }
+  },
+  {
+    "text": "É possível frequentar cursos como telespectador?",
+    "intent": "autorizacao_disciplinas",
+    "intent_prediction": {
+      "name": "horario_funcionamento",
+      "confidence": 0.5777290463447571
+    }
+  },
+  {
+    "text": "Posso fazer cursos no programa do meu mestrado?",
+    "intent": "autorizacao_disciplinas",
+    "intent_prediction": {
+      "name": "aproveitamento_disciplina",
+      "confidence": 0.9875544905662537
+    }
+  },
+  {
+    "text": "É possível para mim fazer cursos no meu programa de mestrado?",
+    "intent": "autorizacao_disciplinas",
+    "intent_prediction": {
+      "name": "aproveitamento_disciplina",
+      "confidence": 0.9262197017669678
+    }
+  },
+  {
+    "text": "Como é que me certifico de que o meu registo não se perde?",
+    "intent": "trancamento_matricula",
+    "intent_prediction": {
+      "name": "carteira_estudantil",
+      "confidence": 0.3323832154273987
+    }
+  },
+  {
+    "text": "Onde posso encontrar a tese?",
+    "intent": "sobre_relatorios",
+    "intent_prediction": {
+      "name": "calendario_data_matricula",
+      "confidence": 0.7771289944648743
+    }
+  },
+  {
+    "text": "Como é que recupero o meu emprego?",
+    "intent": "solicitar_readmissao",
+    "intent_prediction": {
+      "name": "sobre_objetivo_PPGCC",
+      "confidence": 0.4235416352748871
+    }
+  },
+  {
+    "text": "Como obtenho um comprovante de matrícula",
+    "intent": "solicitar_declaracao",
+    "intent_prediction": {
+      "name": "ingressar_como_aluno_especial",
+      "confidence": 0.8118354678153992
+    }
+  },
+  {
+    "text": "Quero falar convosco.",
+    "intent": "solicitar_declaracao",
+    "intent_prediction": {
+      "name": "solicitar_readmissao",
+      "confidence": 0.5622350573539734
+    }
+  },
+  {
+    "text": "E dá bilhetes para ir a algum lado.",
+    "intent": "viajem_para_evento",
+    "intent_prediction": {
+      "name": "ingressar_como_aluno_especial",
+      "confidence": 0.9331458806991577
+    }
+  },
+  {
+    "text": "Quem pode utilizar o espaço físico?",
+    "intent": "acesso_espaco_fisico",
+    "intent_prediction": {
+      "name": "horario_funcionamento",
+      "confidence": 0.5179817080497742
+    }
+  },
+  {
+    "text": "Quais são os horários de abertura na sala de aula?",
+    "intent": "horario_funcionamento",
+    "intent_prediction": {
+      "name": "horario_disciplinas",
+      "confidence": 0.8991783261299133
+    }
+  },
+  {
+    "text": "O que está a fazer?",
+    "intent": "saudacao",
+    "intent_prediction": {
+      "name": "criterios_para_inscrever_selecao",
+      "confidence": 0.808029294013977
+    }
+  },
+  {
+    "text": "Muito obrigado!",
+    "intent": "saudacao",
+    "intent_prediction": {
+      "name": "ingressar_como_aluno_especial",
+      "confidence": 0.5808625817298889
+    }
+  },
+  {
+    "text": "tem critérios para concorrer como aluno especial?",
+    "intent": "ingressar_como_aluno_especial",
+    "intent_prediction": {
+      "name": "criterios_para_ser_aluno_especial",
+      "confidence": 0.9974561333656311
+    }
+  },
+  {
+    "text": "Como posso candidatar-me ao mestrado em informática?",
+    "intent": "ingressar_PPGCC",
+    "intent_prediction": {
+      "name": "edital_selecao",
+      "confidence": 0.999272882938385
+    }
+  },
+  {
+    "text": "Como é que se passa nos cursos?",
+    "intent": "aprovacao_disciplinas",
+    "intent_prediction": {
+      "name": "saudacao",
+      "confidence": 0.7091194987297058
+    }
+  },
+  {
+    "text": "Estou na graduação, posso cursar disciplinas do mestrado?",
+    "intent": "autorizacao_disciplinas",
+    "intent_prediction": {
+      "name": "aproveitamento_disciplina",
+      "confidence": 0.6356360912322998
+    }
+  },
+  {
+    "text": "Onde posso saber o horário das aulas?",
+    "intent": "calendario_inicio_aula",
+    "intent_prediction": {
+      "name": "horario_disciplinas",
+      "confidence": 0.9519202709197998
+    }
+  },
+  {
+    "text": "como faço para me matricular nas disciplinas?",
+    "intent": "calendario_data_matricula",
+    "intent_prediction": {
+      "name": "trancamento_matricula",
+      "confidence": 0.6945315003395081
+    }
+  },
+  {
+    "text": "Como posso inscrever-me nas aulas?",
+    "intent": "calendario_data_matricula",
+    "intent_prediction": {
+      "name": "calendario_inicio_aula",
+      "confidence": 0.9202573895454407
+    }
+  },
+  {
+    "text": "Qual é o momento em que se inscreve?",
+    "intent": "calendario_data_matricula",
+    "intent_prediction": {
+      "name": "ingressar_PPGCC",
+      "confidence": 0.9275341629981995
+    }
+  },
+  {
+    "text": "Que sítio já foi defendido?",
+    "intent": "sobre_relatorios",
+    "intent_prediction": {
+      "name": "solicitar_readmissao",
+      "confidence": 0.7345669865608215
+    }
+  },
+  {
+    "text": "Como é que é?",
+    "intent": "sobre_objetivo_PPGCC",
+    "intent_prediction": {
+      "name": "disciplina_distancia",
+      "confidence": 0.2977573275566101
+    }
+  },
+  {
+    "text": "É possível participar no processo de selecção.",
+    "intent": "criterios_para_inscrever_selecao",
+    "intent_prediction": {
+      "name": "candidato_de_outro_pais",
+      "confidence": 0.5307177305221558
+    }
+  },
+  {
+    "text": "O que tenho de fazer para ser um estudante especial?",
+    "intent": "criterios_para_ser_aluno_especial",
+    "intent_prediction": {
+      "name": "ingressar_como_aluno_especial",
+      "confidence": 0.9925210475921631
+    }
+  },
+  {
+    "text": "Qualquer estudante pode ser um estudante especial?",
+    "intent": "criterios_para_ser_aluno_especial",
+    "intent_prediction": {
+      "name": "ingressar_como_aluno_especial",
+      "confidence": 0.9213035702705383
+    }
+  },
+  {
+    "text": "Pode uma pessoa ser um estudante especial?",
+    "intent": "criterios_para_ser_aluno_especial",
+    "intent_prediction": {
+      "name": "ingressar_como_aluno_especial",
+      "confidence": 0.9504374861717224
+    }
+  },
+  {
+    "text": "Alguém é um estudante especial?",
+    "intent": "criterios_para_ser_aluno_especial",
+    "intent_prediction": {
+      "name": "ingressar_como_aluno_especial",
+      "confidence": 0.9999260902404785
+    }
+  },
+  {
+    "text": "Não sei o que preciso de fazer para me candidatar ao programa.",
+    "intent": "solicitar_readmissao",
+    "intent_prediction": {
+      "name": "criterios_para_inscrever_selecao",
+      "confidence": 0.9395511746406555
+    }
+  },
+  {
+    "text": "Com quem devo falar?",
+    "intent": "solicitar_readmissao",
+    "intent_prediction": {
+      "name": "entrar_contato_corpo_docente_coordenacao",
+      "confidence": 0.9970742464065552
+    }
+  },
+  {
+    "text": "É necessário que eu tenha conhecimentos de inglês para fazer a selecção?",
+    "intent": "proficiencia_em_ingles",
+    "intent_prediction": {
+      "name": "criterios_para_ser_aluno_especial",
+      "confidence": 0.7763016223907471
+    }
+  },
+  {
+    "text": "Onde está o ppgcc?",
+    "intent": "localizacao_PPGCC",
+    "intent_prediction": {
+      "name": "sobre_objetivo_PPGCC",
+      "confidence": 0.9210467338562012
+    }
+  },
+  {
+    "text": "Onde se encontra?",
+    "intent": "localizacao_PPGCC",
+    "intent_prediction": {
+      "name": "sobre_regimento",
+      "confidence": 0.6891610622406006
+    }
+  },
+  {
+    "text": "Quero falar com alguém.",
+    "intent": "solicitar_declaracao",
+    "intent_prediction": {
+      "name": "entrar_contato_corpo_docente_coordenacao",
+      "confidence": 0.5222251415252686
+    }
+  },
+  {
+    "text": "e tem diarias",
+    "intent": "viajem_para_evento",
+    "intent_prediction": {
+      "name": "funcionamento_predio",
+      "confidence": 0.707720935344696
+    }
+  },
+  {
+    "text": "Já tenho certificado Fisk de inglês, ainda preciso fazer prova de proficiência",
+    "intent": "criterios_proficiencia_ingles",
+    "intent_prediction": {
+      "name": "proficiencia_em_ingles",
+      "confidence": 0.9978658556938171
+    }
+  },
+  {
+    "text": "Preciso de fazer um teste para poder falar inglês.",
+    "intent": "criterios_proficiencia_ingles",
+    "intent_prediction": {
+      "name": "proficiencia_em_ingles",
+      "confidence": 0.9973995685577393
+    }
+  },
+  {
+    "text": "O que preciso de fazer para ser um estudante especial?",
+    "intent": "ingressar_como_aluno_especial",
+    "intent_prediction": {
+      "name": "criterios_para_ser_aluno_especial",
+      "confidence": 0.9985268115997314
+    }
+  },
+  {
+    "text": "Como é que me inscrevo no programa de mestrado?",
+    "intent": "ingressar_PPGCC",
+    "intent_prediction": {
+      "name": "criterios_para_inscrever_selecao",
+      "confidence": 0.6919388771057129
+    }
+  },
+  {
+    "text": "Como é que me inscrevo no programa?",
+    "intent": "ingressar_PPGCC",
+    "intent_prediction": {
+      "name": "calendario_data_matricula",
+      "confidence": 0.5773394107818604
+    }
+  },
+  {
+    "text": "Como se inscreve para um evento?",
+    "intent": "ingressar_PPGCC",
+    "intent_prediction": {
+      "name": "calendario_data_matricula",
+      "confidence": 0.9543421268463135
+    }
+  },
+  {
+    "text": "Quantas disciplinas são necessárias para se formar no PPGCC",
+    "intent": "creditos_disciplina",
+    "intent_prediction": {
+      "name": "aprovacao_disciplinas",
+      "confidence": 0.5049664974212646
+    }
+  },
+  {
+    "text": "O aluno pode ser readmitido na aula?",
+    "intent": "readmissao_PPGCC",
+    "intent_prediction": {
+      "name": "aprovacao_disciplinas",
+      "confidence": 0.8668707013130188
+    }
+  },
+  {
+    "text": "Posso ser readmitido no curso?",
+    "intent": "readmissao_PPGCC",
+    "intent_prediction": {
+      "name": "solicitar_readmissao",
+      "confidence": 0.9796870946884155
+    }
+  },
+  {
+    "text": "Posso candidatar-me a outro curso se o deixar cair?",
+    "intent": "readmissao_PPGCC",
+    "intent_prediction": {
+      "name": "trancamento_matricula",
+      "confidence": 0.4665810167789459
+    }
+  },
+  {
+    "text": "Qual é o nome da pessoa que trabalha com o programa?",
+    "intent": "quem_coordenador",
+    "intent_prediction": {
+      "name": "entrar_contato_corpo_docente_coordenacao",
+      "confidence": 0.29939305782318115
+    }
+  },
+  {
+    "text": "Os coordenadores macc não são conhecidos.",
+    "intent": "quem_coordenador",
+    "intent_prediction": {
+      "name": "localizacao_PPGCC",
+      "confidence": 0.8104530572891235
+    }
+  },
+  {
+    "text": "Qual é o dia da inscrição?",
+    "intent": "calendario_data_matricula",
+    "intent_prediction": {
+      "name": "solicitar_declaracao",
+      "confidence": 0.5659666061401367
+    }
+  },
+  {
+    "text": "Qual é a duração do período de Enrolling?",
+    "intent": "calendario_data_matricula",
+    "intent_prediction": {
+      "name": "trancamento_matricula",
+      "confidence": 0.9470919966697693
+    }
+  },
+  {
+    "text": "Como é que me registo?",
+    "intent": "trancamento_matricula",
+    "intent_prediction": {
+      "name": "calendario_data_matricula",
+      "confidence": 0.9962595701217651
+    }
+  },
+  {
+    "text": "Quero inscrever-me num curso em que já estou inscrito.",
+    "intent": "trancamento_matricula",
+    "intent_prediction": {
+      "name": "calendario_data_matricula",
+      "confidence": 0.5918459892272949
+    }
+  },
+  {
+    "text": "Eu gostaria de encontrar a cavalaria.",
+    "intent": "sobre_regimento",
+    "intent_prediction": {
+      "name": "aproveitamento_disciplina",
+      "confidence": 0.22221966087818146
+    }
+  },
+  {
+    "text": "Como é que posso entrar no edifício?",
+    "intent": "esqueci_algo_predio",
+    "intent_prediction": {
+      "name": "ingressar_PPGCC",
+      "confidence": 0.5124670267105103
+    }
+  },
+  {
+    "text": "Como posso candidatar-me ao mestrado em Informática?",
+    "intent": "edital_selecao",
+    "intent_prediction": {
+      "name": "ingressar_PPGCC",
+      "confidence": 0.9849439263343811
+    }
+  },
+  {
+    "text": "Como posso candidatar-me a um mestrado em ciência da computação?",
+    "intent": "edital_selecao",
+    "intent_prediction": {
+      "name": "ingressar_PPGCC",
+      "confidence": 0.9977547526359558
+    }
+  },
+  {
+    "text": "Gostaria de participar no processo de selecção?",
+    "intent": "criterios_para_inscrever_selecao",
+    "intent_prediction": {
+      "name": "candidato_de_outro_pais",
+      "confidence": 0.6547642946243286
+    }
+  },
+  {
+    "text": "Participou no processo de selecção?",
+    "intent": "criterios_para_inscrever_selecao",
+    "intent_prediction": {
+      "name": "candidato_de_outro_pais",
+      "confidence": 0.8779379725456238
+    }
+  },
+  {
+    "text": "Que critérios devo utilizar para me candidatar ao programa?",
+    "intent": "criterios_para_inscrever_selecao",
+    "intent_prediction": {
+      "name": "solicitar_readmissao",
+      "confidence": 0.9290244579315186
+    }
+  },
+  {
+    "text": "Quais são os requisitos para se candidatar ao programa?",
+    "intent": "criterios_para_inscrever_selecao",
+    "intent_prediction": {
+      "name": "ingressar_PPGCC",
+      "confidence": 0.5909186005592346
+    }
+  },
+  {
+    "text": "Não sei o que preciso de fazer.",
+    "intent": "solicitar_readmissao",
+    "intent_prediction": {
+      "name": "criterios_para_inscrever_selecao",
+      "confidence": 0.8982810974121094
+    }
+  },
+  {
+    "text": "As salas de programa estão abertas aos sábados e domingos.",
+    "intent": "funcionamento_predio",
+    "intent_prediction": {
+      "name": "horario_funcionamento",
+      "confidence": 0.8747257590293884
+    }
+  },
+  {
+    "text": "Qual é o número do edifício?",
+    "intent": "contato_secretaria",
+    "intent_prediction": {
+      "name": "entrar_contato_corpo_docente_coordenacao",
+      "confidence": 0.5947200655937195
+    }
+  },
+  {
+    "text": "Como posso obter uma resposta?",
+    "intent": "solicitar_declaracao",
+    "intent_prediction": {
+      "name": "criterios_para_inscrever_selecao",
+      "confidence": 0.9603903293609619
+    }
+  },
+  {
+    "text": "otimo, como reservo o auditorio?",
+    "intent": "acesso_espaco_fisico",
+    "intent_prediction": {
+      "name": "horario_disciplinas",
+      "confidence": 0.7219638824462891
+    }
+  },
+  {
+    "text": "Quem é capaz de utilizar o equipamento?",
+    "intent": "acesso_espaco_fisico",
+    "intent_prediction": {
+      "name": "autorizacao_predio",
+      "confidence": 0.8124966621398926
+    }
+  },
+  {
+    "text": "Como posso saber se o auditório está aberto?",
+    "intent": "verificar_disponibilidade_espaco_fisico",
+    "intent_prediction": {
+      "name": "acesso_espaco_fisico",
+      "confidence": 0.9530414342880249
+    }
+  },
+  {
+    "text": "O horário de abertura das salas de aula.",
+    "intent": "horario_funcionamento",
+    "intent_prediction": {
+      "name": "horario_disciplinas",
+      "confidence": 0.9611485004425049
+    }
+  },
+  {
+    "text": "Quais são as horas do edifício?",
+    "intent": "horario_funcionamento",
+    "intent_prediction": {
+      "name": "funcionamento_predio",
+      "confidence": 0.9710902571678162
+    }
+  },
+  {
+    "text": "O que se passa?",
+    "intent": "saudacao",
+    "intent_prediction": {
+      "name": "aprovacao_disciplinas",
+      "confidence": 0.990208089351654
+    }
+  },
+  {
+    "text": "É bom começar o dia!",
+    "intent": "saudacao",
+    "intent_prediction": {
+      "name": "ingressar_PPGCC",
+      "confidence": 0.41857901215553284
+    }
+  },
+  {
+    "text": "Como posso candidatar-me ao programa de mestrado?",
+    "intent": "ingressar_PPGCC",
+    "intent_prediction": {
+      "name": "edital_selecao",
+      "confidence": 0.8050091862678528
+    }
+  },
+  {
+    "text": "Posso entrar no mestrado em ciência da computação?",
+    "intent": "ingressar_PPGCC",
+    "intent_prediction": {
+      "name": "edital_selecao",
+      "confidence": 0.8329215049743652
+    }
+  },
+  {
+    "text": "Como posso obter um mestrado em ciência da computação?",
+    "intent": "ingressar_PPGCC",
+    "intent_prediction": {
+      "name": "edital_selecao",
+      "confidence": 0.8655203580856323
+    }
+  },
+  {
+    "text": "Preciso de iniciar o programa.",
+    "intent": "ingressar_PPGCC",
+    "intent_prediction": {
+      "name": "calendario_data_matricula",
+      "confidence": 0.2914091646671295
+    }
+  },
+  {
+    "text": "Que critérios posso utilizar para avaliar os cursos?",
+    "intent": "autorizacao_disciplinas",
+    "intent_prediction": {
+      "name": "aprovacao_disciplinas",
+      "confidence": 0.9997883439064026
+    }
+  },
+  {
+    "text": "Como é que me inscrevo nos cursos?",
+    "intent": "calendario_data_matricula",
+    "intent_prediction": {
+      "name": "ingressar_PPGCC",
+      "confidence": 0.9964348077774048
+    }
+  },
+  {
+    "text": "Como posso frequentar os cursos?",
+    "intent": "calendario_data_matricula",
+    "intent_prediction": {
+      "name": "autorizacao_disciplinas",
+      "confidence": 0.9940128922462463
+    }
+  },
+  {
+    "text": "Onde posso encontrar o horário?",
+    "intent": "calendario_data_matricula",
+    "intent_prediction": {
+      "name": "horario_funcionamento",
+      "confidence": 0.7291637659072876
+    }
+  },
+  {
+    "text": "Como posso manter o meu registo em segurança?",
+    "intent": "trancamento_matricula",
+    "intent_prediction": {
+      "name": "calendario_data_matricula",
+      "confidence": 0.9937857389450073
+    }
+  },
+  {
+    "text": "Como posso alterar o meu registo?",
+    "intent": "trancamento_matricula",
+    "intent_prediction": {
+      "name": "calendario_data_matricula",
+      "confidence": 0.9669961929321289
+    }
+  },
+  {
+    "text": "Como é que mantenho o meu registo fora das mãos erradas?",
+    "intent": "trancamento_matricula",
+    "intent_prediction": {
+      "name": "calendario_data_matricula",
+      "confidence": 0.612824559211731
+    }
+  },
+  {
+    "text": "O que é que tem a ppgcc que a torna especial?",
+    "intent": "sobre_objetivo_PPGCC",
+    "intent_prediction": {
+      "name": "ingressar_como_aluno_especial",
+      "confidence": 0.9993197917938232
+    }
+  },
+  {
+    "text": "Como faço para mim inscrever na seleção do mestrado de Ciências da Computação da UECE?",
+    "intent": "edital_selecao",
+    "intent_prediction": {
+      "name": "calendario_data_matricula",
+      "confidence": 0.9555202722549438
+    }
+  },
+  {
+    "text": "Como posso candidatar-me a um mestrado em informática?",
+    "intent": "edital_selecao",
+    "intent_prediction": {
+      "name": "ingressar_PPGCC",
+      "confidence": 0.9275259971618652
+    }
+  },
+  {
+    "text": "Posso participar no processo de selecção?",
+    "intent": "candidato_de_outro_pais",
+    "intent_prediction": {
+      "name": "criterios_para_inscrever_selecao",
+      "confidence": 0.5665676593780518
+    }
+  },
+  {
+    "text": "Como posso candidatar-me ao meu emprego de volta?",
+    "intent": "solicitar_readmissao",
+    "intent_prediction": {
+      "name": "readmissao_PPGCC",
+      "confidence": 0.9969140291213989
+    }
+  },
+  {
+    "text": "Onde posso candidatar-me?",
+    "intent": "solicitar_readmissao",
+    "intent_prediction": {
+      "name": "criterios_para_inscrever_selecao",
+      "confidence": 0.929449200630188
+    }
+  },
+  {
+    "text": "Existe um programa de mestrado.",
+    "intent": "carga_horaria_mestrado_doutorado",
+    "intent_prediction": {
+      "name": "ingressar_PPGCC",
+      "confidence": 0.9425150156021118
+    }
+  },
+  {
+    "text": "Quero obter um certificado de estudos universitários.",
+    "intent": "solicitar_declaracao",
+    "intent_prediction": {
+      "name": "entrar_contato_corpo_docente_coordenacao",
+      "confidence": 0.3783809542655945
+    }
+  }
+]

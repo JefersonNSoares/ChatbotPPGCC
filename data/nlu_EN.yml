@@ -1,0 +1,412 @@
+version: "2.0"
+nlu:
+- intent: classrooms_have_projector
+examples: |
+  - classrooms have a projector for classes
+  - the classrooms have a projector for classes.
+- intent: fetch_discipline_class_room
+examples: |
+  - Which classroom will the PPE discipline take place in
+- intent: physical_space_access
+examples: |
+  - Anyone can access the [classrooms] (physical_space)
+  - Anyone can access the [labs] (physical_space)
+  - Anyone can access the [equipment] (physical_space)
+  - who can use the [equipment] (physical_space)
+  - Anyone can access [secretariat] (physical_space)
+  - Anyone can access the [auditorium] (physical_space)
+  - Anyone can access the [seminar room] (physical_space)
+  - Anyone can have access to [kitchen] (physical_space)
+  - Anyone can access [teachers' room] (physical_space)
+  - Anyone can access [meeting room] (physical_space)
+  - Anyone can access the [bathroom] (physical_space)
+  - Anyone can access [library](physical_space)
+  - Anyone can access [PPGCC building] (physical_space)
+  - Anyone can access [dining room] (physical_space)
+  - Great, how do I book the auditorium?
+- intent: check_physical_space_availability
+examples: |
+  - How can I check if a certain physical space is free or occupied?
+  - How do I know if the auditorium is free or busy
+  - It is possible to check the availability of the classroom
+- intent: working_time
+examples: |
+  - What are the opening hours [classrooms] (physical_space)
+  - What are the opening hours [labs] (physical_space)
+  - What are the hours of operation [secretariat] (physical_space)
+  - What are the opening hours [auditorio] (physical_space)
+  - What are the opening hours [seminar room] (physical_space)
+  - What are the opening hours [kitchen] (physical_space)
+  - What are the opening hours [teachers' room] (physical_space)
+  - What are the opening hours [meeting room] (physical_space)
+  - What are the opening hours [bathroom] (physical_space)
+  - What are the opening hours [library] (physical_space)
+  - What are the opening hours [PPGCC building] (physical_space)
+  - What are the opening hours [cafeteria] (physical_space)
+  - Are there any access restrictions?
+  - How can I reserve or schedule the use of this physical space?
+  - What is the office hours for me to deliver a document
+- intent: physical_space_information
+examples: |
+  - How can I get additional information about this physical space?
+  - Are there any specific requirements or policies for using this physical space?
+  - What is the policy for canceling or changing reservations for this physical space?
+- intent: greeting
+examples: |
+  - Hello
+  - Hello
+  - Speak up, man!
+  - All good?
+  - Goodnight
+  - Good afternoon
+  - Good morning
+  - hello
+  - Hello everything is fine?
+  - Hello
+  - Hello
+  - hello
+  - good morning!
+  - hello, good morning!
+  - Hello!
+  - Good morning!
+  - Goodnight!
+  - hi
+  - good morning!
+  - hey
+  - Hey
+  - Hello
+  - hello
+  - hello
+  - Hello, good morning!
+  - good morning
+  - all good?
+- intent: join_as_special_student
+examples: |
+  - How do I become a special student?
+  - How can I take courses as a special student?
+  - Can I be a special student?
+  - I would like to apply for a vacancy as a special student as I do?
+  - I want to be a special student
+  - how to be a special student?
+  - I would like to be a special student
+  - How it works to be a special student
+  - I would like to be a special student, how do I become a special student?
+  - what are the criteria for me to be a special student?
+  - Do you have criteria to compete as a special student?
+- intent: join_PPGCC
+examples: |
+  - What are the steps to enter the master's degree?
+  - How do I enroll in the master's degree?
+  - when does the edict for admission open?
+  - What is the selection process like for admission to the Masters and Doctorate courses?
+  - Do you need to have publication in a magazine to enter the master's degree?
+  - What procedures for registration?
+  - criteria for entering the PPGCC master's program?
+  - what do I have to do to enter the master's degree
+  - selection process to enter the master's degree in computing
+  - how do I get into the master's degree in computing?
+  - what do I need to start in the master's degree
+- intent: use_discipline
+examples: |
+  - I will be able to bring disciplines from another master's degree
+  - I can bring discipline that I studied in another doctorate
+  - I can bring discipline that I studied in another master's degree
+  - Is it possible to use disciplines already taken in other postgraduate programs for the master's and doctoral courses?
+  - if I have already taken the same discipline before, can I take it in the doctoral course?
+  - Can I take advantage of courses studied at graduation?
+  - Can I take courses taken in other master's programs?
+  - Is there a way to take advantage of discipline? If yes, under what conditions?
+  - Can I take subjects from other courses?
+  - I would like to take advantage of the courses I have taken previously, what are the criteria?
+  - I have disciplines that can be used in the master's degree, what are the conditions to take advantage of them?
+  - I would like to take courses in the master's/doctoral program
+  - Before entering the master's degree, say some disciplines, can I take advantage of the disciplines already taken?
+- intent: credits_discipline
+examples: |
+  - How many subjects are needed to graduate from the PPGCC
+  - how many disciplines do I need to attend to complete the master's degree
+  - how many disciplines do I need to take to complete my doctorate
+  - how many credits in disciplines do I need to take to complete the postgraduate degree
+  - how many credits do I need to pay to complete the master's/doctoral degree
+  - how many subjects do I have to pay to complete the postgraduate course
+  - number of disciplines to complete the postgraduate course
+  - what minimum subjects do I have to attend to complete the master's/doctorate
+  - what is the minimum amount of credits in disciplines that I must take to complete the master's degree?
+  - Is there a minimum and maximum number of subjects I should take?
+- intent: timetable_disciplines
+examples: |
+  - In which shift do MACC classes take place?
+  - what time are the classes?
+  - Do you have night classes at ppggc?
+  - What time do postgraduate classes take place?
+  - Do you have classes in all shifts?
+  - What are the classes' timetable?
+  - class schedule?
+  - What time are classes usually held?
+  - what shift are the classes usually on?
+  - What time are classes held?
+  - What are the opening hours of the classrooms?
+  - There are classes in 2 shifts
+- intent: discipline_approval
+examples: |
+  - What is the MACC grading and approval system like?
+  - how grades are evaluated
+  - what are the criteria for grades in the subjects
+  - how grades are evaluated in subjects
+  - how the teacher of the subject evaluates the grades
+  - what is the evaluation system in the disciplines
+  - what is the lowest grade I can get in a subject
+  - what criteria for approval in the disciplines
+  - approval criteria in the disciplines
+  - how the teacher evaluates the student
+  - what evaluation system for subjects does the program use?
+  - How will grades be evaluated?
+- intent: readmissao_PPGCC
+examples: |
+  - Is there readmission after leaving the MACC?
+  - after being retired I can return to the program
+  - I had to leave the course for health reasons, can I return?
+  - can I apply for readmission after abandonment?
+  - I was disconnected from the course, how can I try to be readmitted?
+  - How do I request readmission to the course due to abandonment?
+  - student was dismissed, can I be readmitted to the course?
+  - I was dropped from the program, can I apply for readmission
+  - if I abandon the course, can I request readmission later?
+  - can I apply for readmission to the program?
+- intent: authorization_disciplines
+examples: |
+  - Can I attend classes of the disciplines as a listener?
+  - I can take relatives, friends, listeners, etc... to attend classes
+  - Can I watch the courses as a listener?
+  - I'm in graduation, can I attend master's disciplines?
+  - I can attend classes in the subjects I am not enrolled in
+  - I can listen to disciplines
+  - I can attend classes as a listener without commitment to disciplines
+  - what criteria can I be a listener of disciplines
+  - Can I request to attend classes as a listener?
+  - what are the criteria for attending classes as a listener
+  - I'm from another course, can I attend classes as a listener?
+  - I'm doing a master's degree at another institution, can I watch the subjects as a listener?
+- intent: who_coordinator
+examples: |
+  - Who is the PPGCC coordinator?
+  - who is the coordinator?
+  - what is the name of the program coordinator
+  - who is the macc coordinator
+  - who is the current coordinator
+- intent: about_search_line
+examples: |
+  - What are ppgcc's lines of research?
+  - Where can I find professors for each line of research?
+  - Who are the professors who work in the research line of computer networks?
+  - Who are the professors who work in the line of research on algorithms?
+  - Who are the professors who work in software engineering research?
+  - How many teachers are there?
+  - what are the areas of interest of the PPGCC?
+  - What are the research lines of the master's degree
+  - PPGCC lines of research
+  - how many and what are the lines of research in the program
+  - where can I find the current PPGCC lines of research
+- intent: calendar_inicio_class
+examples: |
+  - When do the doctoral classes start?
+  - When do the master's classes start?
+  - When do classes start?
+  - start of classes?
+  - Is there an academy calendar of classes?
+  - where can I find the class calendar?
+  - where can I check the class calendar
+  - when classes start
+  - I would like to know when classes start
+- intent: calendar_data_registration
+examples: |
+  - What is the enrollment date?
+  - How do I register for courses?
+  - when enrollment starts
+  - Where can I see the enrollment calendar?
+  - what enrollment period
+  - when the registration period starts
+- intent: locking_enrollment
+examples: |
+  - How is the process of withdrawing enrollment from the MACC carried out?
+  - Until when can I suspend a course I'm enrolled in?
+  - how do i lock my license plate
+  - what is the deadline for locking discipline?
+  - what period of locking the subjects
+  - I would like to lock a course I am enrolled in
+  - I want to lock a course
+  - I want to cancel my registration
+- intent: about_regiment
+examples: |
+  - Where can I find the PPGCC regiment?
+  - archive of the PPGCC regiment?
+  - which regimental website
+  - would like to meet the regiment
+  - where can I find the PPGCC regiment
+  - The regiment on the PPGCC page is up to date
+- intent: about_reports
+examples: |
+  - Where can I find the dissertations defended at the MACC?
+  - Where can I find the program report templates?
+  - Where can I get the master's report template
+  - Where can I get the half-yearly report template?
+  - what is the model of the half-yearly report for scholarship holders?
+  - which site can I find already defended dissertations
+  - report template for fellows
+- intent: about_objective_PPGCC
+examples: |
+  - What is the purpose of the PPGCC?
+  - Wanted to know about the UECE computing program
+  - How is the ppgcc?
+  - what is the purpose of the ppgcc master's program?
+  - what is the main objective of the master's program?
+- intent: forgot_something_building
+examples: |
+  - I forgot something on the MACC, when I came back it was closed and I don't know the password, what do I do?
+  - I forgot my macc room key, is there a place with copies?
+  - I forgot my computer in the building, what should I do?
+  - I don't have access to the PPGCC building, what can I do to gain access?
+  - I need to get some material that I forgot in the ppgcc building
+- intent: building_authorization
+examples: |
+  - Can I bring animals to the MACC?
+  - Can I enter the MACC with my bicycle?
+  - Can I have a copy of the MACC lab key?
+  - Can I sleep at the MACC?
+  - Can I take food to the MACC labs?
+  - I had to work late at night at the MACC, can I sleep there since it's late at night?
+  - I forgot to deliver the MACC key, and accidentally took it home, what do I do?
+  - Can I use MACC equipment elsewhere?
+- intent: edict_selecao
+examples: |
+  - There will be a selection this year
+  - when will the selection notice be released
+  - When does the doctoral selection notice open?
+  - When does the Master's selection notice open?
+  - When does the selection notice open?
+  - What is the next ppgcc selection?
+  - How do I enroll in the selection of the Master's Degree in Computer Science at UECE?
+- intent: criteria_to_enroll_selection
+examples: |
+  - What are the criteria for enrolling in the PPGCC?
+  - To participate in the selection process?
+  - How can I participate?
+  - how do I participate in the master's selection
+  - what do I need to participate in the master's selections
+  - what do I need to enroll in the master's selection
+  - criteria for enrolling in the selection process
+  - what is necessary for me to qualify to be able to apply for the master's degree
+  - what are the criteria that qualify me to compete for a vacancy in the program
+- intent: candidate_from_other_country
+examples: |
+  - My diploma is from another country, can I apply?
+  - I did my graduation in another country, can I apply for the selection process
+  - I'm from another country, can I participate in the master's selective?
+  - for those from another country, is there any restriction to participate in the selection process?
+  - Who is from another country can participate?
+  - those who have a degree from another country can apply for master's degrees
+- intent: criteria_to_be_special_student
+examples: |
+  - What criteria do I need to apply to be a Special Student?
+  - what do I need to apply to be a special student
+  - can any candidate be a special student?
+  - when can I request to be a special student
+  - what qualifies me to compete for vacancies as a special student?
+  - what are the criteria for me to apply as a special student?
+- intent: request_readmissao
+examples: |
+  - What do I need to do to apply for readmission to the PPGCC?
+  - how do I apply for readmission
+  - what do I need to apply for readmission
+  - where I apply for readmission
+  - who should I talk to to apply for readmission
+- intent: english_proficiency
+examples: |
+  - Do I need proficiency in English to make the selection?
+  - proficiency in English is mandatory to make the selection
+  - I am not proficient in English, can I apply for a position in the program?
+  - I haven't done the proficiency in English yet, does that disqualify me as a candidate?
+  - I don't have proficiency in English, can I apply for the selective?
+- intent: load_time_master_doctorate
+examples: |
+  - what is the workload of the master's degree?
+  - what is the workload of the doctorate?
+- intent: discipline_distance
+examples: |
+  - Can I take the courses at a distance?
+  - can I do the master's degree at a distance?
+  - there is the possibility of me studying the master's degree at a distance
+  - Classes are face-to-face or distance learning
+  - Do you have distance classes that I can attend?
+- intent: working_building
+examples: |
+  - What time does MACC start its activities and open the building?
+  - when the ppgcc building is open
+  - The building has access at what times of the day?
+  - the program building works during business hours
+  - the building is open while classes are running
+  - When is the building closed?
+  - the program rooms are available at the weekend
+  - Is the building open on the weekend?
+- intent: extend_dissertation
+examples: |
+  - Can I postpone my master presentation after 2 years?
+  - Can I postpone my PhD presentation after 4 years?
+  - I did not defend my dissertation after two years, can I extend it?
+  - Can I postpone the defense of my dissertation?
+  - How can I extend my dissertation?
+- intent: secretary_contact
+examples: |
+  - What is the secretary's contact?
+  - what number of the secretariat
+  - which email of the secretary
+- intent: location_PPGCC
+examples: |
+  - Where is macc?
+  - what location of ppgcc
+  - where is ppgcc located
+- intent: request_declaration
+examples: |
+  - I want to ask for a statement
+  - How do I request a declaration
+  - How do I ask for a statement
+  - How do I get a statement
+  - How do I get a statement
+  - How do I obtain a proof of enrollment
+  - Where can I get a school transcript
+  - I did a master's degree at macc, how do I get my transcripts?
+  - I already defended and was approved, can you give me a statement
+  - Where do I request a statement of my class schedules to take to work?
+- intent: travel_to_event
+examples: |
+  - I want to apply for travel assistance to an event
+  - I want to apply for travel assistance to an event, how do I do it?
+  - PPGCC pays event registration
+  - And gives tickets to travel
+  - and there are diaries
+- intent: interview_master_doctorate
+examples: |
+  - I have to study something for the interview
+  - Can you tell me what to study for the interview
+- intent: locking_master_doctorate
+examples: |
+  - I can lock the master's degree for 1 year to go on a trip
+  - I can lock the master's degree for 1 year to take a trip and in the doctorate
+- intent: student_portfolio
+examples: |
+  - I entered the PPGCC selection, I want to apply for the student card
+  - where do I apply for my student ID
+- intent: enter_contact_coordination_faculty_body
+examples: |
+  - I want to make an appointment to speak with the coordinator
+  - I want to make an appointment to speak with prof everardo
+  - how do I schedule to speak with the coordinator
+  - How do I schedule to speak with Prof Gustavo
+  - which coordination contact?
+- intent: criteria_bolsa
+examples: |
+  - Can I have a scholarship having a job
+  - what are the criteria to apply for the scholarship
+- intent: english_proficiency_criteria
+examples: |
+  -  I already have a Fisk English certificate, I still need to prove my proficiency

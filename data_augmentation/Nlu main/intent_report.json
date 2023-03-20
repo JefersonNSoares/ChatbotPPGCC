@@ -1,0 +1,309 @@
+{
+  "acesso_espaco_fisico": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "funcionamento_predio": 1
+    }
+  },
+  "quem_coordenador": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 5,
+    "confused_with": {}
+  },
+  "criterios_para_inscrever_selecao": {
+    "precision": 0.7272727272727273,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.7999999999999999,
+    "support": 9,
+    "confused_with": {
+      "proficiencia_em_ingles": 1
+    }
+  },
+  "sobre_regimento": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "autorizacao_predio": {
+    "precision": 0.6,
+    "recall": 0.375,
+    "f1-score": 0.4615384615384615,
+    "support": 8,
+    "confused_with": {
+      "esqueci_algo_predio": 1,
+      "criterios_para_inscrever_selecao": 1
+    }
+  },
+  "saudacao": {
+    "precision": 1.0,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.9811320754716981,
+    "support": 27,
+    "confused_with": {
+      "calendario_data_matricula": 1
+    }
+  },
+  "edital_selecao": {
+    "precision": 0.75,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.7999999999999999,
+    "support": 7,
+    "confused_with": {
+      "sobre_linha_de_pesquisa": 1
+    }
+  },
+  "entrar_contato_corpo_docente_coordenacao": {
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "f1-score": 0.7272727272727272,
+    "support": 5,
+    "confused_with": {
+      "quem_coordenador": 1
+    }
+  },
+  "proficiencia_em_ingles": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "creditos_disciplina": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "criterios_para_inscrever_selecao": 1
+    }
+  },
+  "viajem_para_evento": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 5,
+    "confused_with": {
+      "sobre_objetivo_PPGCC": 1,
+      "entrar_contato_corpo_docente_coordenacao": 1
+    }
+  },
+  "sobre_linha_de_pesquisa": {
+    "precision": 0.9090909090909091,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9090909090909091,
+    "support": 11,
+    "confused_with": {
+      "autorizacao_disciplinas": 1
+    }
+  },
+  "solicitar_declaracao": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "sobre_relatorios": 1,
+      "ingressar_como_aluno_especial": 1
+    }
+  },
+  "candidato_de_outro_pais": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "disciplina_distancia": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 5,
+    "confused_with": {
+      "ingressar_PPGCC": 1
+    }
+  },
+  "trancamento_matricula": {
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1-score": 0.75,
+    "support": 8,
+    "confused_with": {
+      "ingressar_PPGCC": 1,
+      "calendario_data_matricula": 1
+    }
+  },
+  "ingressar_como_aluno_especial": {
+    "precision": 0.6428571428571429,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.7200000000000001,
+    "support": 11,
+    "confused_with": {
+      "criterios_para_ser_aluno_especial": 2
+    }
+  },
+  "prorrogar_dissertação": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "esqueci_algo_predio": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4,
+    "f1-score": 0.5,
+    "support": 5,
+    "confused_with": {
+      "autorizacao_predio": 2,
+      "funcionamento_predio": 1
+    }
+  },
+  "solicitar_readmissao": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 5,
+    "confused_with": {
+      "calendario_inicio_aula": 1,
+      "readmissao_PPGCC": 1
+    }
+  },
+  "funcionamento_predio": {
+    "precision": 0.7272727272727273,
+    "recall": 1.0,
+    "f1-score": 0.8421052631578948,
+    "support": 8,
+    "confused_with": {}
+  },
+  "sobre_objetivo_PPGCC": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 5,
+    "confused_with": {
+      "edital_selecao": 1,
+      "quem_coordenador": 1
+    }
+  },
+  "calendario_data_matricula": {
+    "precision": 0.4,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.3636363636363636,
+    "support": 6,
+    "confused_with": {
+      "trancamento_matricula": 2,
+      "aprovacao_disciplinas": 1
+    }
+  },
+  "horario_disciplinas": {
+    "precision": 0.9166666666666666,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9166666666666666,
+    "support": 12,
+    "confused_with": {
+      "horario_funcionamento": 1
+    }
+  },
+  "sobre_relatorios": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 7,
+    "confused_with": {}
+  },
+  "criterios_para_ser_aluno_especial": {
+    "precision": 0.3333333333333333,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2222222222222222,
+    "support": 6,
+    "confused_with": {
+      "ingressar_como_aluno_especial": 4,
+      "criterios_para_inscrever_selecao": 1
+    }
+  },
+  "readmissao_PPGCC": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {
+      "solicitar_readmissao": 1
+    }
+  },
+  "aprovacao_disciplinas": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 12,
+    "confused_with": {}
+  },
+  "calendario_inicio_aula": {
+    "precision": 0.8181818181818182,
+    "recall": 1.0,
+    "f1-score": 0.9,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ingressar_PPGCC": {
+    "precision": 0.75,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.7826086956521738,
+    "support": 11,
+    "confused_with": {
+      "edital_selecao": 1,
+      "calendario_inicio_aula": 1
+    }
+  },
+  "horario_funcionamento": {
+    "precision": 0.9230769230769231,
+    "recall": 0.8,
+    "f1-score": 0.8571428571428571,
+    "support": 15,
+    "confused_with": {
+      "acesso_espaco_fisico": 1,
+      "calendario_data_matricula": 1
+    }
+  },
+  "aproveitamento_disciplina": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
+  "autorizacao_disciplinas": {
+    "precision": 0.8461538461538461,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.8799999999999999,
+    "support": 12,
+    "confused_with": {
+      "disciplina_distancia": 1
+    }
+  },
+  "accuracy": 0.8435374149659864,
+  "macro avg": {
+    "precision": 0.8133434747071111,
+    "recall": 0.807458058215634,
+    "f1-score": 0.799594039052219,
+    "support": 294
+  },
+  "weighted avg": {
+    "precision": 0.8429053656094473,
+    "recall": 0.8435374149659864,
+    "f1-score": 0.835462005924289,
+    "support": 294
+  },
+  "micro avg": {
+    "precision": 0.8435374149659864,
+    "recall": 0.8435374149659864,
+    "f1-score": 0.8435374149659864,
+    "support": 294
+  }
+}
