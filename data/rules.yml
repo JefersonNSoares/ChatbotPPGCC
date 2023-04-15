@@ -1,5 +1,6 @@
 version: "2.0"
-
 rules:
-
-
+- rule: Untitled Rule
+  steps:
+  - action: action_session_start
+  - action: utter_resposta_welcome

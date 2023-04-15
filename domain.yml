@@ -113,8 +113,41 @@ intents:
     use_entities: true
 - viajem_para_evento:
     use_entities: true
+- resposta_nao:
+    use_entities: true
+- resposta_sim:
+    use_entities: true
+- participar_intercambio:
+    use_entities: true
+- criteirios_conclusao_mestrado_doutorado:
+    use_entities: true
+- disciplinas_obrigatorias:
+    use_entities: true
+- objetivo_chatbot:
+    use_entities: true
+- direitos_deveres_pos_graduando:
+    use_entities: true
+- sobre_bolsas:
+    use_entities: true
+- conceito_capes:
+    use_entities: true
+- sobre_professores:
+    use_entities: true
+- cursos_ofertados:
+    use_entities: true
 entities:
 - espaco_fisico
+- aluno_especial
+- aluno_regular
+- mestrado
+- doutorado
+- disciplinas
+- linha_de_pesquisa
+- formulario
+- edital
+- comissao_bolsas
+- contato_setor
+- contato_pessoa
 slots: {}
 responses:
   utter_sala_tem_projetor:
@@ -178,7 +211,7 @@ responses:
   utter_informacoes_espaco_fisico:
   - text: Entre em contato com a coordenação ou a secretaria do curso para obter mais informações sobre a política de agendamento, cancelamento e alteração.
   utter_saudacao:
-  - text: Olá, em que posso ajudar?
+  - text: Olá! Que bom ter você aqui! Sou um chatbot especializado em responder perguntas sobre o Programa de Pós-Graduação em Ciência da Computação (PPGCC) da Universidade Estadual do Ceará. Como posso ajudá-lo(a) hoje?
   utter_ingressar_como_aluno_especial:
   - text: 'Pode solicitar a condição de Aluno Especial o candidato aprovado no processo seletivo que: a) Optou por ingressar como aluno especial, b) Não pode ingressar no Programa por insuficiência de vagas, c) Alunos de graduação da UECE nos últimos 2 (dois) semestres de curso de graduação em Ciência da Computação e áreas afins, para mais informações consulte o Art. 23° do regimento do programa.'
   utter_ingressar_PPGCC:
@@ -276,6 +309,35 @@ responses:
   - text: A ordem de concessão de bolsas no programa MACC será definida com base na ordem de classificação dos alunos no processo seletivo e seguirá um critério de prioridade. Os alunos do ano corrente e anterior que declararam interesse em concorrer à bolsa e não possuem outra fonte de renda para cursar o MACC em tempo integral têm prioridade sobre os demais. Em seguida, são considerados os alunos que possuem outra fonte de renda para cursar o MACC em tempo integral e, por último, aqueles que possuem outra fonte de renda e cursam o MACC em tempo parcial, desde que apresentem a anuência do orientador.
   utter_criterios_proficiencia_ingles:
   - text: Para atender aos requisitos de proficiência em língua estrangeira no âmbito do PPGCC, serão aceitos exames externos reconhecidos, exames aplicados pelo Núcleo de Línguas Estrangeiras (NLE) da UECE e exames aplicados pelo próprio PPGCC. Os exames de proficiência externos aceitos incluem TOEFL iBT e TOEFL ITP aplicado pelo Educational Testing Service (ETS) e IELTS Academic aplicado pelo International English Language Testing System (IELTS).
-actions: []
+  utter_pergunta_feedback:
+  - text: Essa resposta foi útil? (responda com "sim" ou "não")
+  utter_resposta_sim:
+  - text: otimo, tem mais alguma pergunta?
+  utter_resposta_nao:
+  - text: Hum... que pena, poderia reformular a pergunta?
+  utter_resposta_welcome:
+  - text: Olá! Que bom ter você aqui! Sou um chatbot especializado em responder perguntas sobre o Programa de Pós-Graduação em Ciência da Computação (PPGCC) da Universidade Estadual do Ceará. Como posso ajudá-lo(a) hoje?"
+  utter_participar_intercambio:
+  - text: Para participar de intercambio geralmente deve-se verificar se a UECE tem parcerias com outras instituições de ensino no exterior e se elas oferecem programas de intercâmbio para estudantes de pós-graduação. É comum a coordenação do PPGCC enviar email sobre oportunidades de intercâmbio e informações, caso queira mais informações entre em contato com coordenação.
+  utter_criteirios_conclusao_mestrado_doutorado:
+  - text: Para concluir o mestrado o aluno precisa cumprir uma série de requisitos, incluindo a conclusão dos créditos necessários, média final mínima de 7,0, aprovação no exame de proficiência em inglês e estágio à docência, aprovação da Proposta de Dissertação, conclusão do curso no prazo estipulado, apresentação e defesa da Dissertação de Mestrado em seção pública e obtenção de conceito "Aprovado" ou "Aprovado com louvor" da Comissão Examinadora, entrega de documentação exigida pela Biblioteca Central da UECE e publicação de pelo menos 1 artigo em congresso ou periódico da área com Qualis. Para o doutorado os mesmo critérios são estabelecidos com diferença  de ter, pelo menos, 1 (um) artigo aceito/publicado, em coautoria com o orientador, em periódico da área da Ciência da Computação com Qualis Estrato Superior
+  utter_disciplinas_obrigatorias:
+  - text: As disciplinas obrigatórias do Programa de Pós-Graduação em Ciência da Computação da UECE (PPGCC-UECE) podem variar de acordo com o período letivo e o curso de mestrado ou doutorado. No entanto, geralmente, as disciplinas obrigatórias para o mestrado são as seguintes Probabilidade e Processos Estocásticos e Projeto e Análise de Algoritmos, vale lembrar que é necessário conversar com seu orientador e definir o melhor plano de disciplinas.
+  utter_objetivo_chatbot:
+  - text: Olá, sou um chatbot que tem como objetivo responder perguntas sobre o Programa de Pós Graduação em Ciência da Computação da Universidade Estadual do Ceará, fico feliz que esteja por aqui, posso ajudar em algo?
+  utter_direitos_deveres_pos_graduando:
+  - text: O aluno regularmente matriculado no PPGCC ficará automaticamente sujeito ao cumprimento das Normas estabelecidas pelo Regimento do programa e em Resoluções complementares aprovadas pelo Colegiado. São deveres do aluno mais não se limitando, cumprir com as exigências acadêmicas do programa, tais como frequência nas disciplinas, realização de tarefas e atividades propostas e entrega de trabalhos, desenvolver pesquisas de qualidade e contribuir para a produção científica do programa, com publicações em congressos e periódicos da área entre outros.
+  utter_sobre_bolsas:
+  - text: 'Em geral, as bolsas de estudos oferecidas aos alunos de pós-graduação em podem ser de duas categorias: bolsas institucionais e bolsas de agências de fomento. As bolsas institucionais são financiadas diretamente pela UECE e têm valores variáveis, de acordo com a política interna da instituição e com a duração do programa. Já as bolsas de agências de fomento, como a CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior) e o CNPq (Conselho Nacional de Desenvolvimento Científico e Tecnológico), são mais comuns e têm valores definidos por essas agências. Os valores das bolsas de estudos também podem variar de acordo com o nível de formação do aluno, com a região do país e com a agência de fomento que concedeu a bolsa. Em geral, para alunos de mestrado, as bolsas têm um valor médio de R$ 1.500 a R$ 2.200 por mês, enquanto para alunos de doutorado, o valor pode chegar a R$ 3.500 ou mais, dependendo da agência de fomento e do programa de pós-graduação. É importante lembrar que os valores das bolsas de estudos são atualizados periodicamente e estão sujeitos a alterações.'
+  utter_conceito_capes:
+  - text: Conforme o último resultado da avaliação quadrienal da CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior) divulgado, o Programa de Pós-Graduação em Ciência da Computação da UECE (PPGCC-UECE) recebeu a nota 4, em uma escala que vai de 3 a 7. Essa nota indica que o programa tem um bom desempenho e está em constante evolução, com qualidade de ensino e pesquisa em sua área de atuação.
+  utter_cursos_ofertados:
+  - text: No presente momento, o programa de pós-graduação em Ciência da Computação disponibiliza aos interessados em prosseguir com seus estudos na área tanto a opção de Mestrado quanto de Doutorado em Ciências da Computação, o que amplia as possibilidades de aprimoramento acadêmico e profissional.
+  utter_sobre_professores:
+  - text: Acessando o site https://www.uece.br/ppgcc/instituicional/corpo-docente/ você tem acesso a todo o corpo docente que faz parte do PPGCC.
+actions:
+- action_resposta_util
+- action_proxima_pergunta
+- action_welcome_message
 forms: {}
 e2e_actions: []

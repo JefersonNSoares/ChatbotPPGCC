@@ -4,9 +4,24 @@ nlu:
   examples: |
     - às salas de aula tem projetor para as aulas
     - as salas de aula possuem projetor para as aulas.
+    - nas salas de aula é usado um projetor para as aulas
+    - as salas de aula têm projetores para as aulas
+    - as salas de aula têm um projetor para a aula
+    - as salas de aula têm um projetor para as aulas
+    - as salas de aula têm um projetor para aulas
+    - cada sala de aula tem um projetor
+    - as aulas têm projetor
+    - as salas de aula têm um projetor
+    - as salas de aula possuem projetor para as aulas
 - intent: buscar_sala_de_aula_da_disciplina
   examples: |
     - Qual sala de aula vai acontecer aula da disciplina de PPE
+    - em que sala de aula os alunos do ppe cursam uma disciplina?
+    - em qual sala de aula o ep ocorre?
+    - qual é a sala de aula onde acontecerá a disciplina de ep?
+    - em qual turma acontecerá a disciplina de ep?
+    - em qual sala de aula acontecerá uma disciplina de ep?
+    - em qual sala de aula acontecerá a disciplina de EPI?
 - intent: acesso_espaco_fisico
   examples: |
     - Qualquer pessoa pode ter acesso às [salas de aula] (espaco_fisico)
@@ -24,11 +39,101 @@ nlu:
     - Qualquer pessoa pode ter acesso [prédio do PPGCC] (espaco_fisico)
     - Qualquer pessoa pode ter acesso [refeitório] (espaco_fisico)
     - otimo, como reservo o auditorio?
+    - todos podem usufruir do espaço físico da escola
+    - qualquer pessoa pode acessar o espaço físico das salas de aula
+    - qualquer pessoa pode acessar o espaço físico nas salas de aula
+    - qualquer pessoa pode acessar o espaço físico da sala de aula
+    - qualquer pessoa pode acessar o espaço da sala de aula
+    - qualquer pessoa pode acessar o espaço físico do laboratório
+    - qualquer pessoa pode utilizar a área física do laboratório
+    - qualquer pessoa pode entrar no espaço físico do laboratório
+    - qualquer pessoa pode acessar a área física do laboratório
+    - qualquer um pode acessar a área física dos laboratórios
+    - qualquer pessoa pode acessar o espaço físico dos laboratórios
+    - o acesso ao espaço físico do equipamento é aberto a qualquer pessoa
+    - qualquer pessoa pode acessar o espaço físico do equipamento
+    - todos podem acessar o espaço físico do equipamento
+    - podemos usar o espaço e equipamentos
+    - a pessoa que poderia usar o espaço
+    - quem pode utilizar o espaço físico
+    - quem pode usar o espaço do equipamento
+    - quem pode utilizar este equipamento espaço físico
+    - quem pode utilizar o espaço físico do equipamento
+    - todos os usuários podem acessar o espaço da secretaria
+    - qualquer pessoa pode entrar no espaço físico da secretaria
+    - qualquer pessoa pode aceder ao espaço físico do secretariado
+    - qualquer pessoa pode acessar o espaço físico da secretaria
+    - em todo o auditório qualquer pessoa pode acessar o espaço físico
+    - qualquer pessoa pode acessar o auditório
+    - qualquer pessoa pode ter acesso ao espaço físico do auditório
+    - todos podem ter acesso ao espaço físico do auditório
+    - qualquer pessoa pode entrar no espaço físico do auditório
+    - qualquer pessoa pode acessar o espaço físico do auditório
+    - todos podem acessar o espaço físico da sala de seminários
+    - qualquer pessoa pode acessar o espaço físico da sala de seminários
+    - qualquer pessoa pode ter acesso ao espaço da cozinha
+    - todos podem ter acesso ao espaço físico da cozinha
+    - qualquer pessoa pode ter acesso à cozinha espaço físico
+    - qualquer pessoa pode ter acesso ao espaço físico da cozinha
+    - qualquer pessoa pode acessar o espaço físico da sala de aula dos professores
+    - qualquer pessoa pode acessar o espaço físico da sala dos professores
+    - qualquer pessoa pode acessar o espaço físico da sala de reunião
+    - qualquer pessoa pode entrar na sala física da sala de reunião
+    - todos podem utilizar o espaço físico da sala de reuniões
+    - qualquer pessoa pode acessar o espaço de uma sala de reunião
+    - qualquer pessoa pode ir ao espaço físico da sala de reuniões
+    - todos podem acessar o espaço físico da sala de reunião
+    - qualquer pessoa pode acessar o espaço físico da sala de reuniões
+    - qualquer pessoa pode acessar as salas de reuniões espaço físico
+    - facilmente acessível a qualquer pessoa
+    - qualquer pessoa pode acessar o banheiro físico
+    - todas as pessoas têm acesso ao espaço físico do banheiro
+    - todas as pessoas podem acessar o banheiro '' espaço físico
+    - qualquer pessoa pode acessar o espaço físico do banheiro
+    - quase qualquer pessoa pode acessar o espaço físico do banheiro
+    - o espaço físico da biblioteca é aberto a todos
+    - os interessados podem dirigir-se à bibliotecaespaçofísico
+    - qualquer pessoa pode visitar o espaço físico da biblioteca
+    - qualquer pessoa pode acessar o espaço físico da biblioteca
+    - qualquer pessoa pode acessar o espaço físico do prédio do ppgcc
+    - todos podem acessar o prédio do ppgcc
+    - qualquer pessoa pode ter acesso ao espaço físico do prédio do ppgcc
+    - qualquer pessoa pode ir ao espaço físico do prédio do ppgcc
+    - qualquer pessoa pode acessar o espaço físico do edifício ppgcc
+    - todos podem acessar o espaço ao redor da mesa de jantar
+    - é possível aceder a qualquer divisão da sala de jantar
+    - qualquer pessoa pode aceder ao espaço físico da sala de refeições
+    - todos podem acessar o espaço físico da sala de jantar
+    - qualquer pessoa pode acessar o espaço físico da sala de jantar
+    - o que você faz para reservar o auditório?
+    - como se reserva um auditório?
+    - como faço para reservar um auditório?
+    - o que faço para reservar o auditório?
+    - como faço para reservar o auditório?
+    - qualquer pessoa pode entrar no prédio?
 - intent: verificar_disponibilidade_espaco_fisico
   examples: |
     - Como posso verificar se um determinado espaço físico está livre ou ocupado?
     - Como faço para saber se o auditorio está livre ou ocupado
     - É possível verificar a disponibilidade da sala de aula
+    - se o espaço estiver vazio, como faço para encontrá-lo?
+    - como você determina se um espaço ainda está livre?
+    - como verifico se há ou não espaço e se está livre?
+    - como posso verificar se o espaço está vazio?
+    - o que devo fazer para ver se um quarto está livre ou ocupado?
+    - como verifico se um espaço está livre ou vazio?
+    - como verifico se um espaço está vazio ou ocupado?
+    - que verificações determinarão se um espaço físico está livre ou ocupado?
+    - como verifico se um espaço está livre ou ocupado?
+    - como verifico se um espaço físico está livre ou ocupado?
+    - como posso saber se um auditório está aberto?
+    - como sei se o auditório está aberto ou um pouco cheio?
+    - como sei se o auditório está lotado ou livre?
+    - como sei se o auditório está ocupado ou livre?
+    - como saber se o auditório está livre ou ocupado?
+    - como sei que o auditório está livre ou ocupado?
+    - como sei se o auditório está livre ou ocupado?
+    - é possível verificar a disponibilidade da turma
 - intent: horario_funcionamento
   examples: |
     - Qual é o horário de funcionamento [salas de aula] (espaco_fisico)
@@ -46,11 +151,94 @@ nlu:
     - Há alguma restrição de acesso ?
     - Como posso reservar ou agendar o uso deste espaço físico?
     - qual é o horário da secretaria para eu entregar um documento
+    - qual é o horário de funcionamento das salas de aula?
+    - mostre-me os horários de abertura das salas de aula espaço físico
+    - diga-me o horário de funcionamento do espaço físico das salas de aula
+    - mostrar-me o horário de funcionamento das salas de aulaespaço físico
+    - mostre-me o horário de funcionamento dos laboratórios?
+    - mostre-me os horários de funcionamento dos laboratórios do espaço físico?
+    - listar os horários de funcionamento dos laboratórios?
+    - qual o horário de funcionamento do espaço físico dos laboratórios?
+    - mostre-me o horário de funcionamento dos laboratórios espaço físico
+    - Qual o horário de funcionamento [secretaria] (espaço_físico)
+    - mostrar-me o horário de funcionamento auditório espaço físico
+    - qual o horário de funcionamento auditório espaço físico
+    - você pode listar o horário de funcionamento da sala de seminários?
+    - mostre-me o horário de funcionamento da sala de seminários?
+    - mostre-me o horário de funcionamento de uma sala de seminários?
+    - você pode listar os horários de funcionamento do espaço físico da sala de seminários?
+    - listar o horário de funcionamento de um espaço físico de sala de seminário
+    - mostre-me o horário de funcionamento da cozinha
+    - qual é o horário de funcionamento da cozinha?
+    - mostrar-me o horário de funcionamento do espaço da cozinha
+    - mostre-me o horário de funcionamento da cozinha espaço físico?
+    - mostrar-me o horário de funcionamento do espaço físico da cozinha
+    - listar os horários de funcionamento da sala de aula?
+    - você pode listar o horário de funcionamento da sala de aula?
+    - indica-me o horário de abertura do espaço físico da sala dos professores?
+    - mostrar-me o horário de funcionamento do espaço físico da sala de professores
+    - mostrar-me o horário de funcionamento espaço físico da sala do professor
+    - você pode listar o horário de funcionamento da sala de reuniões?
+    - você pode listar o horário de funcionamento de uma sala de reunião?
+    - qual o horário de funcionamento do espaço físico da sala de reunião
+    - dar-me o horário de funcionamento do espaço físico da sala de reuniões
+    - listar os horários de funcionamento de um espaço físico de sala de reunião?
+    - mostrar-me o horário de funcionamento do espaço físico da sala de reuniões
+    - mostre-me o horário de funcionamento da sala de reuniões espaço físico
+    - liste o horário de funcionamento do banheiro?
+    - você pode listar o horário de funcionamento do banheiro?
+    - qual é o horário de funcionamento do banheiro?
+    - mostre-me o horário de funcionamento do banheiro?
+    - mostra-me o horário de funcionamento das casas de banho?
+    - mostrar-me o horário de funcionamento da área física do banheiro
+    - mostrar-me o horário de funcionamento do espaço físico da casa de banho
+    - mostre-me o horário da biblioteca?
+    - você pode listar os horários de funcionamento no espaço físico da biblioteca
+    - listar os horários de funcionamento do espaço físico da biblioteca?
+    - qual o horário de funcionamento do espaço físico da biblioteca?
+    - mostre-me os horários do espaço físico da biblioteca?
+    - listar os horários de funcionamento do prédio do ppgcc?
+    - mostre-me o horário de funcionamento do espaço físico do edifício ppgcc
+    - mostrar-me o horário de funcionamento do refeitório e espaço físico
+    - indicar-me o horário de funcionamento do espaço físico da cafetaria
+    - mostrar-me o horário de funcionamento do espaço físico da cafetaria
+    - diga-me o horário de funcionamento do espaço físico da cafetaria
+    - que restrições de acesso existem?
+    - existem restrições para acessar um sistema?
+    - as pessoas têm restrições de acesso?
+    - existem restrições de acesso?
+    - como faço para reservar este espaço?
+    - como você planeja uma reserva de espaço?
+    - como reservo um espaço físico para este espaço?
+    - como faço para reservar um espaço físico?
+    - como reservo este espaço físico?
+    - como posso reservar o uso deste espaço?
+    - como posso agendar a utilização deste espaço físico?
+    - como posso reservar ou agendar a utilização deste espaço físico?
+    - Qual é o horário de expediente para eu entregar um documento
 - intent: informacoes_espaco_fisico
   examples: |
     - Como posso obter informações adicionais sobre este espaço físico?
     - Há alguma exigência ou política específica para utilizar este espaço físico?
     - Qual é a política de cancelamento ou alteração de reservas para este espaço físico?
+    - como você pode descobrir sobre o espaço físico?
+    - como obtenho informação sobre este espaço físico?
+    - como faço para obter mais informações sobre este espaço?
+    - como posso obter mais informações sobre o espaço?
+    - existe alguma forma de obter mais informações sobre um espaço físico?
+    - como obtenho informação adicional sobre este espaço físico?
+    - listar as regras de utilização do espaço?
+    - as empresas têm orientações específicas sobre o uso desse espaço?
+    - listar algumas políticas ou requisitos para uso do espaço físico?
+    - existem diretrizes ou políticas específicas para o uso desse espaço físico?
+    - existem regulamentos ou políticas específicas para a utilização deste espaço físico?
+    - existem requisitos ou políticas específicas para a utilização deste espaço físico?
+    - como faço para cancelar uma reserva?
+    - mostrar algumas políticas de cancelamento ou alteração de reservas para este espaço físico?
+    - qual a política de cancelamento ou alteração de reservas deste espaço físico?
+    - diga-me as políticas de cancelamento ou alteração de reservas para este espaço físico?
+    - apresentar as políticas de cancelamento ou alteração de reservas deste espaço físico?
+    - diga-me qual a política de cancelamento ou alteração de reservas deste espaço físico?
 - intent: saudacao
   examples: |
     - Olá
@@ -80,9 +268,24 @@ nlu:
     - Oláá, bom dia!
     - bom dia
     - tudo bem?
+    - Fala, cara!
+    - é tudo de bom?
+    - boa noite
+    - olá pessoal
+    - olá tudo bem?
+    - Olá e bom dia
+    - olá, bom dia
+    - Olá manhã
+    - ei
+    - ei pessoal
+    - está tudo bem?
+    - tudo bom?
+    - Oii boa noite!
+    - Legal
+    - Obrigada!
 - intent: ingressar_como_aluno_especial
   examples: |
-    - como faço para ser aluno especial?
+    - como faço para ser [aluno especial] (aluno_especial)?
     - como faço para cursar disciplinas como aluno especial?
     - posso ser aluno especial?
     - Eu gostaria de concorrer a uma vaga como aluno especial como eu faço?
@@ -93,6 +296,41 @@ nlu:
     - gostaria de ser aluno especial, como faço para ser aluno especial?
     - quais os critérios para eu ser aluno especial?
     - tem critérios para concorrer como aluno especial?
+    - como você se torna um aluno especial?
+    - como faço para me tornar um aluno especial?
+    - como posso fazer cursos especiais?
+    - como posso fazer cursos como aluno especial?
+    - tudo bem ser aluno especial?
+    - quero me candidatar a uma vaga de aluno especial?
+    - gostaria de me candidatar a uma vaga de aluno especial como faço?
+    - gostaria de me candidatar a uma vaga como aluno especial como faço?
+    - eu gostaria de ser um aluno especial
+    - eu quero ser aluno especial
+    - eu quero ser um aluno especial
+    - como pode um aluno ser especial?
+    - como nos tornamos alunos especiais?
+    - como se tornar um aluno especial?
+    - como você pode ser um aluno especial?
+    - como é ser aluno especial?
+    - como ser um aluno especial?
+    - eu gostaria de ser aluno especial
+    - como funciona como aluno especial?
+    - como funciona ser aluno especial?
+    - como funciona ser um aluno especial
+    - como posso me tornar um aluno especial?
+    - se você quer ser um aluno especial o que deve fazer?
+    - quero ser aluno especial como faço para ser aluno especial?
+    - gostaria de ser aluno especial como faço para ser aluno especial?
+    - listar os critérios de um aluno especial?
+    - listar os critérios para ser considerado aluno especial?
+    - quais são os critérios para alunos especiais?
+    - apresentar os critérios para ser aluno especial?
+    - quais são os critérios para um aluno especial?
+    - quais os critérios para ser aluno especial?
+    - como me qualifico como aluno especial?
+    - que critérios você precisa atender para ser um aluno especial?
+    - você tem critérios para ser aluno especial?
+    - você tem critérios para concorrer como aluno especial?
 - intent: ingressar_PPGCC
   examples: |
     - Quais as etapas para ingressar no mestrado?
@@ -106,6 +344,77 @@ nlu:
     - processo seletivo para entrar no mestrado em computação
     - como faço para entrar no mestrado em computação?
     - o que preciso para começar no mestrado
+    - como devo me preparar para o mestrado?
+    - diga-me o caminho básico para obter um mestrado?
+    - como é o processo de preparação para o mestrado?
+    - diga-me o procedimento para um mestrado?
+    - mostrar os passos para obter um mestrado?
+    - como me posso inscrever num mestrado?
+    - como começo um mestrado?
+    - como posso me matricular em um mestrado?
+    - quando vai abrir?
+    - quando é lançado o edital de admissão?
+    - quando abre o processo de admissão?
+    - quando ficará pronto o edital de admissão?
+    - diga-me o processo de seleção para se candidatar ao doutorado?
+    - listar os critérios de admissão em cursos de pós-graduação?
+    - diga-me o processo de admissão ao mestrado ou ao doutoramento?
+    - qual o procedimento de seleção para os cursos mmd?
+    - como escolho um bom candidato para um curso de mestrado e doutorado?
+    - qual é o seu processo de seleção para um curso de doutorado?
+    - como é o processo seletivo para os cursos de doutorado?
+    - diga-me o processo de seleção para programas de mestrado e doutorado?
+    - você pode ter uma publicação em uma revista para um mestrado?
+    - precisa publicar em revista para fazer o mestrado?
+    - preciso ter publicações em revista para fazer mestrado?
+    - precisa ter publicação em revista para fazer mestrado?
+    - diga-me o processo de registro?
+    - quais são os procedimentos de registro?
+    - listar as formalidades para registro?
+    - recomenda algum procedimento para registro?
+    - qual será o procedimento de inscrição?
+    - mostrar o procedimento para registro?
+    - diga-me o procedimento para registro?
+    - existem critérios de admissão para mestre pgcc?
+    - listar os critérios de elegibilidade para mestrado ppgcc?
+    - quais os critérios de admissão do ppgcc programa de mestrado?
+    - diga-me o requisito para o programa de mestrado ppgcc?
+    - quais as condições de ingresso no mestrado do ppgcc?
+    - quais os critérios de admissão no mestrado do ppgcc?
+    - critérios para ingresso no mestrado do ppgcc?
+    - quais são os critérios para ingresso nos programas de mestrado do ppgcc?
+    - quais são seus critérios para entrar no programa de mestrado do ppgcc?
+    - como faço para obter um mestrado?
+    - o que devo fazer para entrar no programa de mestrado?
+    - o que devo fazer para obter um mestrado?
+    - o que devo fazer para obter o grau de mestre?
+    - o que eu preciso fazer para conseguir um mestrado?
+    - recrutamento para obter um mestrado em ciência da computação
+    - processo de seleção para o mestrado em ciência da computação
+    - o processo de seleção para entrar no mestrado em engenharia informática
+    - o processo seletivo para obtenção do título de mestre em ciência da computação
+    - o processo de seleção para um mestrado em computação
+    - o processo seletivo para ingresso no mestrado em computação
+    - como faço para entrar no mestrado em ciência da computação e engenharia?
+    - como faço para obter um mestrado em ciência da computação?
+    - como posso fazer mestrado em ciência da computação?
+    - diga-me a melhor maneira de obter mestrado em ciência da computação?
+    - como posso obter um mestrado em ciência da computação?
+    - como faço para entrar em um mestrado em ciência da computação?
+    - como faço para entrar em um mestrado em computação?
+    - como devo começar meu mestrado?
+    - o que devo fazer se quiser iniciar um mestrado?
+    - o que eu preciso para começar meu mestrado?
+    - Quais os documentos necessários para realizar a inscrição no processo seletivo do mestrado em computação?
+    - Como faço para entrar no programa?
+    - Como faço para e ingressar no mestrado?
+    - como entrar no pggc?
+    - Como funciona a seleção para o PPGCC
+    - como funciona o programa?
+    - Como funciona o programa.
+    - Como faço para ingressar no programa?
+    - Quais são as etapas para ingressar?
+    - Somente graduados podem fazer o mestrado em computação?
 - intent: aproveitamento_disciplina
   examples: |
     - Vou poder trazer disciplinas de outro mestado
@@ -121,6 +430,58 @@ nlu:
     - tenho disciplinas que podem ser aproveitadas no mestrado quais as condições para aproveitar?
     - gostaria de aproveitar disciplinas no mestrado/doutorado
     - Antes de entrar no mestrado diz umas disciplinas, posso aproveitar as disciplinas já cursadas?
+    - poderei trazer disciplinas de outro mestrado
+    - posso trazer disciplina que estudei em outro doutorado
+    - posso trazer disciplina que estudei em outro mestrado
+    - podemos utilizar as habilidades já adquiridas em outros programas de pós-graduação para cursos de mestrado e doutorado?
+    - posso utilizar disciplinas já cursadas em outros programas de pós-graduação para mestrado e doutorado?
+    - é possível utilizar disciplinas já cursadas em outros programas de pós-graduação para cursos de mestrado?
+    - é possível utilizar disciplinas já cursadas em outros programas de pós-graduação para cursos de mestrado e doutorado?
+    - é possível utilizar disciplinas de outros programas de pós-graduação para cursos de mestrado e doutorado?
+    - é possível utilizar disciplinas já cursadas em outros programas de pós-graduação para os cursos de mestrado e doutorado?
+    - posso continuar meus estudos no programa de doutorado se já fiz a mesma coisa?
+    - posso fazer esta mesma disciplina antes de um curso de doutorado?
+    - se já fiz a mesma disciplina posso continuar fazendo doutorado?
+    - se eu já tiver cursado disciplinas similares antes, posso fazer doutorado?
+    - quais são os cursos que posso fazer no meu programa de pós-graduação?
+    - pode usufruir dos cursos que estudou durante a sua licenciatura?
+    - como posso aproveitar os cursos que estudei na universidade?
+    - o que pode ser feito com os cursos cursados na graduação?
+    - você pode aproveitar os cursos estudados na graduação?
+    - posso fazer cursos de mestrado de outras escolas de mestrado?
+    - como posso fazer um curso em outro programa de mestrado?
+    - posso fazer cursos em outros programas de mestrado?
+    - como posso me beneficiar da disciplina?
+    - como posso fazer uso da disciplina?
+    - como aproveito a disciplina?
+    - como podemos tirar proveito da disciplina?
+    - como posso tirar proveito da disciplina?
+    - que passos posso dar para tirar proveito da disciplina?
+    - se eu quiser aproveitar a disciplina como?
+    - também posso fazer outros cursos?
+    - posso fazer disciplinas de qualquer outro curso?
+    - posso fazer disciplinas de outros cursos?
+    - listar os critérios para ter acesso aos cursos que fiz?
+    - listar os critérios para fazer um curso que fiz?
+    - você gostaria de fazer cursos que já foram ministrados nesses cursos?
+    - mostrar os critérios para um aluno fazer um curso que ele já fez anteriormente?
+    - como posso aproveitar os cursos que já fiz?
+    - gostaria de aproveitar os cursos que fiz anteriormente quais são os critérios?
+    - como aproveito as áreas oferecidas no mestrado?
+    - como posso aproveitar algumas das disciplinas que poderiam ser utilizadas em um mestrado?
+    - quais são as disciplinas boas para um mestrado?
+    - apresentar as condições de utilização das disciplinas que podem ser utilizadas no programa de mestrado?
+    - tenho uma disciplina que posso utilizar no mestrado quais são as condições para aproveitá-la?
+    - eu gostaria de fazer cursos no programa de mestrado ou programa de doutorado
+    - eu gostaria de fazer cursos no programa md phd
+    - eu gostaria de fazer cursos no programa de mestradoprograma de doutorado
+    - gostaria de fazer cursos no programa de mestrado e doutorado
+    - gostaria de fazer o curso de mestrado e doutorado
+    - há como aproveitar as disciplinas já cursadas no mestrado?
+    - antes de iniciar o mestrado posso aproveitar as disciplinas já cursadas?
+    - Para aproveitamento de disciplinas do mestrado, qual o limite aceitável ao entrar no doutorado.
+    - Qual o limite de aproveitamento destas disciplinas
+    - Me fala sobre o programa de doutorado, como faço pra aproveitar disciplinas do mestrado.
 - intent: creditos_disciplina
   examples: |
     - Quantas disciplinas são necessárias para se formar no PPGCC
@@ -133,6 +494,72 @@ nlu:
     - qual mínimo de disciplinas que tenho que cursar para concluir o mestrado/doutorado
     - qual a quantidade mínima de créditos em disciplinas que devo cursar para concluir o mestrado?
     - existe quantidade mínima e máxima de disciplinas que devo cursar?
+    - quantas disciplinas são necessárias para obter o grau em ppgcc?
+    - quantas disciplinas são necessárias para terminar o ppgcc?
+    - quantas disciplinas são necessárias para se formar no ppgcc?
+    - quantas disciplinas devo seguir para concluir meu mestrado?
+    - quantas disciplinas são necessárias para a conclusão de um mestrado?
+    - quantas disciplinas tenho para fazer um mestrado?
+    - quantas disciplinas preciso cumprir para obter o título de mestre?
+    - quantas disciplinas preciso fazer para concluir um mestrado?
+    - quantas disciplinas eu preciso passar para concluir o mestrado?
+    - quantas disciplinas eu preciso estudar para concluir um mestrado?
+    - quantas disciplinas preciso cursar para concluir um mestrado?
+    - quantas disciplinas uma pessoa precisa concluir para obter o doutorado?
+    - quantas disciplinas eu preciso começar antes de concluir meu doutorado?
+    - quantas disciplinas eu preciso para concluir um doutorado?
+    - quantas disciplinas eu preciso fazer para terminar meu doutorado?
+    - quantas disciplinas eu preciso para concluir meu doutorado?
+    - quantas disciplinas eu preciso fazer para concluir meu doutorado?
+    - quantas disciplinas preciso fazer para concluir meu doutorado?
+    - quantas disciplinas tenho que cursar para concluir meu doutorado?
+    - quantas disciplinas preciso cursar para concluir meu doutorado?
+    - quantos créditos preciso fazer em uma disciplina para concluir a pós-graduação?
+    - quantos créditos em disciplinas preciso fazer para terminar um doutorado?
+    - quantos créditos preciso em disciplinas para concluir uma pós-graduação?
+    - quantos créditos preciso fazer para concluir uma pós-graduação?
+    - quantos créditos em uma disciplina eu preciso para concluir a pós-graduação?
+    - quantos créditos em uma disciplina eu preciso fazer para concluir uma pós-graduação?
+    - quantos créditos em uma disciplina preciso fazer para concluir a pós-graduação?
+    - quantos créditos em disciplinas preciso cursar para concluir a pós-graduação?
+    - quantos créditos são necessários para obter um doutorado?
+    - quantos créditos preciso pagar para terminar um programa de mestrado?
+    - quantos créditos preciso pagar para concluir o doutorado?
+    - quantos créditos preciso pagar para obter o título de mestrado e doutorado?
+    - quantos créditos preciso pagar pelo mestrado?
+    - quantos créditos tenho que pagar para concluir o mestrado?
+    - quantos créditos preciso pagar para concluir o mestrado?
+    - quantos créditos preciso pagar para concluir um mestrado?
+    - quantas disciplinas tenho que pagar em cursos de pós-graduação?
+    - quantas disciplinas tenho que pagar na pós-graduação?
+    - quantas disciplinas tenho que pagar na minha pós-graduação?
+    - quantas disciplinas tenho que pagar na pós graduação?
+    - quantas disciplinas tenho que pagar para fazer uma pós-graduação?
+    - número de disciplinas necessárias para concluir a pós-graduação
+    - número de disciplinas necessárias para a conclusão do curso de pós-graduação
+    - número de disciplinas necessárias para concluir o curso de pós-graduação
+    - qual é o currículo mínimo dos programas de mestrado e doutorado?
+    - apresentar as disciplinas mínimas para atender aos requisitos do pós-doutorado?
+    - diga-me qual é a disciplina mínima exigida para concluir o doutorado?
+    - que cursos preciso frequentar para concluir o mestrado?
+    - que disciplinas devo fazer para concluir o mestrado?
+    - que disciplinas mínimas devo ter para concluir o programa de mestrado?
+    - o que devo fazer para um mestrado?
+    - o que devo fazer para concluir o programa de mestrado?
+    - quais são as horas mínimas de crédito para o mestrado?
+    - quais são os requisitos mínimos para a conclusão do mestrado?
+    - quais serão os requisitos mínimos para concluir um mestrado?
+    - você pode listar os créditos mínimos exigidos em várias disciplinas para um mestrado?
+    - quantos créditos em disciplinas devo fazer para um mestrado?
+    - listar o mínimo de créditos necessários para concluir um mestrado?
+    - listar os créditos mínimos exigidos em determinadas disciplinas para a conclusão do mestrado?
+    - diga-me o nível mínimo de crédito em qualquer disciplina para concluir um mestrado?
+    - quantas disciplinas devo fazer?
+    - quais são as disciplinas mínimas e máximas que devo cursar?
+    - quais são os números mínimo e máximo de disciplinas a serem cursadas?
+    - existe um número mínimo e máximo de disciplinas a cursar?
+    - Quantos créditos são obrigatórios para um aluno no PPGCC?
+    - Quantos créditos se deve pagar no mestrado e doutorado?
 - intent: horario_disciplinas
   examples: |
     - Em qual turno ocorre as aulas do MACC?
@@ -147,6 +574,49 @@ nlu:
     - em qual horario são ministrada as aulas
     - qual horario de funcionamento das salas de aulas?
     - Tem aulas nos 2 turnos
+    - diga-me o turno em que acontecem as aulas de macc?
+    - em que turno acontecem as aulas de macc?
+    - em que turno ocorre a aula de macc?
+    - quando é a aula?
+    - que horas são as aulas?
+    - você tem alguma aula noturna no ppggc?
+    - você tem aula noturna no ppggc?
+    - você tem aulas noturnas no pggcc?
+    - você tem aulas noturnas no ppggc?
+    - a que horas acontece o curso de pós-graduação?
+    - a que horas acontecem os cursos de pós-graduação?
+    - a que horas acontecem as aulas de pós-graduação?
+    - você ensina todos os turnos?
+    - você dá aula em todos os turnos?
+    - você tem aula em todos os turnos?
+    - você tem aulas em todos os turnos?
+    - listar os horários de cada aula?
+    - qual é o horário das aulas?
+    - diga-me o horário das aulas?
+    - listar o horário das aulas?
+    - diga-me o tempo das aulas?
+    - mostrar o horário das aulas?
+    - mostra-me o horário das aulas?
+    - quais são os horários das aulas?
+    - você pode listar a aula agendada?
+    - horário das aulas?
+    - a que horas é normal as aulas?
+    - que horas é a maioria das aulas agendadas?
+    - que horas são as aulas normalmente?
+    - a que horas costuma decorrer uma aula?
+    - a que horas costumam ser as aulas?
+    - a que turno chegam as aulas?
+    - qual é o turno habitual nas aulas?
+    - em que turno as aulas costumam ser realizadas?
+    - que turno costumam ter as aulas?
+    - em que turno as aulas costumam acontecer?
+    - que horas começam as aulas?
+    - listar os horários de funcionamento de uma sala de aula?
+    - listar os horários de abertura das salas de aula?
+    - listar os horários de funcionamento das salas de aula?
+    - liste o horário de funcionamento de cada sala de aula?
+    - listar o horário de funcionamento da sala de aula?
+    - há aulas em dois turnos
 - intent: aprovacao_disciplinas
   examples: |
     - Como é o sistema de notas e aprovação do MACC?
@@ -161,6 +631,68 @@ nlu:
     - como o professor avaliar o aluno
     - quais sistema de avaliação para as disciplinas usado pelo programa?
     - como serão avaliados as notas?
+    - mostrar os requisitos de classificação e aprovação para macc?
+    - diga-me o processo de aprovação do macc?
+    - diga-me o sistema de classificação macc?
+    - como é o sistema de classificação macc?
+    - diga-me o sistema de classificação e aprovação do sistema macc?
+    - como é o sistema de homologação macc?
+    - como funciona o sistema de classificação e aprovação do macc?
+    - diga-me o sistema de classificação e aprovação do macc?
+    - como é o sistema de classificação e aprovação do macc?
+    - como as classificações são avaliadas
+    - como é calculada uma nota?
+    - como são medidas as notas
+    - como as notas são classificadas
+    - como são avaliadas as notas?
+    - como as notas são avaliadas
+    - listar os requisitos para as notas nas disciplinas?
+    - que critérios devem ser cumpridos para as notas nas disciplinas?
+    - que critérios existem para as notas nas disciplinas?
+    - listar os critérios para notas nas disciplinas?
+    - qual é o critério para notas nas disciplinas?
+    - como pode ser julgada uma nota em uma determinada matéria?
+    - como é medida uma nota em uma matéria?
+    - como são atribuídas as notas nas disciplinas
+    - como são avaliadas as notas nas disciplinas?
+    - como são avaliadas as notas em algumas disciplinas
+    - que notas são obtidas nas disciplinas?
+    - como as notas são medidas nas disciplinas
+    - como as notas são avaliadas em uma disciplina
+    - como o professor avalia as notas dos alunos
+    - como o professor avalia as notas
+    - como o professor avalia as notas?
+    - como o professor da disciplina avaliou as notas
+    - como o professor da disciplina avalia as notas
+    - o que são sistemas de avaliação em várias disciplinas?
+    - o que é um sistema de avaliação dentro da disciplina?
+    - o que é um sistema de avaliação em disciplinas?
+    - o que é um sistema de avaliação numa disciplina?
+    - qual é o sistema de avaliação nas disciplinas?
+    - como faço para obter a nota mais baixa possível para um assunto?
+    - diga-me a nota mais baixa em um assunto?
+    - liste as notas mais baixas que posso obter para este assunto?
+    - diga-me a nota mais baixa que posso tirar em uma matéria?
+    - qual é a nota mais baixa que posso tirar em uma matéria?
+    - diga-me os critérios de aprovação nas disciplinas?
+    - mostre-me as normas para aprovação nas disciplinas?
+    - quais são os critérios para aprovação das disciplinas?
+    - quais são os critérios para aprovação nas disciplinas?
+    - quais são os critérios de aprovação nessas disciplinas
+    - quais os critérios para aprovação nessas disciplinas
+    - quais são os critérios para aprovação nas disciplinas
+    - critérios para aprovação das disciplinas
+    - como o professor avalia o aluno
+    - como o professor avalia o aluno?
+    - como um professor avalia os alunos?
+    - que sistema de avaliação é utilizado para avaliação das disciplinas?
+    - que sistema de avaliação é utilizado no programa?
+    - que sistema de avaliação os programas utilizam?
+    - que sistema de avaliação de disciplinas está no programa?
+    - que sistema de avaliação de disciplinas os programas utilizam?
+    - que sistema de avaliação de disciplinas o programa utiliza?
+    - como serão avaliadas as notas?
+    - como uma nota será avaliada?
 - intent: readmissao_PPGCC
   examples: |
     - Há readmissão após abandono no MACC?
@@ -173,6 +705,51 @@ nlu:
     - fui desligado do programa, posso solicitar readmissão
     - caso eu abandone o curso posso solicitar posteriormente readmissão?
     - consigo solicitar readmissão do programa?
+    - existe alguma possibilidade de retorno quando eu sair do macc?
+    - posso ser readmitido no macc se eu sair do macc?
+    - devo readmitir depois de sair do macc?
+    - há reinternação após a saída do macc?
+    - o que é readmissão depois de sair do macc?
+    - posso retornar ao programa após a aposentadoria
+    - depois da aposentadoria posso voltar ao programa
+    - após a aposentadoria posso retornar ao programa
+    - uma vez aposentado posso voltar ao programa
+    - depois de me aposentar posso voltar ao programa
+    - depois da minha aposentadoria posso voltar ao programa
+    - quando me aposentar posso voltar ao programa
+    - quando eu me aposentar posso voltar ao programa
+    - pode voltar ao curso se tiver de abandonar um curso por motivos de saúde?
+    - posso voltar a um curso que faltei por motivos médicos?
+    - posso voltar ao curso se tiver de abandonar o curso por motivos de saúde?
+    - por que abandonei o curso por motivos de saúde?
+    - saí do curso por motivos de saúde posso voltar?
+    - como posso solicitar a readmissão após o abandono?
+    - como faço para me inscrever novamente no curso ccc depois que fui desconectado do curso?
+    - o que devo fazer se a entrada for negada?
+    - como posso solicitar a readmissão de um curso?
+    - como faço para solicitar a readmissão de um curso se o curso for abandonado?
+    - o que devo fazer para solicitar a readmissão por abandono de curso?
+    - como posso solicitar o reingresso em um curso por abandono?
+    - posso ser readmitido em um curso depois que meu aluno for dispensado?
+    - o aluno pode ser readmitido no curso?
+    - alguém que havia sido dispensado pode ser readmitido no curso?
+    - aluno foi dispensado posso ser readmitido?
+    - depois de dispensado posso ser reintegrado ao curso?
+    - é possível solicitar uma readmissão agora se você foi retirado do programa?
+    - posso solicitar readmissão depois de ter sido retirado do programa?
+    - posso solicitar readmissão depois de ter sido retirado do programa ace?
+    - fui retirado do programa posso solicitar uma readmissão?
+    - fui retirado do programa, posso solicitar readmissão
+    - depois de sair do programa, posso solicitar a readmissão?
+    - posso ser readmitido em um curso se eu abandoná-lo?
+    - se eu abandonar um curso posso readmitir?
+    - posso ser readmitido?
+    - posso obter a reintegração de um aluno do programa?
+    - alguém pode solicitar uma readmissão?
+    - é possível solicitar a devolução do ingresso no programa?
+    - é possível solicitar uma readmissão no programa?
+    - posso solicitar uma readmissão no meu programa?
+    - como posso solicitar a readmissão no programa?
 - intent: autorizacao_disciplinas
   examples: |
     - posso assistir aulas das disciplinas como ouvinte?
@@ -187,6 +764,38 @@ nlu:
     - qual os critérios para assistir aulas como ouvinte
     - sou de outro curso, posso assistir as aulas como ouvinte?
     - Faço mestrado em outra instituição, posso assistir as disciplinas como ouvinte?
+    - posso assistir aos cursos como ouvinte?
+    - posso assistir às aulas de uma disciplina como ouvinte?
+    - posso assistir às aulas das disciplinas como ouvinte?
+    - Posso levar parentes, amigos, ouvintes, etc... para assistir às aulas
+    - posso fazer mestrado na mesma disciplina que um bacharel?
+    - posso fazer aulas de disciplinas nas quais não estou matriculado
+    - posso assistir aulas em disciplinas nas quais não estou matriculado
+    - posso assistir às aulas nas disciplinas em que não estou matriculado
+    - posso assistir aulas de disciplinas que não estou matriculado
+    - posso assistir às aulas das disciplinas em que ainda não me matriculei
+    - posso assistir aulas de disciplinas nas quais não estou matriculado
+    - posso fazer aulas nas disciplinas em que não estou matriculado
+    - posso assistir às aulas das disciplinas em que não me matriculei
+    - eu posso ouvir disciplinas
+    - eu posso ouvir a disciplina
+    - eu posso ouvir as disciplinas
+    - posso ir às aulas como ouvinte sem compromisso com uma disciplina
+    - posso fazer aulas como ouvinte sem compromisso com as disciplinas
+    - posso assistir às aulas como ouvinte sem o compromisso da disciplina
+    - posso assistir às aulas como ouvinte sem o compromisso com as disciplinas
+    - posso assistir às aulas como ouvinte sem compromisso com as disciplinas
+    - que critérios devo usar ao ouvir as disciplinas?
+    - que critérios devo seguir para ser um ouvinte da disciplina
+    - que critérios devo seguir para ser um ouvinte de disciplinas
+    - como posso ser ouvinte das disciplinas?
+    - como faço para me tornar um ouvinte em sala de aula?
+    - qual é o padrão para assistir a uma aula como ouvinte?
+    - apresentar os critérios para assistir às aulas como ouvinte?
+    - um aluno pode frequentar outro curso como ouvinte?
+    - posso assistir às aulas como ouvinte?
+    - posso assistir as disciplinas do mestrado em outra instituição?
+    - posso assistir a um mestrado em outra instituição?
 - intent: quem_coordenador
   examples: |
     - Quem é o coordenador do PPGCC?
@@ -194,6 +803,21 @@ nlu:
     - qual nome do coordenador do programa
     - quem é o coordenador do macc
     - quem é o atual coordenador
+    - quem é o coordenador do ppgcc?
+    - o que é um coordenador do ppgcc?
+    - quem são os coordenadores do ppgcc?
+    - quem são os coordenadores?
+    - quem é o coordenador?
+    - diga-me o nome do coordenador deste programa?
+    - quem é o coordenador do programa?
+    - qual é o nome do coordenador do programa?
+    - diga-me o nome do coordenador?
+    - qual é o nome do coordenador?
+    - quem é o coordenador do macc?
+    - que atualmente é o coordenador
+    - quem é atualmente o atual coordenador?
+    - quem é o atual coordenador?
+    - quem é o corrdenador?
 - intent: sobre_linha_de_pesquisa
   examples: |
     - Quais as linhas de pesquisa do ppgcc?
@@ -207,6 +831,90 @@ nlu:
     - linhas de pesquisa do PPGCC
     - quantas e quais são as linhas de pesquisa do programa
     - onde encontro as linhas de pesquisa atuais do PPGCC
+    - diga-me a pesquisa básica do pgpcc?
+    - listar as linhas de pesquisa do pgc?
+    - diga-me os interesses de pesquisa do ppgcc?
+    - quais são todas as linhas de pesquisa do ppgcc?
+    - listar as áreas de pesquisa do ppgcc?
+    - quais são as disciplinas do pgpcc?
+    - quais são as áreas de pesquisa do ppgcc?
+    - quais são as áreas de foco de pesquisa do ppgcc?
+    - quais são as especialidades do ppgcc?
+    - quais são as linhas de pesquisa do ppgcc?
+    - onde posso encontrar um professor de cada disciplina de pesquisa?
+    - onde posso encontrar professores em diferentes áreas de pesquisa?
+    - como consigo um professor em cada linha de pesquisa?
+    - onde posso encontrar um professor para uma pesquisa específica?
+    - onde posso encontrar um professor para cada área de pesquisa?
+    - como posso encontrar um professor para cada área de pesquisa?
+    - onde posso encontrar professores em cada área de pesquisa?
+    - onde posso encontrar professores para todos os tipos de pesquisa?
+    - onde posso encontrar professores para cada linha de pesquisa?
+    - quem são os professores de rede de computadores que atuam em suas áreas?
+    - quem são os professores em redes de computadores?
+    - quem é professor trabalhando em redes de computadores?
+    - quais são os professores que trabalham com pesquisa em redes de computadores?
+    - quem são os professores que atuam na área de redes de computadores?
+    - quem são os professores que atuam na área de pesquisa em redes de computadores?
+    - quem são alguns professores que estão trabalhando na linha de pesquisa de redes de computadores?
+    - quem são os professores que pesquisam algoritmos?
+    - quais professores pesquisam sobre algoritmo?
+    - o que são os professores que trabalham com pesquisa em algoritmos?
+    - quem são os professores que trabalham com algoritmos?
+    - quem são os professores da área de algoritmos?
+    - quem são os professores da área de pesquisa em algoritmos?
+    - quem são os professores que trabalham na pesquisa de algoritmos?
+    - quem são os professores que trabalham na linha de algoritmos?
+    - quem são os professores que atuam na linha de pesquisa sobre algoritmos?
+    - liste os nomes dos professores que estão fazendo pesquisa em engenharia de software?
+    - listar os professores que atuam na pesquisa em engenharia de software?
+    - quem são os professores que trabalham na pesquisa em engenharia de software?
+    - quem são alguns dos professores que trabalham na pesquisa em engenharia de software?
+    - quem são os professores que atuam na pesquisa em engenharia de software?
+    - Quantos professores você tem?
+    - quantos professores existem?
+    - quantos professores há?
+    - listar as principais áreas de interesse do ppgcc?
+    - mostrar as áreas de interesse especial do ppgcc?
+    - você pode listar as áreas relevantes para o ppgcc?
+    - mostrar os interesses do ppgcc?
+    - listar as áreas de interesse do ppgcc?
+    - mostrar as áreas de interesse do ppgcc?
+    - mostrar as áreas de pesquisa dos mestrados?
+    - listar as áreas de pesquisa para um mestrado?
+    - você pode listar os campos de pesquisa para um mestrado?
+    - listar as áreas de pesquisa de um mestrado?
+    - mostrar as áreas de pesquisa de um mestrado?
+    - qual a linha de pesquisa do mestrado?
+    - quais são as linhas de pesquisa do mestrado?
+    - disciplinas de pesquisa do ppgcc
+    - linhas de pesquisa do ppgcc
+    - quais são os temas do programa?
+    - quantas áreas de pesquisa existem no programa?
+    - quantas linhas de pesquisa existem no programa?
+    - quantas e quais pesquisas estão envolvidas no programa
+    - mostre-me os tipos de pesquisa do programa?
+    - quantos e quais são os campos de pesquisa do programa?
+    - quantas e quais são as linhas de pesquisa do programa?
+    - quantas e quais são as áreas de pesquisa do programa
+    - onde encontro trabalhos de pesquisa atuais no ppgcc?
+    - onde posso obter linhas de pesquisa atuais do ppgcc?
+    - onde encontro as atuais linhas de pesquisa do ppgcc?
+    - onde posso encontrar as linhas de pesquisa atuais do ppgcc
+    - onde posso encontrar os campos de pesquisa atuais do ppgcc?
+    - onde posso obter as linhas de pesquisa atuais do ppgcc?
+    - quais são as linhas de pesquisas do PPGCC?
+    - qquem são os professores do programa?
+    - Quais os professores do ppgcc?
+    - Quais áreas de pesquisas presentes no programa?
+    - qual o nome do professor de ppe?
+    - Quem são os professores?
+    - Qual as áreas de atuação do mestrado em computação
+    - Qual linha de pesquisa se destina o programa.
+    - Quais os professores pesquisam na área de Engenharia de software e interface homem-máquina?
+    - Quais os tipos de linha de pesquisa o programa possui?
+    - Quais as linhas de pesquisa do mestrado ?
+    - Quais as linhas de pesquisas?
 - intent: calendario_inicio_aula
   examples: |
     - Quando começa as aulas do doutorado?
@@ -218,6 +926,39 @@ nlu:
     - onde posso verificar o calendário das aulas
     - quando inicia as aulas
     - gostaria de saber quando as aulas começam
+    - quando é um semestre de doutorado?
+    - quando começam as aulas de doutorado?
+    - quando começa o doutorado?
+    - quando começam os cursos de doutoramento?
+    - quando começam as aulas de doutoramento?
+    - quando começam as masterclasses?
+    - quando começam as aulas de mestrado?
+    - quando vão começar as aulas de mestrado?
+    - quando a escola começa?
+    - quando começam todas as aulas?
+    - como e quando começa uma aula?
+    - quando começam as aulas?
+    - que dia começam as aulas?
+    - início da aula?
+    - qual é o início das aulas?
+    - o início das aulas?
+    - existe um calendário de aulas em uma academia?
+    - existe um calendário da academia?
+    - existe um calendário de aulas da academia?
+    - onde posso encontrar um calendário para a minha turma?
+    - onde está o calendário de aulas para mim?
+    - tem algum lugar para ver o calendário de aulas?
+    - como encontro o calendário de aulas?
+    - onde posso encontrar um calendário de aulas?
+    - onde posso encontrar o calendário de aulas?
+    - onde posso consultar o calendário de aulas?
+    - onde posso ver o calendário de aulas?
+    - onde posso verificar o calendário de aulas
+    - se as aulas começarem
+    - quando as aulas começarem
+    - gostaria de saber quando as aulas vão começar
+    - gostaria de saber quando começam as aulas
+    - gostaria de saber quando começa a aula
 - intent: calendario_data_matricula
   examples: |
     - Qual a data da matrícula?
@@ -226,6 +967,26 @@ nlu:
     - por onde consigo ver o calendário das matrículas?
     - qual periodo de matriculas
     - quando se inicia o período de matriculas
+    - qual é o prazo para se inscrever?
+    - diga-me a data de inscrição?
+    - qual é a sua data de inscrição?
+    - qual é a data de inscrição?
+    - como posso me inscrever nos cursos?
+    - como me inscrevo em um curso?
+    - onde posso me inscrever nos cursos?
+    - como me inscrevo nos cursos?
+    - o início das inscrições
+    - quando começa a inscrição
+    - quando as inscrições começarem
+    - como vejo um calendário de matrículas de alunos?
+    - onde posso ver meu calendário de inscrições?
+    - como vejo o calendário de inscrições?
+    - onde posso ver o calendário de inscrições?
+    - qual é o seu período de inscrição?
+    - qual é o tempo de inscrição?
+    - qual é o período de inscrição?
+    - se o período de inscrição começar
+    - quando começa o período de inscrição
 - intent: trancamento_matricula
   examples: |
     - Como é realizado o processo de trancamento de matrícula no MACC?
@@ -236,6 +997,30 @@ nlu:
     - gostaria de trancar uma disciplina que estou matriculado
     - quero fazer trancamento de uma disciplina
     - quero fazer o trancamento da minha matrícula
+    - como é conduzido o procedimento de retirada?
+    - como faço para sair do macc?
+    - como posso me retirar do macc?
+    - como é feito o processo de revogação de um programa macc?
+    - como é feita a retirada de um aluno do macc?
+    - o que é um período de suspensão para um curso que não concluí e do qual estou suspenso?
+    - como faço para suspender meu curso?
+    - posso suspender cursos no local em que estou matriculado?
+    - posso suspender o curso em que estou matriculado?
+    - posso suspender um curso em que estou matriculado?
+    - como posso bloquear minha placa?
+    - como faço para bloquear a placa?
+    - como faço para bloquear minha placa?
+    - qual o tempo para uma disciplina ser travada?
+    - mostre-me os prazos para ações disciplinares?
+    - qual o prazo para trancamento da disciplina?
+    - qual o prazo para trancar a disciplina?
+    - que horas são para os assuntos serem bloqueados?
+    - a que horas o sujeito foi preso?
+    - diga-me o período de detenção dos sujeitos?
+    - diga-me o período de bloqueio dos assuntos
+    - gostaria de bloquear um curso no qual estou matriculado
+    - eu quero bloquear um curso
+    - quero cancelar meu cadastro
 - intent: sobre_regimento
   examples: |
     - Onde encontro o regimento do PPGCC?
@@ -244,6 +1029,25 @@ nlu:
     - gostaria de encontrar o regimento
     - onde encontro o regimento do PPGCC
     - O regimento na página do PPGCC está atualizado
+    - cadê o ppgcc?
+    - o que é pgcc? como posso encontrar isso?
+    - onde posso encontrar o ppgcc?
+    - como encontro o regimento ppgcc?
+    - como posso encontrar o regimento ppgcc?
+    - onde posso encontrar o regimento ppgcc?
+    - o regimento ppgcc tem arquivo?
+    - arquivo do regimento ppgcc?
+    - qual site o regimento
+    - qual local regimental
+    - gostaria de me encontrar com o regimento
+    - você gostaria de conhecer o regimento?
+    - onde posso encontrar um regimento de ppgcc?
+    - onde posso conseguir um regimento ppgcc?
+    - onde posso encontrar um regimento ppgcc?
+    - onde encontro o regimento ppgcc?
+    - onde posso encontrar o regimento ppgcc
+    - o regimento listado na página do ppgcc é atual
+    - o regimento na página do ppgcc está atualizado
 - intent: sobre_relatorios
   examples: |
     - Onde posso encontrar as dissertações defendidas no MACC?
@@ -253,6 +1057,38 @@ nlu:
     - qual o modelo do relatório semestral para bolsistas?
     - qual site posso encontrar dissertações já defendidas
     - modelo de relatório para bolsistas
+    - como vejo qual trabalho foi defendido no macc?
+    - onde posso encontrar dissertações de macc?
+    - onde você encontra todas as dissertações defendidas por macc?
+    - onde posso encontrar minhas dissertações durante o macc?
+    - onde posso encontrar dissertações defendidas por macc?
+    - como posso encontrar as dissertações defendidas no macc?
+    - onde encontro dissertações defendidas no macc?
+    - onde posso encontrar as dissertações defendidas no macc?
+    - onde posso obter alguns dos modelos de relatório para um programa?
+    - onde posso encontrar um modelo para um relatório de programa?
+    - onde posso encontrar o modelo de um relatório de programa?
+    - onde posso encontrar os modelos de relatório do programa?
+    - onde você obtém os modelos de relatório do programa?
+    - onde posso obter os modelos de relatório do programa?
+    - onde posso baixar um modelo de relatório de mestrado?
+    - onde posso obter um modelo para um relatório mestre?
+    - onde posso obter os modelos de relatório de mestrado?
+    - onde posso obter os modelos do relatório mestre?
+    - onde posso obter o modelo do relatório mestre?
+    - onde posso obter o modelo para o relatório do mestrado?
+    - onde posso obter o modelo mestre de relatório?
+    - onde posso obter o modelo de relatório do mestre?
+    - onde posso obter o modelo de relatório para um semestre?
+    - como obtenho um modelo de relatórios semestrais?
+    - diga-me o modelo de relatório semestral?
+    - onde posso obter o modelo de relatório semestral?
+    - como é o modelo de relatório para bolsistas?
+    - que modelo é o relatório semestral dos bolseiros?
+    - em que site posso encontrar dissertações defendidas?
+    - qual é o melhor site para encontrar dissertações já defendidas?
+    - em que site posso encontrar dissertações já defendidas?
+    - em que site posso encontrar dissertações já defendidas
 - intent: sobre_objetivo_PPGCC
   examples: |
     - qual objetivo do PPGCC?
@@ -260,6 +1096,39 @@ nlu:
     - Como é o ppgcc?
     - qual objetivo do programa de mestrado do ppgcc?
     - qual principal objetivo do programa de mestrado?
+    - para que serve o ppgcc?
+    - diga-me o motivo do ppgcc?
+    - o que é ppcc? qual é o propósito disso?
+    - diga-me o objetivo do ppgcc?
+    - diga-me o propósito do ppgcc?
+    - estamos interessados no programa de computador uece
+    - precisa saber sobre o programa de computador do uece
+    - gostaria de saber mais sobre o programa de computação uece
+    - quer saber mais sobre o programa de computação uece
+    - você quer saber mais sobre o programa de computação uece?
+    - eu queria saber sobre uece computer programa
+    - eu queria conhecer o programa de computação uece
+    - queria saber sobre o programa de computador uece
+    - queria saber sobre o programa de computação uece
+    - como é conduzido o ppgcc?
+    - qual é a sua opinião sobre o ppgcc?
+    - como está o pgpcc?
+    - você pode listar as finalidades do mestrado ppgcc?
+    - diga-me o objetivo do programa de mestrado pgccc?
+    - diga-me o objetivo do programa de mestrado ppgcc?
+    - listar o objetivo do programa de mestrado ppgcc?
+    - qual é o objetivo de um programa de mestrado?
+    - você pode listar os principais objetivos do mestrado?
+    - qual objetivo do programa de pós graduação da euce?
+    - O que é o PPGCC?
+    - qual objetivo do ppggc?
+    - o que é o ppgcc?
+    - Qual é o conceito do PPGCC?
+    - Qual o objetivo social do mestrado  em ciência da computação?
+    - Qual a contribuição social  do.mestrado em ciência da computação?
+    - Quais as finalidade para sociedade?
+    - Qual a principal utilidade do programa ?
+    - Qual a utilidade desse programa para a comunidade acadêmica
 - intent: esqueci_algo_predio
   examples: |
     - Esqueci algo no MACC, quando voltei tava fechado e n sei a senha, o que eu faço?
@@ -267,6 +1136,32 @@ nlu:
     - esqueci meu computador no prédio, o que devo fazer?
     - não tenho acesso ao prédio do PPGCC o que faço para ter acesso?
     - preciso pegar um material que esqueci no prédio do ppgcc
+    - quando voltei para macc e esqueci algo o que devo fazer?
+    - esqueci algo no macc quando voltei estava fechado e não sei a senha o que devo fazer?
+    - posso recuperar a chave do meu quarto macc?
+    - Esqueci a chave do meu quarto macc há algum lugar onde eu possa pegar as chaves?
+    - Esqueci a chave do meu quarto macc há um lugar para ter uma cópia?
+    - Esqueci a chave do meu quarto macc há algum lugar para encontrá-la?
+    - Esqueci a chave do meu quarto macc há um lugar com cópias?
+    - o que devo fazer se esquecer meu computador no prédio?
+    - esqueci meu computador o que devo fazer?
+    - quando eu esqueci meu computador o que devo fazer?
+    - esqueci meu computador no prédio como devo fazer isso?
+    - esqueci meu computador no prédio o que devo fazer?
+    - como faço para entrar no prédio do ppgcc?
+    - o que você faz para ter acesso ao prédio do ppgcc?
+    - como faço para ter acesso ao prédio do ppgcc?
+    - não tenho acesso ao prédio do ppgcc como faço para ter acesso?
+    - se eu não tiver acesso ao prédio do ppgcc como posso entrar?
+    - não tenho acesso ao prédio do ppgcc o que posso fazer para ter acesso?
+    - quando não tenho acesso ao prédio do ppgcc o que devo fazer para ter acesso?
+    - preciso pegar algum material que esqueci na construção do ppgcc
+    - tenho que pegar um material que esqueci no prédio do pgccc
+    - preciso de algum material que esqueci no prédio do pgc
+    - preciso de algum material que esqueci no prédio do ppgcc
+    - preciso pegar algumas coisas que esqueci no prédio do ppgcc
+    - preciso pegar algum material que esqueci no prédio do ppgcc
+    - preciso pegar o material que esqueci no prédio do pgccc
 - intent: autorizacao_predio
   examples: |
     - Posso levar animais para o MACC?
@@ -277,6 +1172,49 @@ nlu:
     - Tive que fazer um trabalho até tarde da noite no MACC, posso dormir lá visto que já é tarde da noite?
     - Esqueci de entregar a chave do MACC, e sem querer levei para casa, o que eu faço?
     - Posso utilizar os equipamentos do MACC em outro lugar?
+    - existe uma instalação em que os animais possam ser trazidos para o macc?
+    - pode trazer gado para macc?
+    - os animais podem ser levados ao macc?
+    - um animal pode ir ao macc?
+    - podemos trazer os nossos animais ao macc?
+    - posso trazer animais de estimação para o macc?
+    - posso trazer animais para o macc?
+    - posso entrar no macc com minha moto?
+    - posso entrar no macc com a minha bicicleta?
+    - como posso entrar no macc de bicicleta?
+    - posso entrar no macc de bicicleta?
+    - posso ter a chave macc lab?
+    - posso ter uma cópia da chave do laboratório?
+    - posso obter uma cópia da chave macc lab?
+    - posso ter uma cópia da chave macc lab?
+    - como eu durmo no macc?
+    - posso dormir no macc?
+    - você pode dormir no macc?
+    - podemos dormir no macc?
+    - os alimentos podem ser levados aos macc labs?
+    - você pode levar comida para o macc lab?
+    - posso levar comida para macc labs?
+    - posso levar minha comida para o macc lab?
+    - posso levar comida ao macc lab?
+    - posso levar comida para os macc labs?
+    - posso dormir aí quando for tarde?
+    - posso dormir lá quando tive que trabalhar até tarde da noite?
+    - posso dormir no macc mesmo trabalhando até tarde da noite?
+    - posso dormir no macc porque é tarde da noite?
+    - posso dormir no macc já que é tarde da noite?
+    - posso dormir no macc quando for tarde da noite?
+    - eu estava trabalhando até tarde no macc posso dormir lá já que é tarde?
+    - se eu tivesse que trabalhar até tarde no macc posso dormir lá já que é tarde da noite?
+    - eu tive que trabalhar até tarde no macc posso dormir lá já que é tarde da noite?
+    - se você esqueceu a chave do macc e levou para casa o que você faz?
+    - esqueci de entregar minha macc key o que eu faço?
+    - esqueci de entregar a macc key e sem querer levei para casa o que eu faço?
+    - como posso usar equipamentos macc?
+    - existe alguma maneira de usar o equipamento macc em outro lugar?
+    - é legal usar equipamentos macc em outro lugar?
+    - você pode usar o equipamento macc em outro lugar?
+    - posso usar o equipamento macc em outro lugar?
+    - como posso usar o equipamento macc em outro lugar?
 - intent: edital_selecao
   examples: |
     - Vai ter seleção este ano
@@ -286,6 +1224,39 @@ nlu:
     - Quando abre o edital de seleção?
     - Qual a próxima seleção do ppgcc?
     - Como faço para mim inscrever na seleção do mestrado de Ciências da Computação da UECE?
+    - este ano haverá uma seleção
+    - haverá uma seleção neste ano
+    - quando é o anúncio da seleção?
+    - quando será divulgado o edital de escolha
+    - quando será divulgado o edital de seleção?
+    - quando sai o edital de seleção?
+    - quando será publicado o edital de seleção?
+    - quando é aberto um edital de seleção de doutorado?
+    - quando será aberto o edital de seleção de doutorado?
+    - quando abrem os editais de seleção de doutorado?
+    - quando abre o edital de seleção de doutorado?
+    - quando abre o edital de seleção para mestres?
+    - quando é aberto o edital de seleção de mestre?
+    - quando abre o edital de seleção master?
+    - quando abre o edital de seleção do mestre?
+    - quando abre o edital de seleção?
+    - quando começa um edital de seleção?
+    - quando abre a notificação de seleção?
+    - diga-me a próxima seleção para ppgcc?
+    - diga-me a próxima seleção pgccc?
+    - listar as próximas seleções de ppgcc?
+    - diga-me a próxima seleção de ppgcc?
+    - mostrar a próxima seleção de ppgcc?
+    - como posso obter um mestrado em ciência da computação da uece?
+    - como faço para me matricular no mestrado em informática da uece?
+    - como posso entrar na seleção do mestrado em informática da uece?
+    - como me inscrevo na seleção do mestrado em informática da uece?
+    - como me inscrevo no concurso de mestrado em informática da uece?
+    - Em qual período do ano costuma sair o edital do PPGCC da UECE?
+    - Quando abre o processo seletivo?
+    - Quais a data do próximo edital em 2023?
+    - Quantas seleções tem por ano para o mestrado em computação?
+    - Quantas vagas são disponibilizadas?
 - intent: criterios_para_inscrever_selecao
   examples: |
     - Quais os critérios para me inscrever no PPGCC?
@@ -297,6 +1268,55 @@ nlu:
     - critérios para se inscrever no processo seletivo
     - o que é necessário para eu me qualificar para poder me candidatar ao mestrado
     - qual os critérios que me qualificam para concorrer a vaga no programa
+    - diga-me os critérios do ppgcc?
+    - o que devo fazer para ingressar no ppgcc?
+    - diga-me os critérios de admissão para ppgcc?
+    - que critérios devo seguir para matricular-me no ppgcc?
+    - mostrar os critérios para participar do ppgcc?
+    - quais são os critérios para ingressar no ppgcc?
+    - participar do processo seletivo?
+    - como faço para participar da competição?
+    - como posso participar de algo?
+    - me diga qual a melhor forma de participar?
+    - como faço para participar?
+    - como posso participar?
+    - como posso ser selecionado para um mestrado?
+    - como faço para participar do processo seletivo de mestrado?
+    - como faço para participar da seleção dos mestres?
+    - como faço para participar da seleção master?
+    - como posso participar da seleção do mestrado?
+    - como faço para participar da seleção do mestrado?
+    - o que é preciso para ingressar no mestrado?
+    - o que é preciso para fazer uma seleção de mestrado?
+    - quais são os pré-requisitos para participar da seleção de mestrado?
+    - quais são os requisitos para participar da seleção de mestrado?
+    - qual o requisito para participar das seleções máster?
+    - o que seria necessário para participar da seleção master?
+    - o que preciso para participar das seleções máster?
+    - o que eu preciso fazer para me qualificar para o mestrado?
+    - o que eu precisaria fazer para me preparar para a escolha do mestre?
+    - o que eu preciso estudar para um mestrado?
+    - o que é preciso para se inscrever na seleção de mestres?
+    - como me inscrevo para a seleção do mestrado?
+    - o que preciso para me inscrever na seleção master?
+    - critérios de participação no processo seletivo
+    - critérios de admissão ao processo seletivo
+    - critérios para admissão no processo seletivo
+    - critérios para entrada no processo seletivo
+    - quais são os requisitos para se candidatar a um mestrado?
+    - diga-me a qualificação necessária para se qualificar para o mestrado?
+    - o que é necessário para me habilitar a candidatar-me ao mestrado?
+    - o que é necessário para se qualificar para poder candidatar-se ao mestrado?
+    - o que é necessário para eu me qualificar para poder me candidatar ao mestrado?
+    - diga-me os critérios para ser elegível para o cargo?
+    - a quais critérios devo me candidatar para uma vaga neste programa?
+    - mostre-me os critérios de elegibilidade para se candidatar a uma vaga no programa?
+    - diga-me quais são os critérios para concorrer a uma vaga em um programa?
+    - quais os critérios para ser elegível a uma vaga no programa?
+    - você pode listar os critérios que me qualificam para me candidatar a uma vaga no programa?
+    - Quais etapas que preciso fazer pra entrar no processo seletivo?
+    - Quem pode se inscrever na seleção de mestrado em computação da UECE?
+    - Quem é formado em física pode fazer mestrado nesse programa?
 - intent: candidato_de_outro_pais
   examples: |
     - Meu diploma é de outro país, posso me inscrever?
@@ -305,6 +1325,39 @@ nlu:
     - para quem é de outro país tem alguma restrição para participar do seletivo?
     - Quem é de outro país pode participar?
     - quem tem diploma de outro país pode concorrer às vagas de mestrado
+    - posso candidatar-me a um programa noutro país que tenha um diploma da ue?
+    - como posso solicitar meu diploma em um país estrangeiro?
+    - alguém de outro país pode solicitar um diploma?
+    - posso solicitar o mesmo diploma de outro país?
+    - como faço para solicitar meu diploma de outro país?
+    - se o meu diploma for de outro país posso candidatar-me?
+    - posso candidatar-me ao processo de recrutamento se tiver concluído a minha licenciatura noutro país?
+    - posso me candidatar ao processo seletivo após concluir minha graduação em outro país?
+    - posso me inscrever no processo seletivo para graduação em outro país?
+    - posso me candidatar à seleção em um país diferente depois de me formar?
+    - me formei em outro país posso me inscrever no processo seletivo?
+    - fiz minha graduação em outro país posso me inscrever no processo seletivo?
+    - se fiz minha graduação em outro país posso me inscrever no processo seletivo?
+    - Sou de outro país, posso participar da seletiva de mestrado?
+    - existe alguma restrição para candidatos de outro país?
+    - há alguma restrição de participação?
+    - existe alguma restrição para participar do processo seletivo para outras nações?
+    - ainda existe alguma restrição para estrangeiros no processo seletivo?
+    - alguém de outro país pode participar do processo seletivo?
+    - se as pessoas vierem de outro país haverá restrição de participação no processo seletivo?
+    - para quem é de outro país existe alguma restrição para participar do processo seletivo?
+    - quem pode participar de outros países?
+    - quem mais pode participar?
+    - quem pode participar de outro país?
+    - quem é de outro país?
+    - quem de outro país pode participar?
+    - quem é de outro país pode participar?
+    - os titulares de um diploma estrangeiro podem candidatar-se ao mestrado
+    - se um aluno tiver um diploma de outro país, ele ou ela pode se inscrever para fazer mestrado
+    - se ele tiver um diploma de outro país, poderá se candidatar a um mestrado
+    - aqueles com diploma de um país estrangeiro podem se candidatar a mestrados
+    - aqueles que possuem um diploma de outro país podem se candidatar a um mestrado
+    - aqueles que possuem um diploma de outro país podem se candidatar a mestrados
 - intent: criterios_para_ser_aluno_especial
   examples: |
     - Quais critérios para eu solicitar ser Aluno Especial ?
@@ -313,6 +1366,36 @@ nlu:
     - em qual momento posso solicitar ser aluno especial
     - o que me qualificar para concorrer a vagas como aluno especial?
     - qual os critérios para que eu possa concorrer como aluno especial?
+    - como posso me inscrever no programa de estudante especial?
+    - como me inscrevo para alunos especiais?
+    - como posso me inscrever para alunos especiais?
+    - como faço para me candidatar a aluno especial?
+    - apresentar os critérios de inscrição como aluno especial?
+    - que critérios eu preciso para me candidatar à educação especial?
+    - que critérios são usados para se candidatar como aluno especial?
+    - quais critérios devo atender para me inscrever como aluno especial?
+    - como faço para solicitar o status de estudante especial?
+    - o que devo fazer para ser considerado aluno especial?
+    - o que devo fazer para me candidatar a aluno especial?
+    - o que é preciso para ser um aluno especial?
+    - o que preciso fazer para me tornar um aluno especial?
+    - alguma pessoa pode ser aluno especial?
+    - qualquer pessoa pode ser aluno especial?
+    - qualquer indivíduo pode ser aluno especial?
+    - o candidato pode ser aluno especial?
+    - quando posso pedir para ser aluno especial?
+    - que critérios você pode usar para obter uma vaga de aluno especial?
+    - que qualificações podem ser necessárias para concorrer como aluno especial?
+    - o que é preciso para me qualificar para algumas vagas como aluno especial?
+    - o que é preciso para me habilitar a concorrer a vagas como aluno especial?
+    - o que é um aluno especial?
+    - como me inscrevo como aluno especial?
+    - listar os critérios de matrícula para alunos especiais?
+    - que critérios são necessários para se tornar um aluno especial?
+    - listar os critérios para se candidatar à educação especial?
+    - diga-me os critérios de elegibilidade para se candidatar a alunos especiais?
+    - apresentar os critérios exigidos para se candidatar a aluno especial?
+    - listar os critérios para se candidatar a um aluno especial?
 - intent: solicitar_readmissao
   examples: |
     - O que preciso fazer para solicitar readmissão no PPGCC?
@@ -320,6 +1403,29 @@ nlu:
     - o que preciso para solicitar readmissão
     - onde solicito a readmissão
     - com quem devo falar para solicitar readmissão
+    - como me inscrevo no pgcc?
+    - como devo me inscrever no ppgcc?
+    - como me inscrevo no ppgcc?
+    - como entro no ppgcc?
+    - como posso requerer readmissão no ppgcc?
+    - como solicito readmissão no ppgcc?
+    - como posso solicitar a readmissão do ppgcc?
+    - como solicito a readmissão no ppgcc?
+    - como posso requerer uma readmissão?
+    - como solicito uma remissão?
+    - como posso requerer a readmissão?
+    - como faço para solicitar uma readmissão?
+    - como solicito a readmissão?
+    - qual é o procedimento para permissão de leitura?
+    - o que devo fazer para conseguir minha admissão?
+    - qual é o procedimento para requerer a readmissão?
+    - onde posso solicitar uma readmissão
+    - onde solicito a readmissão?
+    - onde solicito uma readmissão
+    - quando eu solicitar a readmissão
+    - com quem devo falar sobre a readmissão?
+    - com quem devo falar quando solicitar a readmissão?
+    - com quem devo falar para solicitar a readmissão?
 - intent: proficiencia_em_ingles
   examples: |
     - Preciso de proficiência em inglês para fazer a seleção?
@@ -327,10 +1433,40 @@ nlu:
     - não tenho proficiência em inglês, posso me candidatar para vaga no programa?
     - ainda não fiz a proficiência em inglês isso me desqualifica como candidato?
     - não tenho proficiência em inglês, posso me inscrever no seletivo?
+    - o inglês é necessário para a seleção?
+    - preciso de um bom inglês para fazer a seleção?
+    - a proficiência em inglês é suficiente para fazer a seleção?
+    - preciso de inglês para fazer a seleção?
+    - preciso falar inglês para fazer a seleção?
+    - preciso ter fluência em inglês para fazer a seleção?
+    - preciso ter proficiência em inglês para fazer a seleção?
+    - o domínio do inglês é um pré-requisito para fazer a seleção
+    - a proficiência em inglês é necessária para a seleção de candidatos
+    - a proficiência em inglês é obrigatória para fazer a seleção dos candidatos
+    - proficiência em inglês é obrigatória para fazer o processo seletivo
+    - é necessário proficiência em inglês para fazer a seleção
+    - proficiência em inglês é obrigatória para fazer a seleção
+    - posso me inscrever no idioma inglês?
+    - posso me candidatar a um emprego se não sou fluente em inglês?
+    - se eu não souber inglês, posso me candidatar à vaga no programa?
+    - se eu não souber inglês posso ser afastado do trabalho?
+    - não ter conhecimento da língua inglesa desqualifica o candidato?
+    - eu não falo inglês fluentemente isso me desqualifica como candidato?
+    - não ter proficiência em inglês me desqualifica como candidato?
+    - o fato de não ter feito proficiência em inglês me desqualifica como candidato?
+    - você pode se inscrever para admissão seletiva sem trabalhar o inglês?
+    - não sei inglês, posso me inscrever para admissão seletiva?
 - intent: carga_horaria_mestrado_doutorado
   examples: |
     - qual a carga horária do mestrado?
     - qual a carga horária do doutorado?
+    - qual é a carga horária de um doutorado?
+    - como seria o escopo do doutorado?
+    - quais são as cargas de trabalho dos doutorados?
+    - como é a carga horária no doutorado?
+    - Tempo máximo para concluir o mestrado em ciência da computação
+    - Qual o menor tempo para concluir o mestrado em ciência da computação?
+    - Quanto tempo tem a duração do mestrado?
 - intent: disciplina_distancia
   examples: |
     - Posso cursar as disciplinas a distância?
@@ -338,6 +1474,26 @@ nlu:
     - existe a possibilidade de eu cursar o mestrado a distância
     - as aulas são presenciais ou a distância
     - tem aulas a distância que eu possa cursar?
+    - tem como estudar a distância de casa?
+    - posso fazer cursos a distância?
+    - posso ir para um curso?
+    - como posso fazer cursos a distância?
+    - posso fazer este curso a distância?
+    - como fazer mestrado fora de casa?
+    - posso ganhar um mestrado à distância?
+    - posso fazer mestrado a distância?
+    - posso estudar à distância para um mestrado
+    - posso fazer o mestrado a distância
+    - existe a possibilidade de estudo a distância para mestrado
+    - tenho a possibilidade de fazer mestrado a distância
+    - existe a possibilidade de cursar o mestrado a distância
+    - as aulas podem ser realizadas presencialmente ou à distância
+    - as aulas podem ser presenciais ou online
+    - as aulas são presenciais ou à distância -
+    - as aulas são presenciais ou à distância
+    - existe algum curso a distância que eu possa fazer?
+    - vocês oferecem aulas a distância?
+    - existem aulas a distância que eu possa assistir?
 - intent: funcionamento_predio
   examples: |
     - Qual o horário que o MACC inicia as atividades e abre o prédio?
@@ -348,6 +1504,36 @@ nlu:
     - Em que momento o prédio é fechado?
     - as salas do programa estão disponíveis no fim de semana
     - O prédio funciona no fim de semana?
+    - quando o macc inicia suas atividades e inaugura os prédios?
+    - a que horas o macc inicia suas atividades e inaugura o prédio?
+    - quando o prédio do ppgcc é aberto
+    - a que horas do dia o edifício tem acesso?
+    - que horas do dia você pode entrar no prédio?
+    - como é o acesso ao edifício? em que horas do dia a pessoa deve estar?
+    - as estruturas têm acesso a que horas do dia?
+    - o edifício é acessível a que horas do dia?
+    - como é o acesso ao edifício a que horas do dia?
+    - o edifício tem acesso a que horas do dia?
+    - o prédio do programa funciona durante o horário de funcionamento
+    - o prédio também funciona em horário comercial
+    - a construção do programa funciona em horário comercial
+    - o programa funciona em horário comercial
+    - o prédio funciona em horário comercial
+    - o prédio está aberto quando as aulas continuarem
+    - o prédio fica aberto enquanto as aulas acontecem
+    - o prédio está aberto enquanto as aulas estão acontecendo
+    - quando o prédio será fechado?
+    - quando o prédio está fechado?
+    - quando fecha o prédio?
+    - quando o prédio é fechado?
+    - os quartos para o programa estão disponíveis aos fins de semana
+    - as salas do programa estão disponíveis nos finais de semana
+    - a sala para o programa está disponível no fim de semana
+    - o prédio está aberto no sábado?
+    - o prédio está aberto durante o fim de semana?
+    - o edifício está aberto aos fins-de-semana?
+    - o edifício está aberto ao fim-de-semana?
+    - o prédio está aberto no fim de semana?
 - intent: prorrogar_dissertação
   examples: |
     - Posso adiar minha apresentação de mestrado após 2 anos?
@@ -355,16 +1541,62 @@ nlu:
     - não defendi minha dissertação após os dois anos, posso prorrogar?
     - posso prorrogar a defesa da minha dissertação?
     - como faço para poder prorrogar minha dissertação?
+    - como posso adiar a apresentação do meu mestrado por mais tempo?
+    - o que devo fazer para adiar apresentação de mestrado após 2 anos?
+    - posso adiar apresentações de mestrado após 2 anos?
+    - posso adiar a apresentação do meu mestrado depois de dois anos?
+    - posso adiar a apresentação do meu mestrado depois de 2 anos?
+    - posso adiar minha apresentação de mestrado depois de 2 anos?
+    - como adiar uma apresentação de doutorado após 4 anos?
+    - posso adiar minha apresentação de doutorado depois de quatro anos?
+    - posso adiar minha apresentação de doutorado após 4 anos?
+    - não defendi a minha dissertação dois anos depois como posso prolongar a minha dissertação?
+    - não defendi minha dissertação há dois anos posso prorrogar?
+    - não posso defender minha dissertação depois de dois anos, posso prorrogá-la?
+    - não defendi minha dissertação depois de dois anos posso prorrogar?
+    - posso atrasar a defesa da minha dissertação?
+    - existe alguma forma de adiar a defesa da sua dissertação?
+    - posso adiar a defesa da minha dissertação?
+    - como posso adiar a apresentação da minha dissertação?
+    - como posso adiar a defesa da minha dissertação?
+    - como faço para estender minha tese?
+    - como posso estender minha tese?
+    - como você estende sua dissertação?
+    - como posso prolongar a minha dissertação?
+    - o que posso fazer para estender minha dissertação?
+    - como faço para estender minha dissertação?
+    - como posso estender minha dissertação?
 - intent: contato_secretaria
   examples: |
     - Qual o contato da secretaria ?
     - qual numero da secretaria
     - qual email da secretaria
+    - Qual é o contato da secretária?
+    - mostra-me o número da secretaria?
+    - você pode, por favor, listar o número da secretaria?
+    - qual é o número da secretaria?
+    - diga-me o número da secretaria?
+    - diga-me o número da secretaria
+    - qual o e-mail da secretária?
+    - você pode listar o e-mail que recebeu da secretária?
+    - qual e-mail a secretária tinha
+    - e-mail da secretária
+    - diga-me o e-mail da secretária
 - intent: localizacao_PPGCC
   examples: |
     - Onde fica o macc?
     - qual localização do ppgcc
     - onde fica localizado o ppgcc
+    - cadê o mac?
+    - cadê o ppgcc
+    - mostre-me a localização do ppgcc
+    - qual é a localização do ppgcc
+    - cadê o pgccc?
+    - onde fica o ppgcc?
+    - onde fica o pgccc?
+    - qual a localização do ppgcc?
+    - Onde fica a Universidade?
+    - Onde fica localizado o campus?
 - intent: solicitar_declaracao
   examples: |
     - Quero pedir uma declaração
@@ -377,6 +1609,45 @@ nlu:
     - Eu fiz mestrado no macc, como obtenho meu histórico escolar?
     - Eu já defendi e fui aprovado, pode me dar uma declaração
     - Onde eu solicito uma declaração dos horários das minhas aulas para levar para o meu trabalho?
+    - eu quero uma declaração
+    - gostaria de pedir uma declaração
+    - eu quero te pedir uma declaração
+    - quero pedir uma declaração
+    - como solicito a declaração de sinistro?
+    - como posso solicitar uma declaração?
+    - como solicito uma declaração?
+    - como posso pedir uma declaração?
+    - como se pede uma declaração?
+    - como faço para pedir uma declaração?
+    - diga-me a melhor forma de obter uma declaração?
+    - como posso obter uma declaração?
+    - como faço para obter a declaração?
+    - como faço para obter uma declaração?
+    - como você consegue uma declaração?
+    - como solicito o comprovante de matrícula?
+    - como obtenho o comprovativo de inscrição?
+    - onde posso obter uma transcrição de um programa educacional?
+    - como faço para obter uma transcrição da escola?
+    - onde posso encontrar o histórico escolar?
+    - onde posso obter uma transcrição?
+    - onde posso encontrar um histórico escolar?
+    - onde posso obter minhas transcrições escolares?
+    - onde posso obter um histórico escolar?
+    - como você obtém as transcrições para mestrado em macc?
+    - como faço para obter minhas transcrições do macc?
+    - como faço para obter minhas transcrições para meu mestrado no macc?
+    - como faço para obter uma transcrição do meu mba no macc?
+    - como faço para obter minhas transcrições?
+    - como posso obter minha transcrição de mestrado da macc?
+    - onde consigo minhas transcrições?
+    - já defendi e fui aprovado pode me dar um depoimento?
+    - acabei de defender e foi aprovado pode me dar um depoimento?
+    - já defendi e fui aprovado pode me dar uma declaração?
+    - onde posso obter um cronograma completo das minhas aulas?
+    - onde posso obter um pedido de declaração de horário x para o trabalho?
+    - onde posso solicitar o envio do extrato dos meus horários de aulas?
+    - como faço para solicitar o extrato do meu horário de aula?
+    - onde posso solicitar uma declaração dos meus horários de aulas para levar para o trabalho?
 - intent: viajem_para_evento
   examples: |
     - Quero solicitar ajuda de custo para viagem a um evento
@@ -384,18 +1655,53 @@ nlu:
     - O PPGCC paga inscrição em eventos
     - E dá passagens para viajar
     - e tem diarias
+    - quero solicitar assistência em viagem para um evento
+    - quero solicitar assistência de viagem para um evento
+    - como solicito assistência em viagem?
+    - como posso solicitar ajuda de viagem para um evento?
+    - como faço para solicitar assistência de viagem para uma conferência?
+    - como solicito assistência em viagem para um evento?
+    - ppgcc paga taxas de inscrição para eventos
+    - ppgcc paga a inscrição dos eventos
+    - ppgcc paga pela inscrição dos eventos
+    - ppgcc paga a taxa de inscrição do evento
+    - ppgcc paga a taxa de inscrição
+    - ppgcc paga a inscrição
+    - ppgcc paga inscrição no evento
+    - há livros diários
+    - tem um diário
+    - também há diários
 - intent: entrevista_mestrado_doutorado
   examples: |
     - Tenho que estudar alguma coisa para a entrevista
     - Pode me indicar o que estudar para a entrevista
+    - preciso estudar algo para uma entrevista
+    - preciso estudar algo para a entrevista
+    - eu tenho que estudar algo para uma entrevista
+    - eu tenho que estudar algo para a entrevista
+    - você pode me dizer o que estudar para entrevistas?
+    - você pode me dizer o que estudar para a entrevista?
 - intent: trancamento_mestrado_doutorado
   examples: |
     - Eu posso trancar o mestrado por 1 ano para fazer uma viagem
     - Eu posso trancar o mestrado por 1 ano para fazer uma viagem e no doutorado
+    - posso trancar meu mestrado por 1 ano e fazer uma viagem
+    - posso trancar um mestrado por um ano para fazer uma viagem
+    - posso trancar o mestrado por 1 ano para fazer uma viagem
+    - posso trancar o mestrado por 1 ano para fazer uma viagem e no doutorado
 - intent: carteira_estudantil
   examples: |
     - Entrei na seleção do PPGCC, quero pedir a carteira de estudante
     - onde eu peço a carteira de estudante
+    - fui selecionado para o ppgcc quero solicitar a carteira de estudante
+    - candidatei-me à seleção do ppgcc quero solicitar o cartão de estudante
+    - onde posso obter uma carteira de estudante?
+    - onde envio a carteira de estudante?
+    - onde posso solicitar a carteira de estudante?
+    - como faço para solicitar a carteira de estudante
+    - onde solicito a carteira de estudante?
+    - como faço para solicitar minha carteira de estudante?
+    - onde solicito minha carteira de estudante?
 - intent: entrar_contato_corpo_docente_coordenacao
   examples: |
     - Quero agendar para falar com o coordenador
@@ -403,10 +1709,171 @@ nlu:
     - como eu agendo para falar com o coordenador
     - como eu agendo para falar com o prof gustavo
     - qual contato da coordenação?
+    - quero conversar com o coordenador
+    - quero marcar uma hora para falar com o coordenador
+    - gostaria de marcar uma hora para falar com o coordenador
+    - quero bater um papo com o prof everardo
+    - gostaria de marcar uma consulta com o prof everardo
+    - gostaria de marcar uma hora para falar com o prof everardo
+    - quero marcar uma hora para falar com o prof everardo
+    - quero marcar uma hora para falar com o professor everardo
+    - como faço para falar com o coordenador?
+    - como faço para agendar minha consulta com o coordenador?
+    - como faço para agendar para falar com o coordenador?
+    - o que posso fazer para agendar minha reunião com o coordenador?
+    - como faço para agendar uma reunião com o coordenador?
+    - qual a melhor forma de marcar uma reunião com o professor gustavo?
+    - o que faço para marcar uma palestra com o professor gustavo?
+    - como faço para agendar uma reunião com o professor gustavo?
+    - como posso agendar uma reunião com o prof gustavo?
+    - como faço para agendar minha consulta com o prof gustavo?
+    - como faço para falar com o prof gustavo?
+    - como faço para agendar uma reunião com o prof gustavo?
+    - escolher um contato para coordenação?
+    - qual ponto de coordenação?
+    - qual contato de coordenação?
+    - quem é o contato da coordenação?
 - intent: criterios_bolsa
   examples: |
     - Posso ter bolsa tendo emprego
     - quais os criterios para concorrer a bolsa de estudos
+    - posso conseguir bolsas de estudo tendo um emprego?
+    - posso ter uma bolsa com um emprego?
+    - posso solicitar bolsa de estudos? Qual é o processo de solicitação?
+    - você pode listar os critérios de elegibilidade para se candidatar a bolsas de estudo?
+    - listar os critérios de candidatura à bolsa?
+    - quais são os critérios de elegibilidade para se candidatar a uma bolsa de estudos?
+    - você pode listar os critérios para se candidatar à bolsa?
+    - mostrar os critérios para se candidatar a bolsa?
+    - você pode listar os critérios para se candidatar a uma bolsa de estudos?
+    - mostrar os critérios para se candidatar à bolsa?
+    - Como faço para ganhar bolsa de mestrado?
+    - Como posso tá participando de bolsas de financiamento?
 - intent: criterios_proficiencia_ingles
   examples: |
     - Já tenho certificado Fisk de inglês, ainda preciso fazer prova de proficiência
+    - já possuo certificado fisk de inglês e ainda tenho que comprovar minha proficiência neste idioma
+    - eu tenho um certificado de inglês da fisk, só preciso provar minha proficiência em inglês
+    - já possuo certificado fisk e ainda preciso comprovar minha proficiência em inglês
+    - já possuo o certificado de inglês da fisk ainda tenho que comprovar minha proficiência em inglês
+    - já possuo o certificado de inglês da fisk mas ainda preciso comprovar minha proficiência
+    - já possuo certificado de inglês fisk ainda tenho que comprovar minha proficiência
+    - já possuo certificado de inglês fisk ainda preciso comprovar minha proficiência
+- intent: resposta_sim
+  examples: |
+    - sim
+    - simm
+    - smi
+    - Sim
+- intent: resposta_nao
+  examples: |
+    - não
+    - nao
+    - Não
+    - Não.
+- intent: participar_intercambio
+  examples: |
+    - Como posso participar de intercâmbio?
+    - Gostaria de saber quais são as formas de se candidatar a um programa de intercâmbio?
+    - Quais são os passos para se inscrever em um intercâmbio?
+    - Estou interessado em fazer um intercâmbio, como posso me candidatar?
+    - Quais são os requisitos para se inscrever em um programa de intercâmbio?
+    - Quero saber como posso me inscrever para um programa de intercâmbio acadêmico.
+    - Como faço para me candidatar a um programa de intercâmbio internacional?
+    - Quais são os procedimentos necessários para se candidatar a um intercâmbio?
+    - Estou interessado em fazer um intercâmbio durante meu mestrado ou doutorado, como posso participar?
+    - Quais são as etapas para se inscrever em um programa de intercâmbio estudantil?
+    - Gostaria de saber como posso me candidatar a um programa de intercâmbio no exterior.
+- intent: criteirios_conclusao_mestrado_doutorado
+  examples: |
+    - Quais os requisitos para um aluno de mestrado concluir o curso?
+    - Quais os requisitos obrigatórios sao necessários cumprir.
+    - Quais são as exigências para um estudante de mestrado terminar o curso?
+    - Quais as condições necessárias para um aluno de mestrado obter o grau?
+    - Quais são os critérios para a conclusão do curso de mestrado?
+    - Quais são os requisitos mínimos para a conclusão do programa de mestrado?
+    - O que é necessário para que um aluno de mestrado possa finalizar o curso?
+    - Quais são as exigências que um estudante de mestrado deve cumprir para se graduar?
+    - Quais são os pré-requisitos para a conclusão do programa de mestrado?
+    - Quais são as condições para que um aluno de mestrado possa concluir o curso?
+    - O que um aluno de mestrado precisa fazer para terminar o curso?
+    - Quais são os requisitos estabelecidos para que um estudante de mestrado possa obter o título?
+- intent: disciplinas_obrigatorias
+  examples: |
+    - Quais as disciplinas obrigatórias para alunos de doutorado?
+    - Quais as disciplinas obrigatórias do PPGCC?
+    - Quais as disciplinas obrigatórias do PPGCC
+    - Quais são as matérias obrigatórias para estudantes de doutorado?
+    - Quais disciplinas devem ser cursadas pelos alunos de doutorado?
+    - Quais são as disciplinas obrigatórias no programa de doutorado?
+    - Quais são as matérias fundamentais para alunos de doutorado?
+    - Quais são as disciplinas essenciais para os estudantes de doutorado?
+    - Quais são as matérias que todos os alunos de doutorado precisam cursar?
+    - Quais são as disciplinas exigidas no programa de doutorado?
+    - Quais são as matérias que os alunos de doutorado devem obrigatoriamente estudar?
+    - Quais são as disciplinas obrigatórias para a obtenção do título de doutorado?
+    - Quais são as matérias que os alunos de doutorado precisam cursar para se formarem?
+    - Quais são as disciplinas do programa de pós -graduação?
+    - Quais as disciplinas do mestrado?
+    - As disciplinas do mestrado são as mesmas do doutorado?
+- intent: objetivo_chatbot
+  examples: |
+    - Gostaria de saber quais os programas de pós graduação existentes no Ceará
+    - Qual o limite de aproveitamento destas perguntas.
+- intent: direitos_deveres_pos_graduando
+  examples: |
+    - Quais sao os direitos e deveres do pós graduando ?
+    - Quais são as responsabilidades e direitos dos estudantes de pós-graduação?
+    - Quais são as obrigações e prerrogativas dos pós-graduandos?
+    - Quais são os deveres e benefícios dos alunos de pós-graduação?
+    - Quais são as expectativas e concessões para os estudantes de pós-graduação?
+    - Quais são as regras e vantagens para os pós-graduandos?
+    - Quais são os compromissos e direitos dos alunos de pós-graduação?
+- intent: sobre_bolsas
+  examples: |
+    - Gostaria de saber sobre as bolsas, quais modalidades e quais os valores. Além de quais as instituições que ás disponibilizam
+    - As bolsas para os pós graduandos
+    - Como funciona as bolsas do ppgcc
+    - Quais são as opções de bolsas disponíveis, seus valores e instituições que as oferecem?
+    - Quais são as modalidades de bolsas oferecidas e seus respectivos valores?
+    - Quais as organizações e instituições que fornecem bolsas de estudo para pós-graduação?
+    - Quais são as opções de financiamento de estudo disponíveis para alunos de pós-graduação e seus valores?
+    - Quais são as alternativas de suporte financeiro para estudantes de pós-graduação, incluindo valores e tipos de bolsas?
+    - Quais são as oportunidades de auxílio financeiro para alunos de pós-graduação, incluindo informações sobre valores e modalidades de bolsas?
+    - Quais são as modalidades de bolsas disponíveis para alunos de pós-graduação, bem como seus valores e as instituições que as oferecem?
+    - Quais são as fontes de financiamento disponíveis para estudantes de pós-graduação, incluindo informações sobre bolsas e seus valores?
+    - Quais são as possibilidades de ajuda financeira para estudantes de pós-graduação, incluindo informações sobre modalidades de bolsas e valores?
+    - Quais são as opções de bolsas de estudo disponíveis para alunos de pós-graduação, incluindo informações sobre seus valores e instituições que as oferecem?
+    - O programa disponibiliza quantas bolsas?
+- intent: conceito_capes
+  examples: |
+    - Qual é o conceito capes do PPGCC?
+    - Qual é a nota do PPGCC?
+    - Qual é a nota atribuída pelo Capes ao PPGCC?
+    - Como o PPGCC é avaliado pelo Capes?
+    - Qual é a classificação do PPGCC pelo Capes?
+    - Como é avaliado o PPGCC pela Capes?
+    - Qual é a pontuação do PPGCC no sistema Capes?
+    - O PPGCC possui qual conceito atribuído pelo Capes?
+    - Qual é a avaliação da Capes para o PPGCC?
+    - Qual é a nota do PPGCC na avaliação da Capes?
+    - Como o PPGCC é ranqueado pelo Capes?
+    - Qual é a qualificação do PPGCC segundo a avaliação do Capes?
+- intent: cursos_ofertados
+  examples: |
+    - quantos cursos são ofertados?
+    - Quais os cursos são ofertados no campus de Itaperi?
+    - Quantos cursos têm a Universidade?
+    - Há o curso de doutorado em linguística nesta universidade?
+- intent: sobre_professores
+  examples: |
+    - Quais professores fazem parte do programa?
+    - Quais os professores fazem parte do programa?
+    - Quem são os docentes que integram o programa?
+    - Quais são os professores que compõem o corpo docente do programa?
+    - Quais os nomes dos professores que fazem parte do programa?
+    - Quais docentes estão envolvidos no programa?
+    - Quem são os mestres e doutores responsáveis pelas disciplinas do programa?
+    - Quais são os acadêmicos que ministram as aulas do programa?
+    - Quais os especialistas que atuam como professores no programa?
+    - Quais os pesquisadores renomados que fazem parte do corpo docente do programa?
