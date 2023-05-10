@@ -135,6 +135,226 @@ intents:
     use_entities: true
 - cursos_ofertados:
     use_entities: true
+- objetivo_macc:
+    use_entities: true
+- idade_macc:
+    use_entities: true
+- coordena_linhas_pesquisa:
+    use_entities: true
+- cria_linhas_pesquisa:
+    use_entities: true
+- localizacao_campus:
+    use_entities: true
+- contato_ppgcc:
+    use_entities: true
+- que_colegiado:
+    use_entities: true
+- tempo_colegiado:
+    use_entities: true
+- discente_colegiado:
+    use_entities: true
+- reuniao_colegiado:
+    use_entities: true
+- destituir_coordenador:
+    use_entities: true
+- colegiado_criterios_bolsas:
+    use_entities: true
+- membros_colegiado:
+    use_entities: true
+- quem_vota_coordenador:
+    use_entities: true
+- mandato_coordenador:
+    use_entities: true
+- vacancia_vicecoordenador:
+    use_entities: true
+- coordenador_ppgcc:
+    use_entities: true
+- vicecoordenador_ppgcc:
+    use_entities: true
+- funcao_coordenador:
+    use_entities: true
+- funcao_vicecoordenador:
+    use_entities: true
+- compoe_comissao_bolsas:
+    use_entities: true
+- aproveitar_disciplinas:
+    use_entities: true
+- definir_curriculo:
+    use_entities: true
+- readmissao:
+    use_entities: true
+- composicao_comissao:
+    use_entities: true
+- funcao_comissao:
+    use_entities: true
+- composicao_comissao_bolsas:
+    use_entities: true
+- quem_corpo_docente:
+    use_entities: true
+- funcoes_comissao:
+    use_entities: true
+- funcao_comissao_bolsas:
+    use_entities: true
+- definicao_corpo_docente:
+    use_entities: true
+- processo_corpo_docente:
+    use_entities: true
+- vagas_ppgcc:
+    use_entities: true
+- disciplinas_aluno_especial:
+    use_entities: true
+- requisitos_aluno_especial:
+    use_entities: true
+- aluno_especial_vira_regular:
+    use_entities: true
+- aproveitamento_desligamento:
+    use_entities: true
+- ingresso_pgcc:
+    use_entities: true
+- requisito_ingresso_mestrado:
+    use_entities: true
+- escolha_orientador:
+    use_entities: true
+- trocar_orientador:
+    use_entities: true
+- coorientador:
+    use_entities: true
+- competencias_orientador:
+    use_entities: true
+- quantos_orientandos:
+    use_entities: true
+- oferta_disciplinas:
+    use_entities: true
+- carga_horaria_minima:
+    use_entities: true
+- tempo_dissertacao:
+    use_entities: true
+- artigo_dissertacao:
+    use_entities: true
+- caso_nao_defenda:
+    use_entities: true
+- trancamento:
+    use_entities: true
+- disciplinas_mestrado:
+    use_entities: true
+- reprovacao_falta:
+    use_entities: true
+- media_aprovacao:
+    use_entities: true
+- avaliacao_desempenho:
+    use_entities: true
+- reprovacoes:
+    use_entities: true
+- criterios_defesa:
+    use_entities: true
+- composicao_banca:
+    use_entities: true
+- duracao_defesa:
+    use_entities: true
+- dissertacao_ingles:
+    use_entities: true
+- requisitos_formacao:
+    use_entities: true
+- horario:
+    use_entities: true
+- relatorio_semestral:
+    use_entities: true
+- horario_macc:
+    use_entities: true
+- ouvintes:
+    use_entities: true
+- calendario_academico:
+    use_entities: true
+- linhas_pesquisa:
+    use_entities: true
+- autorizacao_coordenacao:
+    use_entities: true
+- aluno_especial:
+    use_entities: true
+- cursos_ppgcc:
+    use_entities: true
+- profissional_academico:
+    use_entities: true
+- doutorado_mestrado:
+    use_entities: true
+- apenas_academia:
+    use_entities: true
+- diferença_cursos:
+    use_entities: true
+- saber_programar:
+    use_entities: true
+- dedicacao_parcial:
+    use_entities: true
+- disciplina_noite:
+    use_entities: true
+- proficiencia_ingles:
+    use_entities: true
+- escolher_projeto:
+    use_entities: true
+- patentes:
+    use_entities: true
+- graduado_computacao:
+    use_entities: true
+- ead:
+    use_entities: true
+- tema_dissertacao:
+    use_entities: true
+- carteirinha:
+    use_entities: true
+- taxa_inscricao:
+    use_entities: true
+- mudar_linha_pesquisa:
+    use_entities: true
+- requerimentos_bolsa:
+    use_entities: true
+- quanto_bolsa:
+    use_entities: true
+- ru:
+    use_entities: true
+- funcao:
+    use_entities: true
+- composicao:
+    use_entities: true
+- quem_e1:
+    use_entities: true
+- thank1:
+    use_entities: true
+- start:
+    use_entities: true
+- perder_bolsa:
+    use_entities: true
+- opiniao_bot:
+    use_entities: true
+- seduc:
+    use_entities: true
+- estagio_docencia:
+    use_entities: true
+- pre_matricula:
+    use_entities: true
+- falta_atestado:
+    use_entities: true
+- conceito_ppgcc:
+    use_entities: true
+- sanduiche:
+    use_entities: true
+- aula_graduacao:
+    use_entities: true
+- ramal_secretaria:
+    use_entities: true
+- lista_classificaveis:
+    use_entities: true
+- agendar_horario:
+    use_entities: true
+- biblioteca:
+    use_entities: true
+- salas:
+    use_entities: true
+- identidade_bot:
+    use_entities: true
+- introduce:
+    use_entities: true
+- pesquisa:
+    use_entities: true
 entities:
 - espaco_fisico
 - aluno_especial
@@ -148,8 +368,46 @@ entities:
 - comissao_bolsas
 - contato_setor
 - contato_pessoa
-slots: {}
+- aluno
+- cadeiras
+- co-orientador
+- disciplina
+- cadeira
+- frequencia
+- linha_pesquisa
+- redes de computadores
+- algoritmos
+- engenharia de software
+- tema
+- blockchain
+- PLN
+- visao computacional
+- IA
+- coordenador
+- vice-coordenador
+- comissao_de_bolsas
+- orientador
+- comissao_pos
+- secretario
+- simnao
+- corpo_docente
+- colegiado
+- matrícula
+- comissão_de_pos_graduacao
+- banca
+slots:
+  simnao:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
 responses:
+  utter_introduce:
+  - text: Certo!
+  utter_pesquisa:
+  - text: Fazendo pesquisa...
+  utter_identidade_bot:
+  - text: Sou um chatbot especializado em responder perguntas sobre o Programa de Pós-Graduação em Ciência da Computação (PPGCC) da Universidade Estadual do Ceará. Como posso ajudá-lo(a) hoje?
   utter_sala_tem_projetor:
   - text: Sim, as salas de aulas são adaptadas com projetor.
   utter_buscar_sala_de_aula_da_disciplina:
@@ -239,9 +497,6 @@ responses:
   utter_calendario_data_matricula:
   - text: A cada semestre é exposto um calendário acadêmico a comunidade, você pode acessar no site do programa nele tem as informações de período de matrícula, início do semestre, prazo de trancamento e término do semestre. http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/. Para mais informações entre em contato com a coordenação."
   utter_calendario_inicio_aula:
-  - text: A cada semestre é exposto um calendário acadêmico a comunidade, você pode acessar no site do programa nele tem as informações de período de matrícula, início do semestre, prazo de trancamento e término do semestre. http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/. Para mais informações entre em contato com a coordenação."
-  utter_trancamento_matricula:
-  - text: 'O aluno poderá trancar a matrícula dentro do prazo estabelecido no calendário acadêmico. Para informações mais detalhadas acesse: http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/'
   - text: A cada semestre é exposto um calendário acadêmico a comunidade, você pode acessar no site do programa nele tem as informações de período de matrícula, início do semestre, prazo de trancamento e término do semestre. http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/. Para mais informações entre em contato com a coordenação."
   utter_sobre_regimento:
   - text: 'No site do PPGCC na opção download você encontra todos os formulários disponibilizados, documentos relacionados ao programa, dissertações, relatórios técnicos entre outros documentos. Segue link: http://www.uece.br/ppgcc/download/downloads/'
@@ -335,6 +590,243 @@ responses:
   - text: No presente momento, o programa de pós-graduação em Ciência da Computação disponibiliza aos interessados em prosseguir com seus estudos na área tanto a opção de Mestrado quanto de Doutorado em Ciências da Computação, o que amplia as possibilidades de aprimoramento acadêmico e profissional.
   utter_sobre_professores:
   - text: Acessando o site https://www.uece.br/ppgcc/instituicional/corpo-docente/ você tem acesso a todo o corpo docente que faz parte do PPGCC.
+  utter_objetivo_macc:
+  - text: O objetivo do Programa de Pós-Graduação em Ciência da Computação (PPGCC) e do curso de Mestrado Acadêmico em Ciência da Computação da UECE (MACC) consiste em formar Docentes e Pesquisadores na área de Computação e Informática capazes de realizar atividades de pesquisa e ensino, de aplicar consistentemente o conhecimento científico no desenvolvimento de novas tecnologias que atendam demandas emergentes da sociedade, e contribuir para o desenvolvimento de um pólo tecnológico na Região.
+  utter_idade_macc:
+  - text: A modalidade Mestrado Acadêmico foi aprovada pelo Conselho de Ensino, Pesquisa e Extensão (CEPE) através da Resolução nº 2834-CEPE, em 08 de junho de 2005
+  utter_coordena_linhas_pesquisa:
+  - text: Cabe ao Colegiado deliberar sobre a criação ou extinção de áreas de linhas de pesquisa
+  utter_cria_linhas_pesquisa:
+  - text: As linhas de pesquisa são propostas pelos docentes credenciados no PPGCC.
+  utter_localizacao_campus:
+  - text: AV. DR. SILAS MUNGUBA, 1700 - CAMPUS DO ITAPERI
+  utter_contato_ppgcc:
+  - text: 'Telefone (85) 3101-9776, e-mail: macc@uece.br'
+  utter_que_colegiado:
+  - text: Os membros do colegiado são o presidente, vice-presidente, docentes credenciados no Programa, representantes discentes na proporção de 30% do colegiado.
+  utter_tempo_colegiado:
+  - text: O mandato do presidente e vice-presidente é de dois anos e dos representantes discentes é de um ano.
+  utter_discente_colegiado:
+  - text: Os representantes discentes devem ter concluído, pelo menos, metade dos créditos do curso e será escolhido pelos alunos matriculados regularmente no curso.
+  utter_reuniao_colegiado:
+  - text: O Colegiado se reunirá por convocação do Coordenador ou mediante solicitação expressa de, pelo menos, um terço de seus membros, sempre com a antecedência mínima de 5 (cinco) dias úteis.
+  utter_destituir_coordenador:
+  - text: Cabe ao colegiado esta descisão, mediante aprovação de 2/3 do Colegiado.
+  utter_colegiado_criterios_bolsas:
+  - text: Está é uma tarefa realizada pelo colegiado
+  utter_membros_colegiado:
+  - text: Presidente, vice-presidente, docentes credenciados no Programa, representantes discentes na proporção de 30% do colegiado
+  utter_quem_vota_coordenador:
+  - text: olégio Eleitoral integrado pelo corpo docente e discente do programa.
+  utter_vacancia_vicecoordenador:
+  - text: Será escolhido pelo Colegiado um novo Vice-coordenador pro tempore para completar o mandato.
+  utter_coordenador_ppgcc:
+  - text: Professor Dr. Paulo Henrique Mendes Maia.
+  utter_vicecoordenador_ppgcc:
+  - text: Professor Dr. Marcial Porto Fernández.
+  utter_mandato_coordenador:
+  - text: O mandato dura dois anos. O Coordenador e o Vice-coordenador poderão ser reeleitos para seus respectivos cargos por apenas mais um mandato consecutivo.
+  utter_funcao_coordenador:
+  - text: 'Atribuições do Coordenador são: convocar e presidir as reuniões do Colegiado, coordenar as atividades didáticas do Programa, supervisionar as atividades administrativas da Coordenação, representar o Programa dentro e fora da Universidade, elaborar as programações do Curso, submetendo-as à aprovação do Colegiado, executar o plano de aplicação de recursos provenientes da UECE ou de órgãos financiadores externos deliberados pela Comissão de Pós-graduação, delegar competência para a execução de tarefas específicas, decidir ad-referendum do Colegiado, da Comissão de Pós-Graduação e da Comissão de Bolsas sobre assuntos urgentes, sendo necessário a apreciação por esses órgãos na convocação seguinte.'
+  utter_funcao_vicecoordenador:
+  - text: O Vice-coordenador substituirá o Coordenador nas suas faltas e impedimentos e, no caso de vacância do cargo do Coordenador, por qualquer motivo e a qualquer época, completará o seu mandato.
+  utter_compoe_comissao_bolsas:
+  - text: 'A comissão de bolsas é constituído pelos seguintes membros: Coordenador ou Vice-coordenador como presidente, um docente credenciado permanente, ou o suplente, um representante discente.'
+  utter_aproveitar_disciplinas:
+  - text: Mediante parecer do orientador e aprovação da Comissão de Pós-graduação, poderão ser aceitos os créditos obtidos em disciplinas cursadas anteriormente no PPGCC ou de outros programas de pós-graduação stricto sensu reconhecidos pela CAPES, observadas as equivalências de carga horária, conteúdo programático e a aprovação na disciplina.
+  utter_definir_curriculo:
+  - text: Caberá ao Colegiado alterar e aprovar o currículo do curso.
+  utter_readmissao:
+  - text: Para solicitar a readmissão, o aluno deve apresentar:Solicitação de readmissão com cronograma de atividades previstas até a conclusão do curso,  Anuência do orientador escolhido, Copião do texto dissertação.
+  utter_composicao_comissao:
+  - text: A Comissão de Pós-Graduação do PPGCC é o órgão administrativo e deliberativo do programa no qual tem suas atribuições exposta no Art.13 do Regimento. Coordenador, como presidente e do Vice-coordenador, como vice-presidente, ambos eleitos pelo corpo docente e discente do programa,um docente credenciado pertencente a cada uma das áreas ou linha de pesquisa aprovada pelo Colegiado, um representante discente.
+  utter_funcao_comissao:
+  - text: Decidir sobre a aceitação de créditos de disciplinas obtidos em outros programas de pós-graduação, nos termos do disposto no Art. 34º, aprovar as indicações dos orientadores de dissertação, aprovar as indicações, feitas pelo orientador, dos coorientadores de dissertação, aprovar os membros das bancas avaliadoras de dissertação, autorizar a defesa de dissertação, decidir sobre a prorrogação de prazo de conclusão do curso, elaborar o edital de seleção de novos alunos a fim de encaminhá-lo ao Colegiado, elaborar os planos de aplicação de recursos provenientes da UECE ou de órgãos financiadores externos, definir o currículo e as disciplinas oferecidas pelo curso e dos professores responsáveis pelas mesmas, decidir sobre desligamento de alunos, de acordo com o que preceitua este Regimento, decidir sobre a readmissão de alunos desligados do programa, de acordo com o que preceitua o Regimento.
+  utter_quem_corpo_docente:
+  - text: 'Pode-se encontrar a lista dos docentes no site: http://www.uece.br/ppgcc/instituicional/corpo-docente/'
+  utter_funcoes_comissao:
+  - text: decidir sobre a aceitação de créditos de disciplinas obtidos em outros programas de pós-graduação, nos termos do disposto no Art. 34º, aprovar as indicações dos orientadores de dissertação, aprovar as indicações, feitas pelo orientador, dos coorientadores de dissertação, aprovar os membros das bancas avaliadoras de dissertação, autorizar a defesa de dissertação, decidir sobre a prorrogação de prazo de conclusão do curso, elaborar o edital de seleção de novos alunos a fim de encaminhá-lo ao Colegiado, elaborar os planos de aplicação de recursos provenientes da UECE ou de órgãos financiadores externos, definir o currículo e as disciplinas oferecidas pelo curso e dos professores responsáveis pelas mesmas, decidir sobre desligamento de alunos e decidir sobre a readmissão de alunos desligados do programa.
+  utter_funcao_comissao_bolsas:
+  - text: Propor norma para estabelecer critérios para concessão de bolsas de estudo e seguilas após ser aprovada pelo Colegiado, alocar as bolsas disponíveis no Programa, a qualquer momento, utilizando os critérios estabelecidos em norma específica, decidir sobre pedidos de cancelamento de bolsa encaminhados pelos orientadores.
+  utter_processo_corpo_docente:
+  - text: Por meio de concurso publico.
+  utter_vagas_ppgcc:
+  - text: Cabe ao Colegiado aprovar o Edital e definir a cada período o número de vagas disponíveis para o processo seletivo.
+  utter_disciplinas_aluno_especial:
+  - text: Quantas disciplinas um aluno especial pode pagar por semestre?
+  utter_requisitos_aluno_especial:
+  - text: 'Pode pleitear a condição de Aluno Especial o candidato aprovado no processo seletivo que: Optou por ingressar como aluno especial após aprovado, não pode ingressar no Programa por insuficiência de vagas, Alunos de graduação nos últimos 2 (dois) semestres de curso de áreas afins.'
+  utter_aluno_especial_vira_regular:
+  - text: Caso o aluno seja aprovado como regular para o PPGCC, os créditos obtidos nas disciplinas cursadas na condição de aluno especial poderão ser considerados como aproveitamento de estudos, respeitado o prazo máximo estabelecido no Art. 34 do regimento.
+  utter_aproveitamento_desligamento:
+  - text: Somente poderão ser aproveitadas disciplinas cursadas no máximo de até 48 (quarenta e oito) meses anteriores a data de solicitação.
+  utter_ingresso_pgcc:
+  - text: O ingresso de alunos regulares no PPGCC dar-se-á por processo seletivo estabelecidas em Chamada Pública. Para mais informações consulte o edital no site do PPGCC.
+  utter_requisito_ingresso_mestrado:
+  - text: Poderá ser admitido no PPGCC, candidato portador de diploma em Curso de Graduação de duração plena, que tenha sido aprovado no processo seletivo respectivo e que satisfaça eventuais exigências específicas do PPGCC, devidamente expressas na Chamada Pública própria de cada processo seletivo. Para mais informações sobre o processo seletivo, verifique o edital no site do PPGCC.
+  utter_escolha_orientador:
+  - text: Na seção do Colegiado para homologação dos candidatos aprovados no processo seletivo, será indicado um orientador acadêmico, designado dentre o corpo docente credenciado como permanente do PPGCC, para orientar os estudos de cada aluno.
+  utter_trocar_orientador:
+  - text: O aluno poderá, em requerimento fundamentado dirigido ao Coordenador, solicitar mudança de orientador ou coorientador, após apreciação pela Comissão de Pós-graduação.
+  utter_coorientador:
+  - text: Um aluno poderá ter além de seu orientador principal, um ou mais co-orientadores, mediante aprovação da Comissão de Pós-graduação.
+  utter_competencias_orientador:
+  - text: Indicar o plano de disciplinas que o orientando deverá cursar tendo em vista a linha de pesquisa e oferta de disciplinas,orientar o pós-graduando na organização de seu plano de estudo e pesquisa e assistí-lo continuadamente em sua formação pós-graduada,  propor à Comissão de Pós-graduação a composição das Banca Examinadora.
+  utter_quantos_orientandos:
+  - text: Cada orientador do PPGCC poderá ter até 8 (oito) orientandos simultaneamente.
+  utter_oferta_disciplinas:
+  - text: Cabe à Comissão de Pós-graduação definir sobre o conjunto de disciplinas ofertadas em cada período e cabe ao Colegiado aprová-las.
+  utter_carga_horaria_minima:
+  - text: 'O aluno matriculado no PPGCC deverá cursar a seguinte carga horária prevista: Para Mestrado, um mínimo 24 (vinte e quatro) créditos em disciplinas e 02 (dois créditos) em Estágio à Docência, com uma duração mínima de 06 (seis) meses e máxima de 24 (vinte e quatro) meses. Embora o ideal seja concluir o mestrado em 24 meses, é possível fazer uma prorrogação de até 06 (seis) meses, totalizando um máximo de 30 (trinta) meses.'
+  utter_trancamento_matricula:
+  - text: O aluno poderá trancar matrícula por até 1 (um) semestre, não sendo permitido o trancamento no primeiro período letivo de ingresso do aluno no programa.
+  utter_tempo_dissertacao:
+  - text: Caso o aluno não tenha sua proposta de dissertação aprovada até 16º (décimo sexto) mês do curso será automaticamente desligado do programa.
+  utter_artigo_dissertacao:
+  - text: Caso o aluno tenha artigo referente ao tema de sua dissertação aceito em conferência ou periódico com Qualis B3 ou superior, até o prazo definido no caput do regimento, fica dispensado de apresentar a proposta de dissertação.
+  utter_caso_nao_defenda:
+  - text: O aluno que não cumprir a carga horária e/ou não defender a dissertação no prazo estipulado pelo artigo 31º do regimento será automaticamente desligado do programa.
+  utter_trancar_disciplina:
+  - text: Reajuste de matrícula pode ser feito dentro do prazo estipulado no calendário pelo SisAcadPG.
+  utter_disciplinas_mestrado:
+  - text: O conjunto de disciplinas do PPGCC da UECE será composto de disciplinas de núcleo comum e disciplinas específicas da área/linha de pesquisa, as disciplinas selecionadas para cursar devem ser aprovadas pelo seu orientador.
+  utter_reprovacao_falta:
+  - text: A frequência nas disciplinas é obrigatória e não poderá ser inferior a 75% (setenta e cinco por cento) da carga horária programada, por disciplina ou atividade.
+  utter_media_aprovacao:
+  - text: Como resultado da avaliação do aproveitamento escolar, o professor deverá conceder um conceito numérico de 0,0 (zero) a 10,0 (dez), sendo considerado aprovado o aluno que obtiver conceito igual ou superior a 7,0 (sete).
+  utter_avaliacao_desempenho:
+  - text: O aproveitamento em cada disciplina será avaliado pelo respectivo professor através de atividades didáticas, em função do desempenho do aluno em provas, pesquisas, seminários, produção de trabalhos individuais ou coletivos e outros.
+  utter_reprovacoes:
+  - text: Se obtiver reprovação em duas ou mais disciplinas, independentemente do número de créditos, inclusive disciplinas com zero crédito será automaticamente desligado do programa.
+  utter_criterios_defesa:
+  - text: 'Poderá pleitear a solicitação de defesa do trabalho de conclusão, os alunos que: tenham concluído a quantidade de créditos necessários, tenham obtido média maior ou igual a 7,0 (sete), inclusive no exame de proficiência em língua inglesa e no estágio à docência, tenham a proposta de dissertação aprovada, tenham submetido, pelo menos, 1 (um) artigo, em coautoria com o orientador, em congresso ou periódico da área da Ciência da Computação com Qualis e tenha cumprido todas as exigências no prazo estipulado pelo Art. 31° do regimento.'
+  utter_composicao_banca:
+  - text: A composição da banca deverá ser formada com pelo menos 02 (dois) dois membros que não sejam orientador(es) ou co-orientador(es).
+  utter_duracao_defesa:
+  - text: O candidato deverá fazer uma apresentação oral de no mínimo 30 (trinta) minutos e no máximo 40 (quarenta) minutos.
+  utter_dissertacao_ingles:
+  - text: A dissertação deverá ser redigida em Português ou Inglês e deverão seguir as normas de formatação de documentos da UECE.
+  utter_requisitos_formacao:
+  - text: 'São condições para requisitar o título: Ter concluído a quantidade de créditos necessários, ter obtido média final maior ou igual a 7,0 (sete), inclusive no exame de proficiência em língua inglesa e no estágio à docência, ter a proposta de dissertação aprovada, ter concluído o curso no prazo estipulado no Art. 31° do regimento, ter apresentado o trabalho de conclusão e ter obtido o conceito “Aprovado” ou “Aprovado com louvor”, ter entregue a documentação exigida pela Biblioteca Central da UECE, obedecendo ao estabelecido na Regulamentação específica desta unidade, ter, pelo menos, 1 (um) artigo aceito para publicação, em coautoria com o orientador, em congresso ou periódico da área da Ciência da Computação com Qualis.'
+  utter_horario:
+  - text: Os horários das aulas do PPGCC são liberados a cada início de semestre e variam de acordo com a disponibilidade de cada professor.
+  utter_relatorio_semestral:
+  - text: 'No site do PPGCC na opção download você encontra todos os formulários disponibilizados, documentos relacionados ao programa, dissertações, relatórios técnicos entre outros documentos. Segue link: http://www.uece.br/ppgcc/download/downloads/'
+  utter_horario_macc:
+  - text: Normalmente o horário de funcionamento é das 08:00 às 18:00 de segunda a sexta podendo ter mudanças de horários, consulte a secretaria do programa para mais informações.
+  utter_ouvintes:
+  - text: Cada disciplina é ministrada por um professor responsável qualquer ação referente a disciplina deve ser solicitada/comunicada ao professor, para que ele possa autorizar
+  utter_calendario_academico:
+  - text: A cada semestre é exposto um calendário acadêmico a comunidade, você pode acessar no site do programa nele tem as informações de período de matrícula, início do semestre, prazo de trancamento e término do semestre. http://www.uece.br/ppgcc/home/servicos-e-informativos/calendario-academico-macc/. Para mais informações entre em contato com a coordenação.
+  utter_linhas_pesquisa:
+  - text: 'Atualmente o programa conta com 03 áreas de concentração, são elas:Engenharia De Software E Interface Homem-Máquina, Algoritmos, Otimização E Inteligência Computacional e Redes De Comunicação, Sistemas Distribuídos E Segurança. Você pode buscar mais informações sobre temas estudados em cada área e respectivamente os professores de cada linha de pesquisa no site do PPGCC: http://www.uece.br/ppgcc/ensino/linhas-de-pesquisa/'
+  utter_autorizacao_coordenacao:
+  - text: Deve-se solicitar autorização à coordenação. Para mais informações entre em contato com a secretaria do programa.
+  utter_aluno_especial:
+  - text: 'Pode solicitar a condição de Aluno Especial o candidato aprovado no processo seletivo que: a) Optou por ingressar como aluno especial, b) Não pode ingressar no Programa por insuficiência de vagas, c) Alunos de graduação da UECE nos últimos 2 (dois) semestres de curso de graduação em Ciência da Computação e áreas afins, para mais informações consulte o Art. 23° do regimento do programa. Lembrando que ao cursar disciplinas como aluno especial não são emitidos certificados de conclusão destas disciplinas.'
+  utter_cursos_ppgcc:
+  - text: O PPGCC oferece curso de Mestrado acadêmico e Doutorado.
+  utter_profissional_academico:
+  - text: 'Os cursos de mestrado e de doutorado oferecidos pelo PPGCC são do tipo “acadêmico”. Há também cursos de mestrado e de doutorado oferecidos no Brasil, em outros programas, do tipo “profissional”. Para saber exatamente as diferenças entre esses dois tipos de cursos de mestrado, sugerimos buscar informações no website da Capes: http://www.capes.gov.br.'
+  utter_doutorado_mestrado:
+  - text: 'Os cursos de mestrado e de doutorado são parecidos em termos de formato e objetivos, mas com diferenças em nível e exigência de contribuição. Tanto o mestrado acadêmico quanto o doutorado acadêmico possuem o objetivo de formar profissionais para fins de pesquisa científica. Porém, o mestrado pode ser entendido como uma etapa intermediária na formação de um pesquisador completo, o que é alcançado apenas com o curso de doutorado. Isso é refletido, por exemplo, na duração dos dois cursos: enquanto o mestrado dura idealmente dois anos, o doutorado dura idealmente quatro anos. Nos dois cursos, o aluno deve cursar disciplinas com conteúdo avançado por um ano e usar o restante de seu tempo para desenvolver seu projeto de pesquisa (ou seja, mais um ano para o mestrado e mais três anos para o doutorado). A contribuição científica esperada pelo doutorando deve ser muito maior e mais original do que a do mestrando, embora o mestrando também deva se preocupar com esses fatores, em uma escala menor.'
+  utter_apenas_academia:
+  - text: O aprendizado recebido em cursos de mestrado e de doutorado acadêmicos é muito útil para desempenhar atividades especializadas em diversos tipos de organização. O futuro egresso carrega consigo uma capacidade importante para resolução de problemas de forma sistemática, o que costuma ser bastante valorizado por inúmeras organizações, sendo estas universidades, empresas, entre outras...
+  utter_diferença_cursos:
+  - text: Em geral, todos os programas com esse tipo de nomenclatura possuem mais semelhanças do que diferenças. Todos eles são regidos pela mesma e única área de “Ciência da Computação” da Capes, que é a agência federal responsável pelos programas de pós-graduação stricto sensu no Brasil. As possíveis diferenças entre esses programas com nomenclatura similar podem estar relacionadas ao foco e tipo de pesquisa conduzida pelos seus orientadores e consequentemente pelos alunos. Enquanto alguns programas podem, por exemplo, ter um foco em pesquisa mais teórica, outros podem ter um foco em pesquisa mais aplicada, mas sempre pesquisas na área de Computação. Em geral, apenas pelo nome do programa, não é possível identificar o foco da pesquisa do programa; o mais indicado é verificar a área de concentração, as linhas de pesquisa e principalmente o perfil dos orientadores associados ao programa.
+  utter_saber_programar:
+  - text: Um programa de pós-graduação, como o PPGCC, é avaliado principalmente em função da produção acadêmica e científica que ele produz de forma geral, o que inclui a produção de cada aluno e egresso do curso de mestrado e de doutorado de forma específica. Assim, será esperado que os projetos de pesquisa sendo realizados pelos alunos do curso de mestrado e de doutorado cheguem a seu final produzindo importantes resultados do ponto de vista de artigos científicos publicados em coautoria com seus orientadores nos principais veículos de divulgação científica nacional e, principalmente, internacional – incluindo conferências e periódicos.
+  utter_dedicacao_parcial:
+  - text: Apesar de desejável, não é necessário que o aluno se dedique integralmente ao curso de mestrado ou de doutorado do PPgSI. Porém, se o aluno deseja cursar o mestrado ou o doutorado em dedicação parcial, ele precisa estar ciente de que precisará reservar tempo considerável para realizar suas atividades do curso de mestrado ou de doutorado, em todas suas etapas, uma vez que não há nenhuma diferença nos prazos e nas formas de avaliação entre alunos que são de dedicação exclusiva e os alunos que são de dedicação parcial, por trabalharem, por exemplo.
+  utter_disciplina_noite:
+  - text: Eventualmente, algum docente pode solicitar oferecer alguma disciplina do catálogo de disciplinas no período noturno, mas é bastante raro. No geral, as aulas acontecem de manhã e de tarde apenas.
+  utter_proficiencia_ingles:
+  - text: A proficiência em língua inglesa não é necessária para entrada nos cursos de mestrado e de doutorado do PPGCC. Porém, depois de sua matrícula no curso, o aluno terá de demonstrar proficiência em língua inglesa, o que poderá ser feito por meio de diferentes tipos de certificação, inclusive um exame oferecido pela própria UECE.
+  utter_escolher_projeto:
+  - text: Em geral, o tema do projeto de pesquisa do aluno é definido pelo orientador e é obrigatório ter um projeto para a inscrição. Geralmente, o orientador já possui grandes projetos de pesquisa em andamento, muitas vezes financiados, que precisam ser finalizados, e para isso precisam da colaboração dos alunos dos cursos de mestrado e de doutorado. Esses grandes projetos de pesquisa costumam ser divididos em subprojetos, sendo cada subprojeto atribuído a diferentes alunos dos cursos de mestrado e de doutorado. Para o caso de doutorado, existe um pouco mais de flexibilidade, mas, ainda assim, isso depende do orientador e de suas necessidades de pesquisa.
+  utter_patentes:
+  - text: Um tipo de produto altamente desejável pelos mestrandos e doutorandos durante seu curso são patentes e registros de software, mas principalmente as patentes. Apesar disso, tanto registros de software quanto patentes não substituem a necessidade de publicação de artigos científicos de qualidade.
+  utter_graduado_computacao:
+  - text: Não, embora seja altamente desejável, pois é o principal foco do PPgSI. O aluno pode também ser graduado em outros cursos da área de computação, tal como Engenharia da Computação, ou ainda cursos com nomenclaturas diferentes, mas que representam o mesmo objetivo, tais como Análise de Sistemas, Computação Aplicada, ou Informática. Por fim, o aluno também pode ser graduado em cursos de áreas correlatas desde que apresentem formalmente ênfase em computação, tais como Administração de Empresas, Física, Matemática (Matemática Computacional), Estatísticas, algumas Engenharias. Outras áreas básicas de formação não são esperadas. Independentemente do curso, é necessário que haja necessariamente, em sua estrutura curricular, habilidades algorítmicas avançadas. Tanto bacharelados quanto licenciaturas são aceitas, desde que respeitando os requisitos anteriores.
+  utter_ead:
+  - text: A modalidade dos cursos de mestrado e de doutorado do PPgSI é presencial, e não a distância. Mesmo que o aluno não seja bolsista e não deseje fixar residência em São Paulo, ainda assim as atividades a serem realizadas no curso precisam ser todas de forma presencial. Todas as disciplinas são ministradas na modalidade presencial. Mesmo após a etapa de disciplinas, ainda haverá várias atividades de caráter presencial, incluindo reuniões periódicas com seu orientador e com o grupo de pesquisa. Além disso, eventualmente, são realizadas atividades adicionais, tal como workshop de acompanhamento em que é requerida a presença de todos os alunos.
+  utter_tema_dissertacao:
+  - text: 'O tema pode ser qualquer um que se encontre dentro das áreas de pesquisa e que haja um docente disposto a orientar. As áreas disponíveis são: Engenharia de Software, Inteligência Artificial e Processamento de Sinais e Imagens,Inteligência Artificial e Processamento de Sinais e Imagens, Redes, Sistemas Distribuídos e Segurança.'
+  utter_carteirinha:
+  - text: 'Estudantes de mestrado podem solicitar carteira de estudante. Para solicitar a sua acesse: https://idestudantil.fortaleza.ce.gov.br/'
+  utter_taxa_inscricao:
+  - text: Existe uma taxa de inscrição para o processo seletivo. Verifique o edital no site da UECE para saber o valor e os requerimentos para isenção.
+  utter_mudar_linha_pesquisa:
+  - text: Mudar a linha de pesquisa implicaria na mudança de orientador. O aluno poderá, em requerimento fundamentado dirigido ao Coordenador, solicitar mudança de orientador ou coorientador, após apreciação pela Comissão de Pós-graduação.
+  utter_requerimentos_bolsa:
+  - text: 'Para solicitar bolsa de estudos o aluno deverá cumprir com os requisitos e informar no processo de seleção do mestrado ou doutorado. Estes estão descritos no edital e outros documentos no site: http://www.uece.br/ppgcc/categoria/processo-seletivo/'
+  utter_quanto_bolsa:
+  - text: 'Os valores de bolsas são designados pela FUNCAP e CAPES. Verifique os sites para informação atualizada: https://www.funcap.ce.gov.br/bolsa-de-formacao-academica-mestrado-e-doutorado/ e https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas'
+  utter_ru:
+  - text: 'A UECE possui um restaurante universitário. Para valores de refeições e mais informações, consulte o site: http://www.uece.br/espaco-do-aluno/restaurante-universitario/'
+  utter_nao_entendi:
+  - text: Desculpe, não entendi. Poderia escrever a pergunta de outra forma?
+  utter_after_feedback:
+  - text: Certo. Prossiga se tiver mais alguma pergunta.
+  utter_ask_feedback:
+  - text: Essa resposta foi útil? (responda com 'sim' ou 'não')
+  utter_start:
+  - text: Bem vindo! Estou aqui para responder suas perguntas.
+  utter_perder_bolsa:
+  - text: O aluno que por exemplo reprovar alguma disciplina ou adquira vínculo empregatício com alguma instituição perderá a bolsa. Existem outros fatores que podem resultar na perda da bolsa, os quais estarão descritos no termo de compromisso.
+  utter_secretario:
+  - text: O secretário do PPGCC se chama Halisson.
+  utter_opiniao_bot:
+  - text: Acho que você não deveria levar em consideração a opinião de um bot..
+  utter_seduc:
+  - text: 'Para mais informações sobre o convênio com a SEDUC, visite: http://www.uece.br/propgpq/home/servicos-e-informativos/recope-rede-de-cooperacao-em-pesquisa-uece-seduc/chamada-publica-2022/'
+  utter_estagio_docencia:
+  - text: O estágio à docência é um dos requisitos para apresentar a dissertação e consequentemente se formar. Este consiste no aluno de pós-graduação dedicar pelo menos 30 horas de trabalho junto com um professor em alguma atividade de docente (elaboração de atividades/provas, correção, aulas, apresentações, etc).
+  utter_pre_matricula:
+  - text: A secretaria do PPGCC irá entrar em contato pelo e-mail cadastrado no ato da inscrição.
+  utter_falta_atestado:
+  - text: Em caso de falta, atestados médicos podem ser entregues ao próprio profesor da disciplina onde houve falta.
+  utter_conceito_ppgcc:
+  - text: O PPGCC possui conceito ENADE 4.
+  utter_sanduiche:
+  - text: O PPGCC oferece sim oportunidades de mestrado e doutorado sanduíche. Entre no site http://www.uece.br/ para mais informações.
+  utter_aula_graduacao:
+  - text: Os alunos de pós-graduação podem sim dar aula para alunos da graduação.
+  utter_ramal_secretaria:
+  - text: 'O ramal da secretaria é: 3101-9776.'
+  utter_lista_classificaveis:
+  - text: No PPGCC existe uma lista para classificáveis, onde caso haja desistência, os que estiverem nessa lista podem assumir a vaga.
+  utter_agendar_horario:
+  - text: Você pode entrar em contato com qualquer um dos professores, coordenador, vice-coordenador, etc. através do e-mail próprio de cada um. Todos estão no site. http://www.uece.br/
+  utter_biblioteca:
+  - text: O PPGCC não possui uma biblioteca própria. Se precisar, poderá usar a biblioteca da UECE.
+  utter_salas:
+  - text: |-
+      As salas do PPGCC são as seguintes: 
+       4- LAGIB 
+       5- Sala de aula 
+       6- Almoxarifado 
+       7- Sala de Aula 
+       8- ACENS (empresa júnior) 
+       9- LASID-LOGIN 
+       10- Sala de Aula 
+       11- LAURA 
+       12- LADESC 
+       13- GESAD 
+       14- LACONI-LAMAC  
+       15- LAPAC 
+       16- LARCES 
+       17- Sala de Reunião 
+       18- Sala dos profs. Valdísio e Camila 
+       19- Sala do prof. Rafael Marcial 
+       20- Sala do prof. Celestino 
+       21- Copa 
+       22- Sala dos profs. Fran e Márcio 
+       23- Sala dos profs. Thelmo e Gustavo 
+       24- Sala da prof. Mariela 
+       25- Sala dos profs. Paulo Henrique (Coordenador), Matheus Paixão e Ana Luisa 
+       26- sala do prof. Rafael 
+        
 actions:
 - action_resposta_util
 - action_proxima_pergunta

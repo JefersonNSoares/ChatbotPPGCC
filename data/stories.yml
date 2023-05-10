@@ -442,3 +442,661 @@ stories:
   - intent: sobre_professores
   - action: utter_sobre_professores
   - action: utter_pergunta_feedback
+- story: identidade do bot
+  steps:
+  - intent: identidade_bot
+  - action: utter_identidade_bot
+  - action: utter_pergunta_feedback
+
+- story: introduction
+  steps:
+    - intent: introduce
+    - action: utter_introduce
+    - action: utter_pergunta_feedback
+
+- story: r01
+  steps:
+  - intent: objetivo_macc
+  - action: utter_objetivo_macc
+  - action: utter_pergunta_feedback
+#   - action: utter_pergunta_feedback
+
+
+- story: r02
+  steps:
+  - intent: idade_macc
+  - action: utter_idade_macc
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r03
+  steps:
+  - intent: coordena_linhas_pesquisa
+  - action: utter_coordena_linhas_pesquisa
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r06
+  steps:
+  - intent: localizacao_campus
+  - action: utter_localizacao_campus
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r08
+  steps:
+  - intent: contato_ppgcc
+  - action: utter_contato_ppgcc
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r10
+  steps:
+  - intent: tempo_colegiado
+  - action: utter_tempo_colegiado
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r11
+  steps:
+  - intent: discente_colegiado
+  - action: utter_discente_colegiado
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r12
+  steps:
+  - intent: reuniao_colegiado
+  - action: utter_reuniao_colegiado
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r13
+  steps:
+  - intent: destituir_coordenador
+  - action: utter_destituir_coordenador
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r14
+  steps:
+  - intent: colegiado_criterios_bolsas
+  - action: utter_colegiado_criterios_bolsas
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r16
+  steps:
+  - intent: quem_vota_coordenador
+  - action: utter_quem_vota_coordenador
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r17
+  steps:
+  - intent: mandato_coordenador
+  - action: utter_mandato_coordenador
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r18
+  steps:
+  - intent: vacancia_vicecoordenador
+  - action: utter_vacancia_vicecoordenador
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r24
+  steps:
+  - intent: aproveitar_disciplinas
+  - action: utter_aproveitar_disciplinas
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r25
+  steps:
+  - intent: definir_curriculo
+  - action: utter_definir_curriculo
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r26
+  steps:
+  - intent: readmissao
+  - action: utter_readmissao
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r39
+  steps:
+  - intent: processo_corpo_docente
+  - action: utter_processo_corpo_docente
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r40
+  steps:
+  - intent: vagas_ppgcc
+  - action: utter_vagas_ppgcc
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r41
+  steps:
+  - intent: disciplinas_aluno_especial
+  - action: utter_disciplinas_aluno_especial
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+
+- story: r43
+  steps:
+  - intent: aluno_especial_vira_regular
+  - action: utter_aluno_especial_vira_regular
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r44
+  steps:
+  - intent: aproveitamento_desligamento
+  - action: utter_aproveitamento_desligamento
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r46
+  steps:
+  - intent: ingresso_pgcc
+  - action: utter_ingresso_pgcc
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r47
+  steps:
+  - intent: requisito_ingresso_mestrado
+  - action: utter_requisito_ingresso_mestrado
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r48
+  steps:
+  - intent: escolha_orientador
+  - action: utter_escolha_orientador
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+
+- story: r49
+  steps:
+  - intent: trocar_orientador
+  - action: utter_trocar_orientador
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+
+- story: r50
+  steps:
+  - intent: coorientador
+  - action: utter_coorientador
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+
+- story: r52
+  steps:
+  - intent: quantos_orientandos
+  - action: utter_quantos_orientandos
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+
+- story: r53
+  steps:
+  - intent: oferta_disciplinas
+  - action: utter_oferta_disciplinas
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r54
+  steps:
+  - intent: carga_horaria_minima
+  - action: utter_carga_horaria_minima
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+
+- story: r56
+  steps:
+  - intent: tempo_dissertacao
+  - action: utter_tempo_dissertacao
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r57
+  steps:
+  - intent: artigo_dissertacao
+  - action: utter_artigo_dissertacao
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r59
+  steps:
+  - intent: caso_nao_defenda
+  - action: utter_caso_nao_defenda
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r60
+  steps:
+    - intent: trancamento
+      entities:
+        - disciplina
+    - action: utter_trancar_disciplina
+#    - action: utter_pergunta_feedback
+    - intent: trancamento
+      entities:
+        - matrícula
+    - action: utter_trancamento_matricula
+#    - action: utter_pergunta_feedback
+
+
+- story: r61
+  steps:
+  - intent: reprovacao_falta
+  - action: utter_reprovacao_falta
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r62
+  steps:
+  - intent: media_aprovacao
+  - action: utter_media_aprovacao
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r63
+  steps:
+  - intent: avaliacao_desempenho
+  - action: utter_avaliacao_desempenho
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r64
+  steps:
+  - intent: reprovacoes
+  - action: utter_reprovacoes
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r65
+  steps:
+  - intent: criterios_defesa
+  - action: utter_criterios_defesa
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r66
+  steps:
+  - intent: composicao_banca
+  - action: utter_composicao_banca
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r67
+  steps:
+  - intent: duracao_defesa
+  - action: utter_duracao_defesa
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r68
+  steps:
+  - intent: dissertacao_ingles
+  - action: utter_dissertacao_ingles
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r69
+  steps:
+  - intent: requisitos_formacao
+  - action: utter_requisitos_formacao
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r70
+  steps:
+  - intent: horario
+  - action: utter_horario
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r71
+  steps:
+  - intent: relatorio_semestral
+  - action: utter_relatorio_semestral
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r72
+  steps:
+  - intent: horario_macc
+  - action: utter_horario_macc
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r74
+  steps:
+  - intent: ouvintes
+  - action: utter_ouvintes
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r75
+  steps:
+  - intent: calendario_academico
+  - action: utter_calendario_academico
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r76
+  steps:
+  - intent: linhas_pesquisa
+  - action: utter_linhas_pesquisa
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r77
+  steps:
+  - intent: autorizacao_coordenacao
+  - action: utter_autorizacao_coordenacao
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r78
+  steps:
+  - intent: aluno_especial
+  - action: utter_aluno_especial
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+
+- story: r79
+  steps:
+  - intent: cursos_ppgcc
+  - action: utter_cursos_ppgcc
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+#- story: r80
+#  steps:
+#  - intent: capes
+#  - action: utter_capes
+#  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r81
+  steps:
+  - intent: profissional_academico
+  - action: utter_profissional_academico
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r82
+  steps:
+  - intent: doutorado_mestrado
+  - action: utter_doutorado_mestrado
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r83
+  steps:
+  - intent: apenas_academia
+  - action: utter_apenas_academia
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r84
+  steps:
+  - intent: diferença_cursos
+  - action: utter_diferença_cursos
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r85
+  steps:
+  - intent: saber_programar
+  - action: utter_saber_programar
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r86
+  steps:
+  - intent: dedicacao_parcial
+  - action: utter_dedicacao_parcial
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r87
+  steps:
+  - intent: disciplina_noite
+  - action: utter_disciplina_noite
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r88
+  steps:
+  - intent: proficiencia_ingles
+  - action: utter_proficiencia_ingles
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r89
+  steps:
+  - intent: escolher_projeto
+  - action: utter_escolher_projeto
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r90
+  steps:
+  - intent: patentes
+  - action: utter_patentes
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r91
+  steps:
+  - intent: graduado_computacao
+  - action: utter_graduado_computacao
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r92
+  steps:
+  - intent: ead
+  - action: utter_ead
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r93
+  steps:
+  - intent: tema_dissertacao
+  - action: utter_tema_dissertacao
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r94
+  steps:
+  - intent: carteirinha
+  - action: utter_carteirinha
+  - action: utter_pergunta_feedback
+#  - action: action_save_conversation
+
+- story: r95
+  steps:
+    - intent: taxa_inscricao
+    - action: utter_taxa_inscricao
+    - action: utter_pergunta_feedback
+#    - action: action_save_conversation
+
+- story: r96
+  steps:
+    - intent: mudar_linha_pesquisa
+    - action: utter_mudar_linha_pesquisa
+    - action: utter_pergunta_feedback
+#    - action: action_save_conversation
+
+- story: r97
+  steps:
+    - intent: requerimentos_bolsa
+    - action: utter_requerimentos_bolsa
+    - action: utter_pergunta_feedback
+#    - action: action_save_conversation
+
+- story: r98
+  steps:
+    - intent: quanto_bolsa
+    - action: utter_quanto_bolsa
+    - action: utter_pergunta_feedback
+#    - action: action_save_conversation
+
+- story: r99
+  steps:
+    - intent: ru
+    - action: utter_ru
+    - action: utter_pergunta_feedback
+#    - action: action_save_conversation
+
+
+
+- story: r101
+  steps:
+    - intent: funcao
+      entities:
+        - coordenador
+    - action: utter_funcao_coordenador
+#    - action: utter_pergunta_feedback
+    - intent: funcao
+      entities:
+        - vice-coordenador
+    - action: utter_funcao_vicecoordenador
+#    - action: utter_pergunta_feedback
+    - intent: funcao
+      entities:
+        - comissão_de_pos_graduacao
+    - action: utter_funcao_comissao
+#    - action: utter_pergunta_feedback
+    - intent: funcao
+      entities:
+        - comissao_de_bolsas
+    - action: utter_funcao_comissao_bolsas
+#    - action: utter_pergunta_feedback
+    - intent: funcao
+      entities:
+        - orientador
+    - action: utter_competencias_orientador
+#    - action: utter_pergunta_feedback
+
+
+- story: r102
+  steps:
+    - intent: composicao
+      entities:
+        - comissao_pos
+    - action: utter_composicao_comissao
+#    - action: utter_pergunta_feedback
+    - intent: composicao
+      entities:
+        - corpo_docente
+    - action: utter_quem_corpo_docente
+#    - action: utter_pergunta_feedback
+    - intent: composicao
+      entities:
+        - colegiado
+    - action: utter_que_colegiado
+#    - action: utter_pergunta_feedback
+    - intent: composicao
+      entities:
+        - comissao_bolsas
+    - action: utter_compoe_comissao_bolsas
+#    - action: utter_pergunta_feedback
+
+- story: r202
+  steps:
+    - intent: quem_e1
+      entities:
+        - vice-coordenador
+    - action: utter_vicecoordenador_ppgcc
+#    - action: utter_pergunta_feedback
+    - intent: quem_e1
+      entities:
+        - coordenador
+    - action: utter_coordenador_ppgcc
+#    - action: utter_pergunta_feedback
+    - intent: quem_e1
+      entities:
+        - secretario
+    - action: utter_secretario
+#    - action: utter_pergunta_feedback
+- story: r203
+  steps:
+    - intent: start
+    - action: utter_start
+- story: r204
+  steps:
+    - intent: perder_bolsa
+    - action: utter_perder_bolsa
+- story: r205
+  steps:
+    - intent: opiniao_bot
+    - action: utter_opiniao_bot
+- story: r206
+  steps:
+    - intent: seduc
+    - action: utter_seduc
+- story: r207
+  steps:
+    - intent: estagio_docencia
+    - action: utter_estagio_docencia
+
+- story: r209
+  steps:
+    - intent: pre_matricula
+    - action: utter_pre_matricula
+- story: r210
+  steps:
+    - intent: falta_atestado
+    - action: utter_falta_atestado
+- story: r211
+  steps:
+    - intent: conceito_ppgcc
+    - action: utter_conceito_ppgcc
+- story: r212
+  steps:
+    - intent: sanduiche
+    - action: utter_sanduiche
+- story: r213
+  steps:
+    - intent: aula_graduacao
+    - action: utter_aula_graduacao
+- story: r214
+  steps:
+    - intent: ramal_secretaria
+    - action: utter_ramal_secretaria
+
+- story: r216
+  steps:
+    - intent: lista_classificaveis
+    - action: utter_lista_classificaveis
+- story: r217
+  steps:
+    - intent: agendar_horario
+    - action: utter_agendar_horario
+
+- story: r219
+  steps:
+    - intent: biblioteca
+    - action: utter_biblioteca
+- story: r220
+  steps:
+    - intent: salas
+    - action: utter_salas
