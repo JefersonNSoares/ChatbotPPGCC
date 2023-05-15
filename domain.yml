@@ -355,6 +355,8 @@ intents:
     use_entities: true
 - pesquisa:
     use_entities: true
+- quem_vice_coordenador:
+    use_entities: true
 entities:
 - espaco_fisico
 - aluno_especial
@@ -395,6 +397,7 @@ entities:
 - matrícula
 - comissão_de_pos_graduacao
 - banca
+
 slots:
   simnao:
     type: rasa.shared.core.slots.TextSlot
@@ -402,6 +405,8 @@ slots:
     auto_fill: true
     influence_conversation: false
 responses:
+  utter_quem_vice_coordenador:
+  - text: O vice-coordenador atual do PPGCC é o Prof. Marcial Porto.
   utter_introduce:
   - text: Certo!
   utter_pesquisa:

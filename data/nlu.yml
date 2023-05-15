@@ -2587,3 +2587,11 @@ nlu:
     - me chame
     - me chamo
     - meu nome é
+- intent: quem_vice_coordenador
+  examples: |
+    - Quem é o vice coordenador?
+    - Qual é o nome do vice coordenador?
+    - Quem é o segundo em comando da coordenação?
+    - Quem é o vice coordenador responsável pelas atividades administrativas?
+    - Quem é o vice responsável por gerir o planejamento estratégico?
+    - Quem é o vice coordenador responsável pelas atividades acadêmicas?

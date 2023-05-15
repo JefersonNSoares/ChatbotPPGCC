@@ -158,6 +158,11 @@ stories:
   - intent: ingressar_como_aluno_especial
   - action: utter_ingressar_como_aluno_especial
   - action: utter_pergunta_feedback
+- story: Responder sobre vice coordenador
+  steps:
+  - intent: quem_vice_coordenador
+  - action: utter_quem_vice_coordenador
+  - action: utter_pergunta_feedback
 - story: Responder sobre ingressar no PPGCC
   steps:
   - intent: ingressar_PPGCC
